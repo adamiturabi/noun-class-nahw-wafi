@@ -1,0 +1,97 @@
+---
+title: "Classification of Arabic nouns from al-Nahw al-Wafi"
+author: "Arabic Deconstructor"
+data: "2019-12-15"
+output: html_document
+lang: en
+---
+```{r definition, echo = FALSE}
+trans <- function(strval) {
+  strval <-  gsub("!'", "ʾ", strval)
+  strval <-  gsub("!A", "Ā", strval)
+  strval <-  gsub("!b", "B", strval)
+  strval <-  gsub("!t", "T", strval)
+  strval <-  gsub("!v", "Ṯ", strval)
+  strval <-  gsub("!j", "Ǧ", strval)
+  strval <-  gsub("!H", "Ḥ", strval)
+  strval <-  gsub("!x", "X", strval)
+  strval <-  gsub("!d", "D", strval)
+  strval <-  gsub("!p", "Ḏ", strval)
+  strval <-  gsub("!r", "R", strval)
+  strval <-  gsub("!z", "Z", strval)
+  strval <-  gsub("!s", "S", strval)
+  strval <-  gsub("!c", "Š", strval)
+  strval <-  gsub("!S", "Ṣ", strval)
+  strval <-  gsub("!D", "Ḍ", strval)
+  strval <-  gsub("!T", "Ṭ", strval)
+  strval <-  gsub("!P", "Ḏ̣", strval)
+  strval <-  gsub("!e", "Ɛ", strval)
+  strval <-  gsub("!g", "Ġ", strval)
+  strval <-  gsub("!f", "F", strval)
+  strval <-  gsub("!q", "Q", strval)
+  strval <-  gsub("!k", "K", strval)
+  strval <-  gsub("!l", "L", strval)
+  strval <-  gsub("!m", "M", strval)
+  strval <-  gsub("!n", "N", strval)
+  strval <-  gsub("!h", "H", strval)
+  strval <-  gsub("!w", "W", strval)
+  strval <-  gsub("!y", "Y", strval)
+  strval <-  gsub("!I", "Ī", strval)
+  strval <-  gsub("!U", "Ū", strval)
+  strval <-  gsub("'", "ʾ", strval)
+  strval <-  gsub("A", "ā", strval)
+  strval <-  gsub("v", "ṯ", strval)
+  strval <-  gsub("j", "ǧ", strval)
+  strval <-  gsub("H", "ḥ", strval)
+  strval <-  gsub("p", "ḏ", strval)
+  strval <-  gsub("c", "š", strval)
+  strval <-  gsub("S", "ṣ", strval)
+  strval <-  gsub("D", "ḍ", strval)
+  strval <-  gsub("T", "ṭ", strval)
+  strval <-  gsub("P", "ḏ̣", strval)
+  strval <-  gsub("e", "ɛ", strval)
+  strval <-  gsub("g", "ġ", strval)
+  strval <-  gsub("I", "ī", strval)
+  strval <-  gsub("U", "ū", strval)
+  strval <-  gsub("!a", "A", strval)
+  strval <-  gsub("!i", "I", strval)
+  strval <-  gsub("!u", "U", strval)
+  return(strval)
+} 
+```
+# Introduction
+
+Translation of [النحو الوافي]{lang=ar}
+
+_`r trans("'AbtvjHxdprzscSDTPegfqklmnhwy")`_ is the transcription used. _`r trans("!eA'icah")`_
+
+# Classification of nouns
+
+Nouns fall into two categories:
+
+1. _`r trans("jAmid")`_:
+   1. _`r trans("ism pAt")`_: Examples: [قلم، أسد، حجر]{lang=ar}
+   2. _`r trans("ism maenA")`_:
+      1. _`r trans("al-maSdar al-SarIH")`_:
+         1. _`r trans("al-maSdar al-'aSliyy")`_: Examples: [عِلْم، فَهْم، تقدُّم، استضاءة، إبانة، بلاء، نضال، فَضْل، صَلاح]{lang=ar}
+            1. _`r trans("al-marra")`_:
+            1. _`r trans("al-hay'a")`_:
+         1. _`r trans("al-maSdar al-mImiyy")`_:
+      2. _`r trans("al-'asmA' al-jAmida al-mulHaqa bil-muctaqq")`_:
+         1. _`r trans("al-maSdar al-SinAeiyy")`_:
+         1. _`r trans("ism al-'icAra")`_:
+         1. _`r trans("ism al-jAmid al-mansUb")`_:
+         1. _`r trans("ism al-jAmid al-muSaggar")`_:
+         1. Most of the _`r trans("al-mawSUlAt")`_:
+2. _`r trans("'muctaqq")`_:
+   1. _`r trans("'al-muctaqqAt al-'aSliyya")`_:
+      1. _`r trans("ism al-fAeil")`_:
+      1. _`r trans("ism al-mafeUl")`_:
+      1. _`r trans("al-Sifa al-mucabbaha")`_:
+      1. _`r trans("afeAl al-tafDil")`_:
+      1. _`r trans("ism al-zamAn")`_:
+      1. _`r trans("ism al-makAn")`_:
+      1. _`r trans("ism al-'Ala")`_:
+
+
+
