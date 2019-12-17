@@ -1,0 +1,1 @@
+#noun-class-nahw-wafi
