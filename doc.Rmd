@@ -67,13 +67,56 @@ _`r trans("'AbtvjHxdprzscSDTPegfqklmnhwy")`_ is the transcription used. _`r tran
 
 # Classification of nouns
 
-_`r trans("al-naHw al-wAfI")`_ classifies all nouns^[_`r trans("al-naHw al-wAfI")`_, 3/181] as follows:
+## Basic categories
 
-1. _`r trans("jAmid")`_:
-   1. _`r trans("ism pAt")`_: 
-      1. _`r trans("ism pAt")`_: Concrete. Examples: [شجرة، قلم، أسد، حجر]{lang=ar}.
-      2. _`r trans("ism maenA")`_: Abstract. Examples: [فَهْم، نبوغ، ذكاء، سماحة]{lang=ar}.
-   2. _`r trans("ism maenA")`_:
+_`r trans("al-naHw al-wAfI")`_ classifies all nouns^[_`r trans("al-naHw al-wAfI")`_, 3/181, footnote 1] as follows:
+
+1. _`r trans("jAmid")`_: That which is not taken from another.
+   1. _`r trans("ism pAt")`_: Concrete. Examples: [شجرة، قلم، أسد، حجر]{lang=ar}.
+   2. _`r trans("ism maenA")`_: Abstract. Examples: [فَهْم، نبوغ، ذكاء، سماحة]{lang=ar}.
+2. _`r trans("muctaqq")`_: That which is taken from another, which is its origin. Sometimes the _`r trans("muctaqq")`_ is referred to as the _`r trans("waSf")`_ or the _`r trans("Sifa")`_ but by this they don't mean the syntactical category: the _`r trans("naet")`_. The original _`r trans("muctaqqAt")`_ are seven:
+1. _`r trans("ism al-fAeil")`_:
+1. _`r trans("ism al-mafeUl")`_:
+1. _`r trans("al-Sifa al-mucabbaha")`_:
+1. _`r trans("afeAl al-tafDil")`_:
+1. _`r trans("ism al-zamAn")`_:
+1. _`r trans("ism al-makAn")`_:
+1. _`r trans("ism al-'Ala")`_:
+
+There are also some _`r trans("jAmid")`_ nouns which sometimes are admitted to the _`r trans("muctaqq")`_ category. These are known as _`r trans("al-'asmA' al-jAmida al-mulHaqa bil-muctaqq")`_ or _`r trans("al-'asmA' al-muctaqqa ta'wIlan")`_. From these are:
+
+1. _`r trans("ism al-'icAra")`_:
+1. _`r trans("ism al-jAmid al-mansUb")`_:
+1. _`r trans("ism al-jAmid al-muSaggar")`_:
+1. Most of the _`r trans("al-mawSUlAt")`_:
+
+These are only sometimes admitted to the _`r trans("muctaqq")`_ category. They are only admitted as such in places where only a _`r trans("muctaqq")`_ can be used, for example as _`r trans("naet")`_, because the _`r trans("naet")`_ basically has to be _`r trans("muctaqq")`_.
+
+## The _`r trans("maSdar")`_
+
+The _`r trans("maSdar")`_ can be either _`r trans("al-maSdar al-SarIHa")`_ or _`r trans("al-maSdar al-mu'awwal")`_. 
+
+_`r trans("al-maSdar al-SarIH")`_ is considered the origin of the ten _`r trans("muctaqqAt")`_ (the seven mentioned above, and _`r trans("al-fiel al-maDI")`_, _`r trans("al-fiel al-muDArie")`_, _`r trans("al-fiel al-'amr")`_. As such, it is from _`r trans("al-'asmA' al-jAmida")`_.
+
+_`r trans("al-maSdar al-SarIH")`_ is of three kinds^[_`r trans("al-naHw alwAfI")`_ 3/181]:
+
+1. _`r trans("al-maSdar al-aSliyy")`_. It does not start with a supplemental _`r trans("mIm")`_ nor does it end with _`r trans("iyya")`_. Examples: [عِلْم، فَهْم، تقدُّم، استضاءة، إبانة، بلاء، نضال، فَضْل، صَلاح]{lang=ar}. It also includes the _`r trans("maSdar")`_ of _`r trans("al-marra wal-hay'a")`_.
+2. _`r trans("al-maSdar al-mImiyy")`_. It starts with a supplemental _`r trans("mIm")`_ and it does not end with _`r trans("iyya")`_.The correct opinion is that it is not from the _`r trans("muctaqqAt")`_, rather it is _`r trans("jAmid")`_. Examples are [مَطْلَب، مَضْيَعة، مَجْلَبة، مَعْدَل]{lang=ar}. It must needs be singular.
+2. _`r trans("al-maSdar al-SinAeiyy")`_. It is _`r trans("qiyAsiyy")`_, formed from any word (_`r trans("jAmid")`_ or _`r trans("muctaqq")`_, noun or non-noun) to which is appended _`r trans("iyya")`_. This appendage gives it a new meaning like _`r trans("'insAniyya")`_ "humanity" from _`r trans("'insAn")`_ "human". It is a _`r trans("jAmid mulHaq bil-muctaqq")`_.
+
+When the word _`r trans("maSdar")`_ is used by itself, by it is intended _`r trans("al-maSdar al-SarIH al-'aSliyy")`_.
+
+### Patterns of _`r trans("al-maSdar al-aSliyy")`_^[_`r trans("al-naHw alwAfI")`_ 3/193]
+
+_`r trans("al-maSdar al-aSliyy")`_ of form I verbs can be of the _`r trans("qiyAsiyy")`_ patterns: _`r trans("fael")`_, _`r trans("fieAla")`_, _`r trans("faeal")`_, _`r trans("fuela")`_, _`r trans("fueUl")`_, _`r trans("fueUla")`_, _`r trans("fieAl")`_, _`r trans("faealAn")`_, _`r trans("fueAl")`_, _`r trans("faeIl")`_, _`r trans("faeAla")`_. There are numerous other _`r trans("samAeiyy")`_ ones like  _`r trans("fuel")`_, _`r trans("faeAl")`_, _`r trans("faeala")`_. 
+
+_`r trans("al-maSdar al-aSliyy")`_ of forms II and higher are found easily in grammar references.
+
+### The _`r trans("maSdar")`_ and the _`r trans("ism al-maSdar")`_^[_`r trans("al-naHw alwAfI")`_ 3/207, footnote].
+
+The _`r trans("maSdar")`_ (i.e., _`r trans("al-maSdar al-SarIH al-'aSliyy")`_) is a noun that indicates --by and large-- only an event.
+
+2. _`r trans("ism maenA")`_:
       1. _`r trans("al-maSdar al-SarIH")`_:
          1. _`r trans("al-maSdar al-'aSliyy")`_: Examples: [عِلْم، فَهْم، تقدُّم، استضاءة، إبانة، بلاء، نضال، فَضْل، صَلاح]{lang=ar}
             1. _`r trans("al-marra")`_:
@@ -81,19 +124,5 @@ _`r trans("al-naHw al-wAfI")`_ classifies all nouns^[_`r trans("al-naHw al-wAfI"
          1. _`r trans("al-maSdar al-mImiyy")`_:
       2. _`r trans("al-'asmA' al-jAmida al-mulHaqa bil-muctaqq")`_:
          1. _`r trans("al-maSdar al-SinAeiyy")`_:
-         1. _`r trans("ism al-'icAra")`_:
-         1. _`r trans("ism al-jAmid al-mansUb")`_:
-         1. _`r trans("ism al-jAmid al-muSaggar")`_:
-         1. Most of the _`r trans("al-mawSUlAt")`_:
-2. _`r trans("'muctaqq")`_:
-   1. _`r trans("'al-muctaqqAt al-'aSliyya")`_:
-      1. _`r trans("ism al-fAeil")`_:
-      1. _`r trans("ism al-mafeUl")`_:
-      1. _`r trans("al-Sifa al-mucabbaha")`_:
-      1. _`r trans("afeAl al-tafDil")`_:
-      1. _`r trans("ism al-zamAn")`_:
-      1. _`r trans("ism al-makAn")`_:
-      1. _`r trans("ism al-'Ala")`_:
-
 
 
