@@ -67,10 +67,12 @@ _`r trans("'AbtvjHxdprzscSDTPegfqklmnhwy")`_ is the transcription used. _`r tran
 
 # Classification of nouns
 
-Nouns fall into two categories:
+_`r trans("al-naHw al-wAfI")`_ classifies all nouns^[_`r trans("al-naHw al-wAfI")`_, 3/181] as follows:
 
 1. _`r trans("jAmid")`_:
-   1. _`r trans("ism pAt")`_: Examples: [قلم، أسد، حجر]{lang=ar}
+   1. _`r trans("ism pAt")`_: 
+      1. _`r trans("ism pAt")`_: Concrete. Examples: [شجرة، قلم، أسد، حجر]{lang=ar}.
+      2. _`r trans("ism maenA")`_: Abstract. Examples: [فَهْم، نبوغ، ذكاء، سماحة]{lang=ar}.
    2. _`r trans("ism maenA")`_:
       1. _`r trans("al-maSdar al-SarIH")`_:
          1. _`r trans("al-maSdar al-'aSliyy")`_: Examples: [عِلْم، فَهْم، تقدُّم، استضاءة، إبانة، بلاء، نضال، فَضْل، صَلاح]{lang=ar}
