@@ -63,7 +63,7 @@ trans <- function(strval) {
 
 Translation of [النحو الوافي]{lang=ar}
 
-_`r trans("'AbtvjHxdprzscSDTPegfqklmnhwy")`_ is the transcription used. _`r trans("!eA'icah")`_
+The transcription scheme used is _`r trans("'btvjHxdprzscSDTPegfqklmnhwy AUI aw ay")`_.
 
 # Classification of nouns
 
@@ -112,9 +112,15 @@ _`r trans("al-maSdar al-aSliyy")`_ of form I verbs can be of the _`r trans("qiyA
 
 _`r trans("al-maSdar al-aSliyy")`_ of forms II and higher are found easily in grammar references.
 
-### The _`r trans("maSdar")`_ and the _`r trans("ism al-maSdar")`_^[_`r trans("al-naHw alwAfI")`_ 3/207, footnote].
+### The _`r trans("maSdar")`_ and the _`r trans("ism al-maSdar")`_.
 
-The _`r trans("maSdar")`_ (i.e., _`r trans("al-maSdar al-SarIH al-'aSliyy")`_) is a noun that indicates --by and large-- only an event.
+The _`r trans("maSdar")`_^[_`r trans("al-naHw alwAfI")`_ 3/207, footnote] (i.e., _`r trans("al-maSdar al-SarIH al-'aSliyy")`_) is a noun that indicates --by and large-- only an event. And it contains all the original and supplemental letters which comprise _`r trans("al-fiel al-maDI")`_ which is derived from it (excepting standard substitutions to form the regular forms (like _`r trans("sallama taslIman")`_: _`r trans("taslIm")`_ has a _`r trans("tA'")`_ to substitute for one of the _`r trans("lAm")`_), substitutions for weak letters (like _`r trans("eida")`_ for verb _`r trans("waeada")`_), and deletions due to frequency of usage). It may also contain additional letters, excepting those which form _`r trans("al-maSdar al-mImiyy")`_ and _`r trans("al-maSdar al-SinAeiyy")`_.
+
+The definition includes two aspects: meaning and form. The aspect of meaning denotes only an event, no time, place, _`r trans("pAt")`_, proper noun, gender, or number (excepting that which is indicated by _`r trans("al-marra wal-hay'a")`_). The aspect of form defines what letters a _`r trans("maSdar")`_ must comprise.
+
+The _`r trans("ism al-maSdar")`_^[_`r trans("al-naHw alwAfI")`_ 3/209, footnote] (which is limited to _`r trans("al-samAe")`_) is equivalent to the _`r trans("maSdar")`_ from the aspect of meaning but it differs in the aspect of form. It may not have all the letters of its _`r trans("al-fiel al-maDI")`_. Examples are _`r trans("eaTA'")`_ for _`r trans("'ieTA'")`_. 
+
+The difference between the two in meaning is that the _`r trans("maSdar")`_ directly signifies to the verb event, while the _`r trans("ism al-maSdar")`_ directly signifies the _`r trans("maSdar")`_, thus indirectly signifying the verb event.
 
 2. _`r trans("ism maenA")`_:
       1. _`r trans("al-maSdar al-SarIH")`_:
@@ -124,5 +130,15 @@ The _`r trans("maSdar")`_ (i.e., _`r trans("al-maSdar al-SarIH al-'aSliyy")`_) i
          1. _`r trans("al-maSdar al-mImiyy")`_:
       2. _`r trans("al-'asmA' al-jAmida al-mulHaqa bil-muctaqq")`_:
          1. _`r trans("al-maSdar al-SinAeiyy")`_:
+
+### Feminization of nouns^[_`r trans("al-naHw alwAfI")`_ 4/590]
+
+The _`r trans("tA' al-ta'nIv")`_ is introduced by _`r trans("qiyAs")`_ on the _`r trans("muctaqqAt")`_ to distinguish between the masculine and feminine. Examples are _`r trans("eAbid")`_ and _`r trans("eAbida")`_; _`r trans("earrAf")`_ and _`r trans("earrAfa")`_; _`r trans("fariH")`_ and _`r trans("fariHa")`_; _`r trans("ma'mUn")`_ and _`r trans("ma'mUna")`_;. Even in the _`r trans("muctaqqAt")`_, the _`r trans("tA' al-ta'nIv")`_ is introduced on most nouns but not all. Some of the _`r trans("muctaqqAt")`_ do not admit it at all, according to the opinion of the majoity of the grammarians, while some admit it only sometimes.^[Examples are _`r trans("HAmil, SabUr")`_, etc. These nouns, and the circumstances in which they accept or reject the _`r trans("tA' al-ta'nIv")`_, are well categorized and discussed in the reference grammars so I will not get into it here.]
+
+There are other ways of feminizing nouns, like _`r trans("alif al-ta'nIv al-maqSUra")`_^[_`r trans("al-naHw alwAfI")`_ 4/600] and _`r trans("alif al-ta'nIv al-mamdUda")`_^[_`r trans("al-naHw alwAfI")`_ 4/603], both of which are _`r trans("samAean")`_. [These are always extraneous to the original radicals.]^[Also well discussed in the reference grammars].
+
+The _`r trans("tA' al-ta'nIv")`_ is not introduced by _`r trans("qiyAs")`_ on _`r trans("'asmA' al-'ajnAs al-jAmida")`_, but it is sometimes found by _`r trans("samAe")`_ [for nouns denoting male and female living beings]. Examples are _`r trans("rajul")`_ and _`r trans("rajula")`_; _`r trans("'asad")`_ and _`r trans("'asada")`_; _`r trans("fatan")`_ and _`r trans("fatAh")`_; _`r trans("gulAm")`_ and _`r trans("gulAma")`_; _`r trans("imra'")`_ and _`r trans("imra'a")`_; _`r trans("'insAn")`_ and _`r trans("'insAna")`_; 
+
+Most nouns denoting male and female living beings, however, have different words for them. Examples are _`r trans("vawr")`_ and _`r trans("baqara")`_; _`r trans("HimAr")`_ and _`r trans("'atAn")`_; _`r trans("tays")`_ and _`r trans("eanz")`_. Sometimes the same word is used for living beings of both gender [although it may be grammatically of one gender]. Examples are _`r trans("HamAma")`_ and _`r trans("faras")`_.^[_`r trans("euDw 'am euDwa, wa masA'il 'uxar")`_, _`r trans("lifaySal al-manSUr")`_]
 
 
