@@ -145,12 +145,12 @@ This plural may be applied with _`r trans("qiyAs")`_ on six nouns^[_`r trans("al
 
 1. All nouns that end in a _`r trans("tA' zA'ida")`_. This is absolute, whether it is 
 
-   + an _`r trans("ealam")`_, like [فاطمة]{lang=ar}, or 
-   + not an _`r trans("ealam")`_, like [زراعة، تجارة]{lang=ar}.
-   + Feminine in form and meaning, like [حليمة، رقية]{lang=ar} from female names, or
-   + Feminine in form only, like [عطية، حمزة، معاوية]{lang=ar} from male names.
-   + The _`r trans("tA'")`_ is from feminization as in the precding examples, or
-   + for substituting an original [weak] letter, like [عِدة، ثُبة]{lang=ar}, which are pluralized as [عِدات، ثُبات]{lang=ar},
+   + an _`r trans("ealam")`_, like [فاطمة]{lang=ar}, 
+   + or not an _`r trans("ealam")`_, like [زراعة، تجارة]{lang=ar}.
+   + Feminine in form and meaning, like [حليمة، رقية]{lang=ar} from female names,
+   + or feminine in form only, like [عطية، حمزة، معاوية]{lang=ar} from male names.
+   + The _`r trans("tA'")`_ is from feminization as in the precding examples,
+   + or for substituting an original [weak] letter, like [عِدة، ثُبة]{lang=ar}, which are pluralized as [عِدات، ثُبات]{lang=ar},
    + or even for emphasis, like [علّامة، علّامات]{lang=ar}.
 
    There are some exceptions like [امرأة، أَمَة، شاة، شَفَة، قُلّة، أُمّة، مِلّة]{lang=ar}.
@@ -250,7 +250,7 @@ which is the _`r trans("naet")`_. That is, originally it is [قاضيًا  صا�
 
 10. Some other words that are _`r trans("jAmid mu'awwal bi l-muctaqq")`_, connoting perfection or deficiency, like the word [كُلّ]{lang=ar}, e.g. [عرفت العالِمَ كُلَّ العالمِ]{lang=ar}
 
-11. The _`r trans("jAmid")`_ that signifies _`r trans("al-Sifa al-mucabbaha")`_ together with its acceptability as _`r trans("al-ta'wIl bi l-muctaqq")`_. Examples ["فلانٌ رجلٌ فَراشةُ الحِلمِ، فِرعونُ العذابِ، غِربالُ الإهابِ"]{lang=ar}. The words ["فَراشةُ، فِرعونُ، غِربالُ"]{lang=ar} are analyzed as _`r trans("naet bi l-muctaqq")`_, because they mean [أحمق، قاسٍ، حقير]{lang=ar} respectively.
+11. The _`r trans("jAmid")`_ that signifies _`r trans("al-Sifa al-mucabbaha")`_ together with its acceptability as _`r trans("al-ta'wIl bi l-muctaqq")`_. Examples [فلانٌ رجلٌ فَراشةُ الحِلمِ، فِرعونُ العذابِ، غِربالُ الإهابِ]{lang=ar}. The words [فَراشةُ، فِرعونُ، غِربالُ]{lang=ar} are analyzed as _`r trans("naet bi l-muctaqq")`_, because they mean [أحمق، قاسٍ، حقير]{lang=ar} respectively.
 
     These^[_`r trans("al-naHw al-wAfI")`_, 2/284] are _`r trans("qiyAsiyy")`_ but it is better to employ them as such as little as possible. They may have a supplemental geminated _`r trans("yA' li l-nasab")`_ that brings them closer to the _`r trans("muctaqqAt")`_. Example [تناولنا شرابًا عسلًا طعْمُه]{lang=ar} or [تناولنا شرابًا عسليًّا طعْمُه]{lang=ar}.
 
