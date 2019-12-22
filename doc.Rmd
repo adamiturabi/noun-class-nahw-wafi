@@ -358,17 +358,56 @@ Pluralization of the _`r trans("maSdar")`_ as _`r trans("naet")`_, too is prescr
 
 In our opinion, the usage of the singular is preferred. The plural is only palatable if the word ends with _`r trans("tA' zA'ida")`_ pluralized with _`r trans("jame mu'annav sAlim")`_. Or if a broken plural exists, as [عُدول]{lang=ar} for [عَدْل]{lang=ar} in the verse quoted above.
 
-When the _`r trans("maSdar")`_ is used as a designative noun, however, there should be no problem in pluralizing it. [رجاله ثقاتٌ، رواه الثقاتُ]{lang=ar} is commonly used in the _`r trans("hadIv")`_ literature.
+#When the _`r trans("maSdar")`_ is used as a designative noun, however, there should be no problem in pluralizing it. [رجاله ثقاتٌ، رواه الثقاتُ]{lang=ar} is commonly used in the _`r trans("hadIv")`_ literature.
 
-## Feminization and pluralization of descriptive _`r trans("jAmid")`_ nouns when used as designative nouns
+## Feminization and pluralization of descriptive _`r trans("jAmid")`_ nouns when used as designative nouns# and _`r trans("naet")`_
 
-There are some _`r trans("jAmid")`_ nouns which are never the less descriptive, and for which we know no broken plurals nor do they generally satisfy the criteria for _`r trans("jame mu'annav sAlim")`_. Examples are
+These _`r trans("jawAmid")`_ may be _`r trans("maSadir")`_ like [ثقة]{lang=ar} which we have already considered as a _`r trans("naet")`_. When it is used as a designative noun, it can be dualized and pluralized, but its form with regards to its _`r trans("tA' zA'ida")`_ is not changed. Examples:
 
-+The _`r trans("maSdar")`_ [حلال]{lang=ar}, but which can also be used qualitatively, meaning "a lawful thing"
-+The [فُضُول]{lang=ar}, which was originally a plural of [فَضْل]{lang=ar}, but which now means "an extra unused item (or items)"
+::: {lang=ar}
+رواه الثقةُ
+رواه الثقتان
+رواه الثقاتُ
+:::
 
-As for their feminization
+There are other _`r trans("jAmid")`_ nouns for which we know no broken plurals nor do they generally satisfy the criteria for _`r trans("jame mu'annav sAlim")`_, but which are nevertheless descriptive. Examples are
 
-## How are foreign nouns classified
-ustaadh, saadhaj, baasha, khatoon
++ The _`r trans("maSdar")`_ [حَلال]{lang=ar}, but which can also be used qualitatively, meaning "a lawful thing".^[Note that [حَرام]{} the conterpart to [حلال]{lang=ar} does have a broken plural [حُرُم]{lang=ar}.]
++ The [فُضُول]{lang=ar}, which was originally a plural of [فَضْل]{lang=ar}, but which now means "an extra unused item (or items)"
+
+These nouns may be used to designate items (masculine or feminine), and also as _`r trans("naet")`_. How are these nouns feminized, dualized, and pluralized?
+
+As for their feminization, then this again is not permitted due their being _`r trans("jAmid")`_.
+
+And as for dualizing them, we find an example [لسان العرب]{lang=ar} quoting [أبو زيد]{lang=ar}^[[لسان العرب «صوم»]{lang=ar}]:
+
+::: {lang=ar}
+> قال أَبو زيد: أَقمتُ بالبصرة صَوْمَينِ أي رَمضانينِ.
+:::
+The word [صَوْم]{lang=ar} is a _`r trans("maSdar")`_ which here is used to designate the fasting month _`r trans("ramaDAn")`_.
+
+Similarly we extrapolate that we may dualize [حلال]{lang=ar} to [حلالان]{lang=ar}.
+
+As for pluralizing it, we have found it taking _`r trans("jame mu'annav sAlim")`_ despite not meeting its conditions. However, we have only found this in a later book [تفسير الجلالين]{lang=ar}.^[[تفسير الجلالين، المؤمنون: 51]{lang=ar}] 
+
+::: {lang=ar}
+"يَأَيُّهَا الرُّسُل كُلُوا مِنْ الطَّيِّبَات" الْحَلَالَاتِ
+:::
+
+As for the word [فضول]{lang=ar}, since it was originally a plural, we theorize that it should not be pluralized further, except as a _`r trans("jame al-jame")`_.
+
+## Rules for foreign borrowings
+
+The Arabic language has borrowed nouns like:
+
++ [أستاذ، دكتور]
+{lang=ar} which refer to professions,
+ + [باشا، خاتون]
+{lang=ar} which refer to titles, and
++ [طازج، ساذج]
+{lang=ar} which refer to qualities.
+
+The question is how these nouns should be classified, and then if and how they should be feminized, dualized and pluralized.
+
+The correct opinion seems to be that nouns are borrowed into the class which is most similar
 
