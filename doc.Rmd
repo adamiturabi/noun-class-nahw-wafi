@@ -307,7 +307,17 @@ We also find the following in _`r trans("al-'uSUl fi l-naHw li -bn sarrAj")`_:
 ^[_`r trans("al-'uSUl fi l-naHw li -bn sarrAj")`_ 3/476]
 :::
 
-## Definite Masdars
+## Usage of _`r trans("al-maSAdir")`_ as designative nouns and as _`r trans("naet")`_
+
+### The definite _`r trans("maSdar")`_ as a _`r trans("naet")`_
+
+In the aformentioned conditions _`r trans("maSdar")`_ may only be a _`r trans("naet")`_ if it is indefinite. However, we find, for example the word [ثقة]{lang=ar} meaning "trustworthy", in the books of the sciences of _`r trans("HadIv")`_, that it also appears as a definite _`r trans("naet")`_. This is a technical usage and arguably it not from "_`r trans("kalaam al-earab")`_", nevertheless it is found. Example^[[المسند للإمام أحمد]{lang=ar}, vol. 6, p. 24]:
+
+::: {lang=ar}
+ 6474 م- قال شُعْبة وذَكر لي رجلٌ ثقةٌ عن سفيان أنه كان يقول: إنما قال: "من كان متَحريَها فلْيَتَحرها في السَّبْع البَواقي"، قال شُعْبة: فلا أدري قال ذا أو ذا؟، شُعْبة شَك.
+[قال عبد الله بن أحمد]: قال أبي: الرجلُ الثقةُ: يحيى بن سعيد القَطَّان.
+:::
+
 
 #### Pluralization
 
