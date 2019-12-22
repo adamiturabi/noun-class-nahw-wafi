@@ -81,7 +81,7 @@ Nouns are classified^[_`r trans("al-naHw al-wAfI")`_, 3/181, footnote 1] as foll
 1. _`r trans("jAmid")`_: That which is not taken from another.
    1. _`r trans("ism pAt")`_: Concrete. Examples: [شجرة، قلم، أسد، حجر]{lang=ar}.
    2. _`r trans("ism maenA")`_: Abstract. Examples: [فَهْم، نبوغ، ذكاء، سماحة]{lang=ar}.
-2. _`r trans("muctaqq")`_: That which is taken from another, which is its origin. Sometimes the _`r trans("muctaqq")`_ is referred to as the _`r trans("waSf")`_ or the _`r trans("Sifa")`_ but by this they don't mean the syntactical category: the _`r trans("naet")`_. The original _`r trans("muctaqqAt")`_ are seven:
+2. _`r trans("muctaqq")`_: That which is taken from another, which is its origin. Sometimes the _`r trans("muctaqq")`_ is referred to as the _`r trans("waSf")`_ or the _`r trans("Sifa")`_ but by this they don't mean [the syntactical category]: the _`r trans("naet")`_. The original _`r trans("muctaqqAt")`_ are seven:
 1. _`r trans("ism al-fAeil")`_:
 1. _`r trans("ism al-mafeUl")`_:
 1. _`r trans("al-Sifa al-mucabbaha")`_:
@@ -240,13 +240,19 @@ meaning "the possessor of so-and-so". "It is a _`r trans("naet")`_ to indefinite
    The _`r trans("maSdar")`_ can be a _`r trans("taqdIr muDAf maHpUf")`_ 
 which is the _`r trans("naet")`_. That is, originally it is [قاضيًا  صاحبَ عدل...]{lang=ar}
 
-   The grammarians differed with respect to the _`r trans("maSdar")`_ occurring as a _`r trans("naet")`_, whether it is _`r trans("qiyAsiyy")`_ or restricted to _`r trans("al-samAe")`_. Most of them restricted it to _`r trans("al-samAe")`_, although they acknowledged that it does appear a lot in the corpus, and that it is more forceful in rhetoric than the _`r trans("muctaqq")`_. This acknowledgement that it appears a lot contradicts their restricting it to _`r trans("al-samAe")`_. The correct opinion should then be to take it _`r trans("qiyAsiyyan")`_ with its conditions.
+   The grammarians differed with respect to the _`r trans("maSdar")`_ occurring as a _`r trans("naet")`_, whether it is _`r trans("qiyAsiyy")`_ or restricted to _`r trans("al-samAe")`_. Most of them restricted it to _`r trans("al-samAe")`_, although they acknowledged that it does appear a lot in the corpus, and that it is _`r trans("'ablag")`_ than the _`r trans("muctaqq")`_. This acknowledgement that it appears a lot contradicts their restricting it to _`r trans("al-samAe")`_. The correct opinion should then be to take it _`r trans("qiyAsiyyan")`_ with its conditions.
 
-8. . _`r trans("ism al-maSdar")`_ if it is of a _`r trans("vulAviyy")`_ measure. Examples [فِطْر]{lang=ar} _`r trans("ism al-maSdar")`_ of the verb [أفطر]{lang=ar} meaning [مُفْطِر أو صاحب إفطار]{lang=ar}. You can say [هذا رجلٌ فًطْر، ورجلان فِطْر، ورجال فِطْرٌ]{lang=ar}.
+   Note: the scholars of _`r trans("balAga")`_ have proclaimed that _`r trans("al-naet bi l-maSdar")`_ is from the category of _`r trans("al-mubAlaga")`_, or from _`r trans("majAz al-Hapf")`_, or _`r trans("al-majAz al-mursal")`_, and that the _`r trans("vulAviyya")`_ is _`r trans("qiyAsiyy")`_. How can the scholars contradict each other, where the the scholars of _`r trans("balAga")`_ say that _`r trans("al-naet bi l-maSdar")`_ is _`r trans("ablag")`_ than the _`r trans("muctaqq")`_ at the same time that some of the grammarians say that _`r trans("al-naet bi l-maSdar")`_, despite its frequency in the corpus, is not _`r trans("qiyAsiyy")`_? How can they say this when the Quran, the most eloquent of speech, contains it multiple times? This contradiction can only be resolved by saying that _`r trans("al-naet bi l-maSdar")`_ is  _`r trans("qiyAsiyy")`_ with the aforementioned conditions. _`r trans("ibn jiniyy")`_ in his book _`r trans("al-muHtasab")`_ (vol. ii, p. 46) says, "The usage  of _`r trans("al-maSdar")`_ as a _`r trans("naet")`_ directly, without _`r trans("taqdIr bicay' maHpUf")`_ is _`r trans("'ablag")`_ and _`r trans("'alTaf")`_ than the _`r trans("naet")`_ which is not a _`r trans("maSdar")`_." he supports this claim with multiple evidences, and presents many quotations.
+
+8. _`r trans("ism al-maSdar")`_ if it is of a _`r trans("vulAviyy")`_ measure. Examples [فِطْر]{lang=ar} _`r trans("ism al-maSdar")`_ of the verb [أفطر]{lang=ar} meaning [مُفْطِر أو صاحب إفطار]{lang=ar}. You can say [هذا رجلٌ فًطْر، ورجلان فِطْر، ورجال فِطْرٌ]{lang=ar}.
 
 9. _`r trans("al-eadad")`_: like [قرأت كتبًا سبعةً، وكتبت صحفًا خمسةً]{lang=ar}.
 
-10. Some other ...
+10. Some other words that are _`r trans("jAmid mu'awwal bi l-muctaqq")`_, connoting perfection or deficiency, like the word [كُلّ]{lang=ar}, e.g. [عرفت العالِمَ كُلَّ العالمِ]{lang=ar}
+
+11. The _`r trans("jAmid")`_ that signifies _`r trans("al-Sifa al-mucabbaha")`_ together with its acceptability as _`r trans("al-ta'wIl bi l-muctaqq")`_. Examples ["فلانٌ رجلٌ فَراشةُ الحِلمِ، فِرعونُ العذابِ، غِربالُ الإهابِ"]{lang=ar}. The words ["فَراشةُ، فِرعونُ، غِربالُ"]{lang=ar} are analyzed as _`r trans("naet bi l-muctaqq")`_, because they mean [أحمق، قاسٍ، حقير]{lang=ar} respectively.
+
+    These^[_`r trans("al-naHw al-wAfI")`_, 2/284] are _`r trans("qiyAsiyy")`_ but it is better to employ them as such as little as possible. They may have a supplemental geminated _`r trans("yA' li l-nasab")`_ that brings them closer to the _`r trans("muctaqqAt")`_. Example [تناولنا شرابًا عسلًا طعْمُه]{lang=ar} or [تناولنا شرابًا عسليًّا طعْمُه]{lang=ar}.
 
 ## Some additional information with respect to the _`r trans("naet")`_
 
