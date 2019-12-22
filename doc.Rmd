@@ -4,8 +4,8 @@ author: "Ahmad Sheikh"
 lang: en
 numbersections: true
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 data: '2019-12-15'
 ---
 ```{r definition, echo = FALSE}
@@ -408,7 +408,7 @@ which refer to qualities.
 
 The question is how these nouns should be classified, and then if and how they should be feminized, dualized and pluralized.
 
-The correct opinion seems to be that nouns are borrowed into the class in which are nouns which are most similar to the borrowed noun.^[ عضو أم عضوة؟ ومسائل أخَر لفيصل المنصور]
+The correct opinion seems to be that nouns are borrowed into the class in which are nouns which are most similar to the borrowed noun.^[[عضو أم عضوة؟ ومسائل أخَر لفيصل المنصور]{lang=ar}]
 
 Thus [باشا، خاتون، كمبيوتر، فلم]{lang=ar} are borrowed into the _`r trans("jawAmid")`_. Their gender is correspondent to the living beings which they refer to, or if they refer to non living beings then the gender will be masculine. They may not feminized with _`r trans("tA' al-ta'nIv")`_. They may have _`r trans("jame taksIr")`_ if the Arabs have formulated them like [خواتين، أفلام]{lang=ar} for [خاتون، فلم]{lang=ar}, or may take _`r trans("jame mu'annav sAlim")`_ if not. Dualization is regular.
 
