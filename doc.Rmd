@@ -1,11 +1,11 @@
 ---
-title: "Classification of Arabic nouns from al-Nahw al-Wafi"
+title: "Classification of Arabic nouns and their use as qualitative nouns"
 author: "Ahmad Sheikh"
 lang: en
 numbersections: true
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 data: '2019-12-15'
 ---
 ```{r definition, echo = FALSE}
@@ -64,7 +64,7 @@ trans <- function(strval) {
 ```
 # Introduction
 
-Can any noun be feminized with _`r trans("tA' al-ta'nIv")`_? Can any noun be used as a _`naet`_? Will a _`naet`_ always agree in number or gender?
+Can any noun be feminized with _`r trans("tA' al-ta'nIv")`_? Can any noun be used as a _`r trans("naet")`_? Will a _`r trans("naet")`_ always agree in number or gender?
 
 These are some questions that we will attempt to answer. We start with a classification nouns primarily pieced together from different sections of [النحو الوافي]{lang=ar}. We follow this with a classification of the _`r trans("naet")`_ and its conditions. In these sections we will only present the information as we find it in the primary sources. Any comments from ourselves are restricted to within square brackets [] or footnotes.
 
@@ -129,9 +129,46 @@ The _`r trans("ism al-maSdar")`_^[_`r trans("al-naHw alwAfI")`_ 3/209, footnote]
 
 The difference between the two in meaning is that the _`r trans("maSdar")`_ directly signifies to the verb event, while the _`r trans("ism al-maSdar")`_ directly signifies the _`r trans("maSdar")`_, thus indirectly signifying the verb event.
 
-### The _`r trans("maSdar")`_ as a _`r trans("naet")`_
+### Dualization and pluralization of the _`r trans("maSdar")`_^[_`r trans("al-naHw alwAfI")`_ 2/211]
 
-### Feminization of nouns^[_`r trans("al-naHw alwAfI")`_ 4/590]
+The _`r trans("maSdar")`_ is not permitted to be dualized or pluralized as long as what is intended by it is just the meaning [of the verb], i.e. as long as it is _`r trans("mubham")`_. So we cannot say [صفحت عن المخطئ صفْحين]{lang=ar}, nor [وعدتُك وعودًا]{lang=ar}. Except if the _`r trans("maSdar")`_ ends with _`r trans("tA'")`_ _`r trans("marbUta")`_ in which it may be dualized and pluralized, e.g. ["التلاوتان والتلاوات"]{lang=ar}.
+
+If however it is _`r trans("al-maSdar al-mubayyin li l-nawe")`_, when its _`r trans("anwAe")`_ are different, or _`r trans("al-maSdar al-mubayyin li l-eadad")`_, then it is permitted to dualize and pluralize it suitably. What is meant by "suitably" is if it satisfies the conditions of one of the three kinds of plurals ([جمع مذكر، جمع مؤنث سالم، جمع تكسير]{lang=ar}).
+
+Example for _`r trans("al-maSdar al-mubayyin li l-nawe")`_: [سلكت مع الناس سُلُوكَيِ العاقل: الشدةَ حينًا والملاينةَ حينًا آخر. سرت سِيَرَ الخلفاء الراشدين]{lang=ar} meaning [سلكت مع الناس نوعين من السلوك العاقل: الشدة حينًا والملاينةَ حينًا آخر. وسرت معهم آنواعًا من السِيَر]{lang=ar}. What is intended here is not stating the number of times of [السلوك]{lang=ar}, and that it was twice, nor stating the numer of times of [السيْر]{lang=ar}, that it was many times. Rather, what is intended is stating the different kinds.
+
+Example for the _`r trans("al-maSdar al-mubayyin li l-eadad")`_: [خطوت في الحديقة عشر خطوات، ودُرتُ في جوانبها أربع دوْرات]{lang=ar}
+
+## Conditions of the _`r trans("jame mu'annav sAlim")`_
+
+This plural may be applied with _`r trans("qiyAs")`_ on six nouns^[_`r trans("al-naHw alwAfI")`_ 1/168]:
+
+1. All nouns that end in a _`r trans("tA' zA'ida")`_. This is absolute, whether it is 
+
+   + an _`r trans("ealam")`_, like [فاطمة]{lang=ar}, or 
+   + not an _`r trans("ealam")`_, like [زراعة، تجارة]{lang=ar}.
+   + Feminine in form and meaning, like [حليمة، رقية]{lang=ar} from female names, or
+   + Feminine in form only, like [عطية، حمزة، معاوية]{lang=ar} from male names.
+   + The _`r trans("tA'")`_ is from feminization as in the precding examples, or
+   + for substituting an original [weak] letter, like [عِدة، ثُبة]{lang=ar}, which are pluralized as [عِدات، ثُبات]{lang=ar},
+   + or even for emphasis, like [علّامة، علّامات]{lang=ar}.
+
+   There are some exceptions like [امرأة، أَمَة، شاة، شَفَة، قُلّة، أُمّة، مِلّة]{lang=ar}.
+
+2. All nouns that end in _`r trans("alif al-ta'nIv al-maqSUra 'aw al-mamdUda")`_. This applies for _`r trans("ealam")`_ or non-_`r trans("ealam")`_, male or female [names], Examples are [سُعدى]{lang=ar} for a female _`r trans("ealam")`_, [فُضْلى]{lang=ar} for a feminine _`r trans("Sifa")`_, [دُنيا]{lang=ar} when it is a male _`r trans("ealam")`_, [زَهراء]{lang=ar} for a female _`r trans("ealam")`_, [حسناء]{lang=ar} for a female _`r trans("Sifa")`_, and [زكرياء]{lang=ar} for a male _`r trans("ealam")`_.
+   Excepted from this, according to the non-Kufans, are two forms [فَعْلى]{lang=ar} the feminine of [فَعْلان]{lang=ar} like [سَكْدى]{lang=ar} the feminine of [سكران]{lang=ar}, and [فَعْلاء]{lang=ar} the feminine of [أفْعَل]{lang=ar} like [خضراء وسوداء]{lang=ar} both of which are _`r trans("Sifa")`_ for feminine nouns, and not _`r trans("ealam")`_.
+
+3. All _`r trans("ealam")`_ for female living beings which don't have an _`r trans("ealAma ta'nIv")`_, like [زينب، نوال، إحسان]{lang=ar}.
+
+4. _`r trans("muSaggar")`_ for masculine nouns which are not _`r trans("eAqil")`_, like [نُهيرات]{lang=ar} the _`r trans("taSgIr")`_ of [نهر]{lang=ar}, and [جُبَيْلات]{lang=ar} the _`r trans("taSgIr")`_ of [جبل]{lang=ar}, and [مُعَيْدنات]{lang=ar} the _`r trans("taSgIr")`_ of [مَعْدن]{lang=ar}.
+
+5. _`r trans("waSf")`_ for non-_`r trans("eAqil")`_ masculine nouns, like [هذه بساتين جميلات]{lang=ar}, (where for the singular we would have [بستان جميل]{lang=ar}) and [زرتها أيامًا معدودات]{lang=ar}.^[_`r trans("al-naHw al-wAfi")`_ does not mention this is only if the _`r trans("waSf")`_ is _`r trans("muctaqq")`_. We will try to explore this in the case studies.]
+
+6. Every _`r trans("xumAsiyy")`_ for which a _`r trans("jame taksIr")`_ has not been heard from the Arabs, like [سُرادِقات، قَيصومات، حَمّامات، كتّانات، اصطبلات، قِطْميرات]{lang=ar} for [سُرادِق، قَيصوم، حَمّام، كتّان، اصطبل، قِطْمير]{lang=ar}.
+
+Nouns which don't fall under these six categories are restricted to _`r trans("samAe")`_ like [شَمَالات]{lang=ar} for [شَمَال]{lang=ar}, the north wind.
+
+## Feminization of nouns^[_`r trans("al-naHw alwAfI")`_ 4/590]
 
 The _`r trans("tA' al-ta'nIv")`_ is introduced by _`r trans("qiyAs")`_ on the _`r trans("muctaqqAt")`_ to distinguish between the masculine and feminine. Examples are [عابِد وعابدة، عرّاف وعَرّافة، فَرِح وفَرِحة، مأمون ومأمونة]{lang=ar}. Even in the _`r trans("muctaqqAt")`_, the _`r trans("tA' al-ta'nIv")`_ is introduced on most nouns but not all. Some of the _`r trans("muctaqqAt")`_ do not admit it at all, according to the opinion of the majoity of the grammarians, while some admit it only sometimes.^[Examples are [حامل، صَبور]{lang=ar}, etc. These nouns, and the circumstances in which they accept or reject the _`r trans("tA' al-ta'nIv")`_, are well categorized and discussed in the reference grammars so I will not get into it here.]
 
