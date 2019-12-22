@@ -244,6 +244,13 @@ which is the _`r trans("naet")`_. That is, originally it is [قاضيًا  صا�
 
    Note: the scholars of _`r trans("balAga")`_ have proclaimed that _`r trans("al-naet bi l-maSdar")`_ is from the category of _`r trans("al-mubAlaga")`_, or from _`r trans("majAz al-Hapf")`_, or _`r trans("al-majAz al-mursal")`_, and that the _`r trans("vulAviyya")`_ is _`r trans("qiyAsiyy")`_. How can the scholars contradict each other, where the the scholars of _`r trans("balAga")`_ say that _`r trans("al-naet bi l-maSdar")`_ is _`r trans("ablag")`_ than the _`r trans("muctaqq")`_ at the same time that some of the grammarians say that _`r trans("al-naet bi l-maSdar")`_, despite its frequency in the corpus, is not _`r trans("qiyAsiyy")`_? How can they say this when the Quran, the most eloquent of speech, contains it multiple times? This contradiction can only be resolved by saying that _`r trans("al-naet bi l-maSdar")`_ is  _`r trans("qiyAsiyy")`_ with the aforementioned conditions. _`r trans("ibn jiniyy")`_ in his book _`r trans("al-muHtasab")`_ (vol. ii, p. 46) says, "The usage  of _`r trans("al-maSdar")`_ as a _`r trans("naet")`_ directly, without _`r trans("taqdIr bicay' maHpUf")`_ is _`r trans("'ablag")`_ and _`r trans("'alTaf")`_ than the _`r trans("naet")`_ which is not a _`r trans("maSdar")`_." he supports this claim with multiple evidences, and presents many quotations.
 
+   With regards to _`r trans("al-naet bi l-maSdar")`_, _`r trans("ibn mAlik")`_ says:
+::: {lang=ar}
+ونَعتُوا بمَصْدَرِ كَثِيرًا = فالْتَزَمُوا الإِفْرَاد والتَّذْكِيرَا
+:::
+
+That is, the Arabs used _`r trans("al-naet bi l-maSdar")`_ frequently and did not modify the _`r trans("maSdar")`_ from its form retaining singularity and gender. Thus these two aspects will always be retained even if the _`r trans("maneUt")`_ is not singular and not masculine. For example [هذا أمر رِضًا، هذان أمران رِضًا، هذه أمور رِضًا، هذه حالة رِضًا، هاتان حالتان رضا، أولئك حالات رضا]{lang=ar}.
+
 8. _`r trans("ism al-maSdar")`_ if it is of a _`r trans("vulAviyy")`_ measure. Examples [فِطْر]{lang=ar} _`r trans("ism al-maSdar")`_ of the verb [أفطر]{lang=ar} meaning [مُفْطِر أو صاحب إفطار]{lang=ar}. You can say [هذا رجلٌ فًطْر، ورجلان فِطْر، ورجال فِطْرٌ]{lang=ar}.
 
 9. _`r trans("al-eadad")`_: like [قرأت كتبًا سبعةً، وكتبت صحفًا خمسةً]{lang=ar}.
@@ -319,7 +326,15 @@ In the aformentioned conditions _`r trans("maSdar")`_ may only be a _`r trans("n
 [قال عبد الله بن أحمد]: قال أبي: الرجلُ الثقةُ: يحيى بن سعيد القَطَّان.
 :::
 
-### The definite _`r trans("maSdar mImiyy")`_ as a _`r trans("naet")`_
+We have also found one grammar reference that explicitly calls for the _`r trans("maSdar")`_ matching the _`r trans("maneUt")`_ when it is used as a _`r trans("naet")`_^[[النحو الشافي لمحمود حسني مغالسة، ص 376]{lang=ar}]:
+
+::: {lang=ar}
+ويشترط في المصدر النعت آن يكون فعله ثلاثيًا كالمصدر ثقة عدل وألا يكون مصدرًا ميميًا وفي هذه الحالة يلتزم الإفراد والتذكير ولا يطابق المنعوت إلا في الإعراب والتنكير فتقول:
+
+هذا رجلٌ ثقةٌ، هذا الرجلُ الثقة، هؤلاء رجال ثقة
+:::
+
+### The _`r trans("maSdar mImiyy")`_ as a _`r trans("naet")`_
 
 According to the aforementioned conditions, a _`r trans("maSdar mImiyy")`_ may not be _`r trans("naet")`_. However, we are able to find such cases, even in grammar books (albeit used technically, not as examples).
 
@@ -331,7 +346,16 @@ The word [مَعْرِفة]{lang=ar} is used to mean "a definite noun" and it of
 
 Note that [معرفة]{lang=ar} here is unlikely to be [مُعَرَّفة]{lang=ar} (which is synonymous but feminine) because of the masculine _`r trans("fAeil")`_ and _`r trans("mafeUl bih maneUt")`_.
 
-#### Pluralization of masdar as na3t
+#### Pluralization of the _`r trans("maSdar")`_ as _`r trans("naet")`_
+
+Pluralization of the _`r trans("maSdar")`_ as _`r trans("naet")`_, too is prescriptively disallowed. However we find this as well. Example:
+
+
+
+In our opinion, the usage of the singular is preferred. The plural is only palatable if the word ends with _`r trans("tA' zA'ida")`_ pluralized with _`r trans("jame mu'annav sAlim")`_. Or if a broken plural exists, as [عُدول]{lang=ar} for [عَدْل]{lang=ar} in the verse quoted above.
+
+When the _`r trans("maSdar")`_ is used as a designative noun, however, there should be no problem in pluralizing it. [رجاله ثقاتٌ]{lang=ar} is commonly used in the _`r trans("hadIv")`_ literature.
+
 
 al-nahw al-asaasiyy
 
