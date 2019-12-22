@@ -176,7 +176,7 @@ There are other ways of feminizing nouns, like _`r trans("alif al-ta'nIv al-maqS
 
 The _`r trans("tA' al-ta'nIv")`_ is not introduced by _`r trans("qiyAs")`_ on _`r trans("'asmA' al-'ajnAs al-jAmida")`_, but it is sometimes found by _`r trans("samAe")`_ [for nouns denoting male and female living beings]. Examples are [رَجُل ورَجُلة، أَسَد وأسدة، فَتًى ،فتاة، غُلام وغلامة، امرؤ وامرأة، إنسان وإنسانة]{lang=ar}.
 
-Most nouns denoting male and female living beings, however, have different words for them. Examples are [ثَور وبقرة، حِمار وأتان، تَيس وعنز]{lang=ar}. Sometimes the same word is used for living beings of both gender [although it may be grammatically of one gender]. Examples are [حمامة وفرس]{lang=ar}.^[_`r trans("euDw 'am euDwa, wa masA'il 'uxar")`_, _`r trans("lifaySal al-manSUr")`_]
+Most nouns denoting male and female living beings, however, have different words for them. Examples are [ثَور وبقرة، حِمار وأتان، تَيس وعنز]{lang=ar}. Sometimes the same word is used for living beings of both gender [although it may be grammatically of one gender]. Examples are [حمامة وفرس]{lang=ar}.^[ عضو أم عضوة؟ ومسائل أخَر لفيصل المنصور]
 
 # Classification of the _`r trans("naet")`_
 
@@ -244,12 +244,9 @@ which is the _`r trans("naet")`_. That is, originally it is [قاضيًا  صا�
 
    Note: the scholars of _`r trans("balAga")`_ have proclaimed that _`r trans("al-naet bi l-maSdar")`_ is from the category of _`r trans("al-mubAlaga")`_, or from _`r trans("majAz al-Hapf")`_, or _`r trans("al-majAz al-mursal")`_, and that the _`r trans("vulAviyya")`_ is _`r trans("qiyAsiyy")`_. How can the scholars contradict each other, where the the scholars of _`r trans("balAga")`_ say that _`r trans("al-naet bi l-maSdar")`_ is _`r trans("ablag")`_ than the _`r trans("muctaqq")`_ at the same time that some of the grammarians say that _`r trans("al-naet bi l-maSdar")`_, despite its frequency in the corpus, is not _`r trans("qiyAsiyy")`_? How can they say this when the Quran, the most eloquent of speech, contains it multiple times? This contradiction can only be resolved by saying that _`r trans("al-naet bi l-maSdar")`_ is  _`r trans("qiyAsiyy")`_ with the aforementioned conditions. _`r trans("ibn jiniyy")`_ in his book _`r trans("al-muHtasab")`_ (vol. ii, p. 46) says, "The usage  of _`r trans("al-maSdar")`_ as a _`r trans("naet")`_ directly, without _`r trans("taqdIr bicay' maHpUf")`_ is _`r trans("'ablag")`_ and _`r trans("'alTaf")`_ than the _`r trans("naet")`_ which is not a _`r trans("maSdar")`_." he supports this claim with multiple evidences, and presents many quotations.
 
-   With regards to _`r trans("al-naet bi l-maSdar")`_, _`r trans("ibn mAlik")`_ says:
-::: {lang=ar}
-ونَعتُوا بمَصْدَرِ كَثِيرًا = فالْتَزَمُوا الإِفْرَاد والتَّذْكِيرَا
-:::
+   With regards to _`r trans("al-naet bi l-maSdar")`_, _`r trans("ibn mAlik")`_ says: [ونَعتُوا بمَصْدَرِ كَثِيرًا *** فالْتَزَمُوا الإِفْرَاد والتَّذْكِيرَا]{lang=ar}.
 
-That is, the Arabs used _`r trans("al-naet bi l-maSdar")`_ frequently and did not modify the _`r trans("maSdar")`_ from its form retaining singularity and gender. Thus these two aspects will always be retained even if the _`r trans("maneUt")`_ is not singular and not masculine. For example [هذا أمر رِضًا، هذان أمران رِضًا، هذه أمور رِضًا، هذه حالة رِضًا، هاتان حالتان رضا، أولئك حالات رضا]{lang=ar}.
+   That is, the Arabs used _`r trans("al-naet bi l-maSdar")`_ frequently and did not modify the _`r trans("maSdar")`_ from its form retaining singularity and gender. Thus these two aspects will always be retained even if the _`r trans("maneUt")`_ is not singular and not masculine. For example [هذا أمر رِضًا، هذان أمران رِضًا، هذه أمور رِضًا، هذه حالة رِضًا، هاتان حالتان رضا، أولئك حالات رضا]{lang=ar}.
 
 8. _`r trans("ism al-maSdar")`_ if it is of a _`r trans("vulAviyy")`_ measure. Examples [فِطْر]{lang=ar} _`r trans("ism al-maSdar")`_ of the verb [أفطر]{lang=ar} meaning [مُفْطِر أو صاحب إفطار]{lang=ar}. You can say [هذا رجلٌ فًطْر، ورجلان فِطْر، ورجال فِطْرٌ]{lang=ar}.
 
@@ -267,7 +264,7 @@ That is, the Arabs used _`r trans("al-naet bi l-maSdar")`_ frequently and did no
 
 Regarding the condition that the _`r trans("maSdar")`_ be indefinite if it occur as _`r trans("naet")`_: It is sometimes found in the corpus as definite: either with _`r trans("al")`_ or as _`r trans("muDAf li maerifa")`_. An example with _`r trans("al")`_ is the word [الحقّ]{lang=ar} in the poet's verse:
 
-[إن أخاك الحقَّ من يسعى معكْ = ومن يضرّ نفسه لينفعكْ]{lang=ar}
+[إن أخاك الحقَّ من يسعى معكْ *** ومن يضرّ نفسه لينفعكْ]{lang=ar}
 
 Examples of _`r trans("muDAf li maerifa")`_ are [مررت برجل حسبِك من رجل أو شَرْعِك أو كافيك أو همِّك أو نحوِك]{lang=ar}. These ought to be definite by _`r trans("'iDAfa")`_ but they don't become definite because they are in the meaning of a _`r trans("muctaqq")`_ and that they are a _`r trans("naet")`_ to an indefinite.^[The definiteness of [الحقّ]{lang=ar} seems to be unexplained. And we shall find another, albeit later [in history], example of this in the next sections.]
 
