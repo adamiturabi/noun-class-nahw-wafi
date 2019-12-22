@@ -1,10 +1,11 @@
 ---
 title: "Classification of Arabic nouns from al-Nahw al-Wafi"
-author: "Arabic Deconstructor"
+author: "Ahmad Sheikh"
 lang: en
+numbersections: true
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 data: '2019-12-15'
 ---
 ```{r definition, echo = FALSE}
@@ -63,15 +64,19 @@ trans <- function(strval) {
 ```
 # Introduction
 
-Translation of [النحو الوافي]{lang=ar}
+Can any noun be feminized with _`r trans("tA' al-ta'nIv")`_? Can any noun be used as a _`naet`_? Will a _`naet`_ always agree in number or gender?
 
-The transcription scheme used is _`r trans("'btvjHxdprzscSDTPegfqklmnhwy AUI aw ay")`_.
+These are some questions that we will attempt to answer. We start with a classification nouns primarily pieced together from different sections of [النحو الوافي]{lang=ar}. We follow this with a classification of the _`r trans("naet")`_ and its conditions. In these sections we will only present the information as we find it in the primary sources. Any comments from ourselves are restricted to within square brackets [] or footnotes.
+
+Next, we look at case studies. We will use the classifications and conditions to determine the behavior of nouns we are studying.
+
+The transcription scheme used in this article is _`r trans("'btvjHxdprzscSDTPegfqklmnhwy aui AUI aw ay")`_.
 
 # Classification of nouns
 
 ## Basic categories
 
-_`r trans("al-naHw al-wAfI")`_ classifies all nouns^[_`r trans("al-naHw al-wAfI")`_, 3/181, footnote 1] as follows:
+Nouns are classified^[_`r trans("al-naHw al-wAfI")`_, 3/181, footnote 1] as follows:
 
 1. _`r trans("jAmid")`_: That which is not taken from another.
    1. _`r trans("ism pAt")`_: Concrete. Examples: [شجرة، قلم، أسد، حجر]{lang=ar}.
@@ -191,7 +196,7 @@ meaning "the possessor of so-and-so". "It is a _`r trans("naet")`_ to indefinite
    6. that it retain its original form with respect to its singularity، masculinity (excepting _`r trans("maSAdir")`_ which have an original _`r trans("tA' al-ta'nIv")`_ like [رحمة، شفقة]{lang=ar}).
       If, however, the use of the _`r trans("maSdar")`_ as a _`r trans("naet")`_ becomes common then is permisible to dualize or pluralize it _`r trans("qiyAsiyyan")`_. An example is the poet's verse:  
       [وبايعتُ ليلى في الخلاءِ ولم يكن = شهودٌ على ليلى، عدولٌ مَقانعُ]{lang=ar}
-      ^[The word [عُدول]{lang=a} here is regularly the plural of the _`r trans("maSdar")`_ [عَدْل]{lang=ar} not of [عَادِل]{lang=ar} whose plural would regularly be [عَدَلة]{lang=ar}. Although there exist exceptions like [شاهق شُهوق ،راقد رقود، ساجد سجود]{lang=ar}. This information was provided by forum member [زهدة متفائلة]{lang=ar} at the alfaseeh.com forum.]
+      ^[The word [عُدول]{lang=ar} here is regularly the plural of the _`r trans("maSdar")`_ [عَدْل]{lang=ar} not of [عَادِل]{lang=ar} whose plural would regularly be [عَدَلة]{lang=ar}. Although there exist exceptions like [شاهق شُهوق ،راقد رقود، ساجد سجود]{lang=ar}. This information was provided by forum member [زهرة متفائلة]{lang=ar} at the alfaseeh.com forum.]
 
    Example: [رأيت في المحكمة قاضيًا عدْلا وشهودا صدْقًا ونظامًا رِضًا وجموعًا زَوْرًا بين النتقاضين]{lang=ar} meaning [قاضيًا عادلا وشهودا صادقين ونظامًا مرضيًّا وجموعًا زائرة بين النتقاضين]{lang=ar}
 
