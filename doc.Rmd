@@ -76,7 +76,7 @@ The transcription scheme used in this article is _`r trans("'btvjHxdprzscSDTPegf
 
 ## Basic categories
 
-Nouns are classified^[_`r trans("al-naHw al-wAfI")`_, 3/181, footnote 1] as follows:
+Nouns are classified^[[النحو الوافي لعباس حسن 3/181, هامش 1]{lang=ar}] as follows:
 
 1. _`r trans("jAmid")`_: That which is not taken from another.
    1. _`r trans("ism pAt")`_: Concrete. Examples: [شجرة، قلم، أسد، حجر]{lang=ar}.
@@ -105,7 +105,7 @@ The _`r trans("maSdar")`_ can be either _`r trans("al-maSdar al-SarIHa")`_ or _`
 
 _`r trans("al-maSdar al-SarIH")`_ is considered the origin of the ten _`r trans("muctaqqAt")`_ (the seven mentioned above, and _`r trans("al-fiel al-maDI")`_, _`r trans("al-fiel al-muDArie")`_, _`r trans("al-fiel al-'amr")`_. As such, it is from _`r trans("al-'asmA' al-jAmida")`_.
 
-_`r trans("al-maSdar al-SarIH")`_ is of three kinds^[_`r trans("al-naHw alwAfI")`_ 3/181]:
+_`r trans("al-maSdar al-SarIH")`_ is of three kinds^[[النحو الوافي لعباس حسن 3/181]{lang=ar}]:
 
 1. _`r trans("al-maSdar al-aSliyy")`_. It does not start with a supplemental _`r trans("mIm")`_ nor does it end with _`r trans("iyya")`_. Examples: [عِلْم، فَهْم، تقدُّم، استضاءة، إبانة، بلاء، نضال، فَضْل، صَلاح]{lang=ar}. It also includes the _`r trans("maSdar")`_ of _`r trans("al-marra wal-hay'a")`_.
 2. _`r trans("al-maSdar al-mImiyy")`_. It starts with a supplemental _`r trans("mIm")`_ and it does not end with _`r trans("iyya")`_.The correct opinion is that it is not from the _`r trans("muctaqqAt")`_, rather it is _`r trans("jAmid")`_. Examples are [مَطْلَب، مَضْيَعة، مَجْلَبة، مَعْدَل]{lang=ar}. It must needs be singular.
@@ -113,7 +113,7 @@ _`r trans("al-maSdar al-SarIH")`_ is of three kinds^[_`r trans("al-naHw alwAfI")
 
 When the word _`r trans("maSdar")`_ is used by itself, by it is intended _`r trans("al-maSdar al-SarIH al-'aSliyy")`_.
 
-### Patterns of _`r trans("al-maSdar al-aSliyy")`_^[_`r trans("al-naHw alwAfI")`_ 3/193]
+### Patterns of _`r trans("al-maSdar al-aSliyy")`_^[[النحو الوافي لعباس حسن 3/193]{lang=ar}]
 
 _`r trans("al-maSdar al-aSliyy")`_ of form I verbs can be of the _`r trans("qiyAsiyy")`_ patterns: _`r trans("fael")`_, _`r trans("fieAla")`_, _`r trans("faeal")`_, _`r trans("fuela")`_, _`r trans("fueUl")`_, _`r trans("fueUla")`_, _`r trans("fieAl")`_, _`r trans("faealAn")`_, _`r trans("fueAl")`_, _`r trans("faeIl")`_, _`r trans("faeAla")`_. There are numerous other _`r trans("samAeiyy")`_ ones like  _`r trans("fuel")`_, _`r trans("faeAl")`_, _`r trans("faeala")`_. 
 
@@ -121,15 +121,15 @@ _`r trans("al-maSdar al-aSliyy")`_ of form I verbs can be of the _`r trans("qiyA
 
 ### The _`r trans("maSdar")`_ and the _`r trans("ism al-maSdar")`_.
 
-The _`r trans("maSdar")`_^[_`r trans("al-naHw alwAfI")`_ 3/207, footnote] (i.e., _`r trans("al-maSdar al-SarIH al-'aSliyy")`_) is a noun that indicates --by and large-- only an event. And it contains all the original and supplemental letters which comprise _`r trans("al-fiel al-maDI")`_ which is derived from it (excepting standard substitutions to form the regular forms (like [سَلَّمَ تَسْليمًا]{lang=ar}: _`r trans("taslIm")`_ has a _`r trans("tA'")`_ to substitute for one of the _`r trans("lAm")`_), substitutions for weak letters (like [عِدة]{lang=ar} for verb [وَعَدَ]{lang=ar}), and deletions due to frequency of usage). It may also contain additional letters, excepting those which form _`r trans("al-maSdar al-mImiyy")`_ and _`r trans("al-maSdar al-SinAeiyy")`_.
+The _`r trans("maSdar")`_^[[النحو الوافي لعباس حسن 3/207، هامش]{lang=ar}] (i.e., _`r trans("al-maSdar al-SarIH al-'aSliyy")`_) is a noun that indicates --by and large-- only an event. And it contains all the original and supplemental letters which comprise _`r trans("al-fiel al-maDI")`_ which is derived from it (excepting standard substitutions to form the regular forms (like [سَلَّمَ تَسْليمًا]{lang=ar}: _`r trans("taslIm")`_ has a _`r trans("tA'")`_ to substitute for one of the _`r trans("lAm")`_), substitutions for weak letters (like [عِدة]{lang=ar} for verb [وَعَدَ]{lang=ar}), and deletions due to frequency of usage). It may also contain additional letters, excepting those which form _`r trans("al-maSdar al-mImiyy")`_ and _`r trans("al-maSdar al-SinAeiyy")`_.
 
 The definition includes two aspects: meaning and form. The aspect of meaning denotes only an event, no time, place, _`r trans("pAt")`_, proper noun, gender, or number (excepting that which is indicated by _`r trans("al-marra wal-hay'a")`_). The aspect of form defines what letters a _`r trans("maSdar")`_ must comprise.
 
-The _`r trans("ism al-maSdar")`_^[_`r trans("al-naHw alwAfI")`_ 3/209, footnote] (which is limited to _`r trans("al-samAe")`_) is equivalent to the _`r trans("maSdar")`_ from the aspect of meaning but it differs in the aspect of form. It may not have all the letters of its _`r trans("al-fiel al-maDI")`_. Examples are [عَطاء]{lang=ar} for [إعطاء]{lang=ar}. 
+The _`r trans("ism al-maSdar")`_^[[النحو الوافي لعباس حسن 3/209، هامش]{lang=ar}] (which is limited to _`r trans("al-samAe")`_) is equivalent to the _`r trans("maSdar")`_ from the aspect of meaning but it differs in the aspect of form. It may not have all the letters of its _`r trans("al-fiel al-maDI")`_. Examples are [عَطاء]{lang=ar} for [إعطاء]{lang=ar}. 
 
 The difference between the two in meaning is that the _`r trans("maSdar")`_ directly signifies to the verb event, while the _`r trans("ism al-maSdar")`_ directly signifies the _`r trans("maSdar")`_, thus indirectly signifying the verb event.
 
-### Dualization and pluralization of the _`r trans("maSdar")`_^[_`r trans("al-naHw alwAfI")`_ 2/211]
+### Dualization and pluralization of the _`r trans("maSdar")`_^[[النحو الوافي لعباس حسن 2/211]{lang=ar}]
 
 The _`r trans("maSdar")`_ is not permitted to be dualized or pluralized as long as what is intended by it is just the meaning [of the verb], i.e. as long as it is _`r trans("mubham")`_. So we cannot say [صفحت عن المخطئ صفْحين]{lang=ar}, nor [وعدتُك وعودًا]{lang=ar}. Except if the _`r trans("maSdar")`_ ends with _`r trans("tA'")`_ _`r trans("marbUta")`_ in which it may be dualized and pluralized, e.g. ["التلاوتان والتلاوات"]{lang=ar}.
 
@@ -141,7 +141,7 @@ Example for the _`r trans("al-maSdar al-mubayyin li l-eadad")`_: [خطوت في 
 
 ## Conditions of the _`r trans("jame mu'annav sAlim")`_
 
-This plural may be applied with _`r trans("qiyAs")`_ on six nouns^[_`r trans("al-naHw alwAfI")`_ 1/168]:
+This plural may be applied with _`r trans("qiyAs")`_ on six nouns^[[النحو الوافي لعباس حسن 1/168]{lang=ar}]:
 
 1. All nouns that end in a _`r trans("tA' zA'ida")`_. This is absolute, whether it is 
 
@@ -162,17 +162,17 @@ This plural may be applied with _`r trans("qiyAs")`_ on six nouns^[_`r trans("al
 
 4. _`r trans("muSaggar")`_ for masculine nouns which are not _`r trans("eAqil")`_, like [نُهيرات]{lang=ar} the _`r trans("taSgIr")`_ of [نهر]{lang=ar}, and [جُبَيْلات]{lang=ar} the _`r trans("taSgIr")`_ of [جبل]{lang=ar}, and [مُعَيْدنات]{lang=ar} the _`r trans("taSgIr")`_ of [مَعْدن]{lang=ar}.
 
-5. _`r trans("waSf")`_ for non-_`r trans("eAqil")`_ masculine nouns, like [هذه بساتين جميلات]{lang=ar}, (where for the singular we would have [بستان جميل]{lang=ar}) and [زرتها أيامًا معدودات]{lang=ar}.^[_`r trans("al-naHw al-wAfi")`_ does not mention this is only if the _`r trans("waSf")`_ is _`r trans("muctaqq")`_. We will try to explore this in the case studies.]
+5. _`r trans("waSf")`_ for non-_`r trans("eAqil")`_ masculine nouns, like [هذه بساتين جميلات]{lang=ar}, (where for the singular we would have [بستان جميل]{lang=ar}) and [زرتها أيامًا معدودات]{lang=ar}.^[The primary source [النحو الوافي لعباس حسن]{lang=ar} does not mention this is only if the _`r trans("waSf")`_ is _`r trans("muctaqq")`_. We will try to explore this in the case studies.]
 
 6. Every _`r trans("xumAsiyy")`_ for which a _`r trans("jame taksIr")`_ has not been heard from the Arabs, like [سُرادِقات، قَيصومات، حَمّامات، كتّانات، اصطبلات، قِطْميرات]{lang=ar} for [سُرادِق، قَيصوم، حَمّام، كتّان، اصطبل، قِطْمير]{lang=ar}.
 
 Nouns which don't fall under these six categories are restricted to _`r trans("samAe")`_ like [شَمَالات]{lang=ar} for [شَمَال]{lang=ar}, the north wind.
 
-## Feminization of nouns^[_`r trans("al-naHw alwAfI")`_ 4/590]
+## Feminization of nouns^[[النحو الوافي لعباس حسن 4/590]{lang=ar}]
 
 The _`r trans("tA' al-ta'nIv")`_ is introduced by _`r trans("qiyAs")`_ on the _`r trans("muctaqqAt")`_ to distinguish between the masculine and feminine. Examples are [عابِد وعابدة، عرّاف وعَرّافة، فَرِح وفَرِحة، مأمون ومأمونة]{lang=ar}. Even in the _`r trans("muctaqqAt")`_, the _`r trans("tA' al-ta'nIv")`_ is introduced on most nouns but not all. Some of the _`r trans("muctaqqAt")`_ do not admit it at all, according to the opinion of the majoity of the grammarians, while some admit it only sometimes.^[Examples are [حامل، صَبور]{lang=ar}, etc. These nouns, and the circumstances in which they accept or reject the _`r trans("tA' al-ta'nIv")`_, are well categorized and discussed in the reference grammars so I will not get into it here.]
 
-There are other ways of feminizing nouns, like _`r trans("alif al-ta'nIv al-maqSUra")`_^[_`r trans("al-naHw alwAfI")`_ 4/600] and _`r trans("alif al-ta'nIv al-mamdUda")`_^[_`r trans("al-naHw alwAfI")`_ 4/603], both of which are _`r trans("samAean")`_. [These are always extraneous to the original radicals.]^[Also well discussed in the reference grammars].
+There are other ways of feminizing nouns, like _`r trans("alif al-ta'nIv al-maqSUra")`_^[[النحو الوافي لعباس حسن 4/600]{lang=ar}] and _`r trans("alif al-ta'nIv al-mamdUda")`_^[[النحو الوافي لعباس حسن 4/603]{lang=ar}], both of which are _`r trans("samAean")`_. [These are always extraneous to the original radicals.]^[Also well discussed in the reference grammars].
 
 The _`r trans("tA' al-ta'nIv")`_ is not introduced by _`r trans("qiyAs")`_ on _`r trans("'asmA' al-'ajnAs al-jAmida")`_, but it is sometimes found by _`r trans("samAe")`_ [for nouns denoting male and female living beings]. Examples are [رَجُل ورَجُلة، أَسَد وأسدة، فَتًى ،فتاة، غُلام وغلامة، امرؤ وامرأة، إنسان وإنسانة]{lang=ar}.
 
@@ -180,7 +180,7 @@ Most nouns denoting male and female living beings, however, have different words
 
 # Classification of the _`r trans("naet")`_
 
-The _`r trans("naet")`_ is classified^[_`r trans("al-naHw al-wAfI")`_, 3/458] with respect to its meaning into _`r trans("mufrad")`_, _`r trans("jumla")`_ and _`r trans("cibh jumla")`_.
+The _`r trans("naet")`_ is classified^[[النحو الوافي لعباس حسن 3/458]{lang=ar}] with respect to its meaning into _`r trans("mufrad")`_, _`r trans("jumla")`_ and _`r trans("cibh jumla")`_.
 
 The _`r trans("qiyAsiyy")`_ things which are correct as _`r trans("naet mufrad")`_ are:
 
@@ -259,11 +259,11 @@ That is, the Arabs used _`r trans("al-naet bi l-maSdar")`_ frequently and did no
 
 11. The _`r trans("jAmid")`_ that signifies _`r trans("al-Sifa al-mucabbaha")`_ together with its acceptability as _`r trans("al-ta'wIl bi l-muctaqq")`_. Examples [فلانٌ رجلٌ فَراشةُ الحِلمِ، فِرعونُ العذابِ، غِربالُ الإهابِ]{lang=ar}. The words [فَراشةُ، فِرعونُ، غِربالُ]{lang=ar} are analyzed as _`r trans("naet bi l-muctaqq")`_, because they mean [أحمق، قاسٍ، حقير]{lang=ar} respectively.
 
-    These^[_`r trans("al-naHw al-wAfI")`_, 2/284] are _`r trans("qiyAsiyy")`_ but it is better to employ them as such as little as possible. They may have a supplemental geminated _`r trans("yA' li l-nasab")`_ that brings them closer to the _`r trans("muctaqqAt")`_. Example [تناولنا شرابًا عسلًا طعْمُه]{lang=ar} or [تناولنا شرابًا عسليًّا طعْمُه]{lang=ar}.
+    These^[[النحو الوافي لعباس حسن 2/284]{lang=ar}] are _`r trans("qiyAsiyy")`_ but it is better to employ them as such as little as possible. They may have a supplemental geminated _`r trans("yA' li l-nasab")`_ that brings them closer to the _`r trans("muctaqqAt")`_. Example [تناولنا شرابًا عسلًا طعْمُه]{lang=ar} or [تناولنا شرابًا عسليًّا طعْمُه]{lang=ar}.
 
 ## Some additional information with respect to the _`r trans("naet")`_
 
-### Definite _`r trans("maSdar")`_ as _`r trans("naet")`_^[_`r trans("al-naHw al-wAfI")`_, 3/464]
+### Definite _`r trans("maSdar")`_ as _`r trans("naet")`_^[[النحو الوافي لعباس حسن 3/464]{lang=ar}]
 
 Regarding the condition that the _`r trans("maSdar")`_ be indefinite if it occur as _`r trans("naet")`_: It is sometimes found in the corpus as definite: either with _`r trans("al")`_ or as _`r trans("muDAf li maerifa")`_. An example with _`r trans("al")`_ is the word [الحقّ]{lang=ar} in the poet's verse:
 
@@ -273,7 +273,7 @@ Examples of _`r trans("muDAf li maerifa")`_ are [مررت برجل حسبِك م
 
 Another such example is the Quranic aayah [هذا عارضٌ مُمْطِرُنا]{lang=ar}.The word [عارضٌ]{lang=ar} is described by [مُمْطِرُنا]{lang=ar} which is _`r trans("muDAf 'ilA DamIr")`_ therefire it does not become definite.^[_`r trans("al-DamA'ir")`_ are definite but it seems, exceptionally, an _`r trans("'iDAfa")`_ to them does not make the _`r trans("'muDAf")`_ definite by occurring as a _`r trans("'naet")`_ to an indefinite.]
 
-### Examples _`r trans("naet")`_ not falling under the preceding classification.^[_`r trans("al-naHw al-wAfI")`_, 3/465]
+### Examples _`r trans("naet")`_ not falling under the preceding classification.^[[النحو الوافي لعباس حسن 3/465]{lang=ar}]
 
 Some examples of _`r trans("naet")`_ of are found in the corpus which don't fall under the preceding classification. For example:
 
@@ -284,13 +284,13 @@ Some examples of _`r trans("naet")`_ of are found in the corpus which don't fall
 
 It is best that _`r trans("qiyAs")`_ not be done on these examples.
 
-### _`r trans("ism al-'icAra")`_ as _`r trans("naet")`_ or _`r trans("maneUt")`_^[_`r trans("al-naHw al-wAfI")`_, 3/465]
+### _`r trans("ism al-'icAra")`_ as _`r trans("naet")`_ or _`r trans("maneUt")`_^[[النحو الوافي لعباس حسن 3/465]{lang=ar}]
 
 There are some nouns that are correct as _`r trans("naet")`_ when they satisfy the conditions of _`r trans("naet")`_; and other times as _`r trans("maneUt")`_ when they satisfy the conditions of _`r trans("maneUt")`_. Like _`r trans("ism al-'icAra")`_. For example, [احتفيت بالمصلح هذا]{lang=ar} or [بهذا المصلح]{lang=ar}.
 
 Also, _`r trans("ism al-'icAra")`_ is definite so it can only be a _`r trans("naet")`_ for a definite noun. And when it is a _`r trans("maneUt")`_, its _`r trans("naet")`_ must have the _`r trans("al")`_ of definiteness. (And it is better that it be _`r trans("muctaqq")`_. If however, it is _`r trans("jAmid")`_, then it is better that it is considered a _`r trans("badal")`_ or _`r trans("eaTf bayAn")`_ rather than a _`r trans("naet")`_.) It is also required that it match its _`r trans("maneUt")`_ in number and gender, and without separating the _`r trans("naet")`_. It should also not be separated from its _`r trans("maneUt")`_, and that it match it in case.
 
-### _`r trans("al-ealam")`_ and _`r trans("al-'ajnAs")`_ as _`r trans("naet")`_^[_`r trans("al-naHw al-wAfI")`_, 3/466]
+### _`r trans("al-ealam")`_ and _`r trans("al-'ajnAs")`_ as _`r trans("naet")`_^[[النحو الوافي لعباس حسن 3/466]{lang=ar}]
 
 _`r trans("al-ealam")`_ may not be _`r trans("naet")`_, nor _`r trans("al-'ajnAs")`_ which signify their original meaning like [رجل ونمر وفيل]{lang=ar}. However, if they (_`r trans("al-ealam")`_ and _`r trans("al-'ajnAs")`_) leave their original signification, and a well-known description is intended by them, then it is permissible for them to be _`r trans("naet")`_. For example [حاتم]{lang=ar} signifies [الكرم]{lang=ar}, and [الرجل]{lang=ar} signifies [الكامل]{lang=ar}, and  [النمر]{lang=ar} signifies [الغادر]{lang=ar}. In this purpose, they may be interpreted as _`r trans("mactaqq")`_.
 
