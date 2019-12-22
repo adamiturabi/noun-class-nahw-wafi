@@ -400,14 +400,14 @@ As for the word [فضول]{lang=ar}, since it was originally a plural, we theori
 
 The Arabic language has borrowed nouns like:
 
-+ [أستاذ، دكتور]
-{lang=ar} which refer to titles or professions,
- + [باشا، خاتون]
-{lang=ar} which refer to titles but for specific genders,
-+ [كمبيوتر، فِلْم]
-{lang=ar} which refers to an object, and
-+ [طازَج، ساذَج]
-{lang=ar} which refer to qualities.
++ [أستاذ، دكتور]{lang=ar}
+which refer to titles or professions,
++ [باشا، خاتون]{lang=ar}
+which refer to titles but for specific genders,
++ [كمبيوتر، فِلْم]{lang=ar}
+which refers to an object, and
++ [طازَج، ساذَج]{lang=ar}
+which refer to qualities.
 
 The question is how these nouns should be classified, and then if and how they should be feminized, dualized and pluralized.
 
