@@ -401,13 +401,20 @@ As for the word [فضول]{lang=ar}, since it was originally a plural, we theori
 The Arabic language has borrowed nouns like:
 
 + [أستاذ، دكتور]
-{lang=ar} which refer to professions,
+{lang=ar} which refer to titles or professions,
  + [باشا، خاتون]
-{lang=ar} which refer to titles, and
-+ [طازج، ساذج]
+{lang=ar} which refer to titles but for specific genders,
++ [كمبيوتر، فِلْم]
+{lang=ar} which refers to an object, and
++ [طازَج، ساذَج]
 {lang=ar} which refer to qualities.
 
 The question is how these nouns should be classified, and then if and how they should be feminized, dualized and pluralized.
 
-The correct opinion seems to be that nouns are borrowed into the class which is most similar
+The correct opinion seems to be that nouns are borrowed into the class in which are nouns which are most similar to the borrowed noun.^[ عضو أم عضوة؟ ومسائل أخَر لفيصل المنصور]
+
+Thus [باشا، خاتون، كمبيوتر، فلم]{lang=ar} are borrowed into the _`r trans("jawAmid")`_. Their gender is correspondent to the living beings which they refer to, or if they refer to non living beings then the gender will be masculine. They may not feminized with _`r trans("tA' al-ta'nIv")`_. They may have _`r trans("jame taksIr")`_ if the Arabs have formulated them like [خواتين، أفلام]{lang=ar} for [خاتون، فلم]{lang=ar}, or may take _`r trans("jame mu'annav sAlim")`_ if not. Dualization is regular.
+
+And nouns like [أستاذ، دكتور، طازج، ساذج]{lang=ar} are borrowed into the _`r trans("muctaqqAt")`_, where they may be feminized with _`r trans("tA' al-ta'nIv")`_. They may take _`r trans("jame taksIr")`_ like [أساتذة]{lang=ar} or _`r trans("jame sAlim")`_, even _`r trans("jame mupakkar sAlim")`_ when referring to male human beings. Furthermore, the feminine singular may be used when a _`r trans("naet")`_ for non-_`r trans("eAqil")`_ objects, e.g. [أَكَلت الأطعمة الطازَجة]{lang=ar}.
+
 
