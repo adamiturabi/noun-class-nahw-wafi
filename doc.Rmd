@@ -117,7 +117,7 @@ When the word _`r trans("maSdar")`_ is used by itself, by it is intended _`r tra
 
 _`r trans("al-maSdar al-aSliyy")`_ of form I verbs can be of the _`r trans("qiyAsiyy")`_ patterns: _`r trans("fael")`_, _`r trans("fieAla")`_, _`r trans("faeal")`_, _`r trans("fuela")`_, _`r trans("fueUl")`_, _`r trans("fueUla")`_, _`r trans("fieAl")`_, _`r trans("faealAn")`_, _`r trans("fueAl")`_, _`r trans("faeIl")`_, _`r trans("faeAla")`_. There are numerous other _`r trans("samAeiyy")`_ ones like  _`r trans("fuel")`_, _`r trans("faeAl")`_, _`r trans("faeala")`_. 
 
-_`r trans("al-maSdar al-aSliyy")`_ of forms II and higher are found easily in grammar references.
+[_`r trans("al-maSdar al-aSliyy")`_ of forms II and higher are found easily in grammar references.]
 
 ### The _`r trans("maSdar")`_ and the _`r trans("ism al-maSdar")`_.
 
@@ -297,29 +297,45 @@ There are some masculine _`r trans("'asmA' jAmida")`_ like [شَخْص]{lang=ar}
 [هي عضوٌ داىمةٌ للجنة ]{lang=ar}  
 She is a permanent member of the committee.
 
-We also find the following in _`r trans("al-'uSUl fi l-naHw li -bn sarrAj")`_:
+We find this usage discussed in detail in the article [عضو أم عضوة، ومسائل أخر لفيصل المنصور]{lang=ar}.
+
+We also find the following in [الأصول في النحو لابن السّراج]{lang=ar}^[[الأصول في النحو لابن السّراج]{lang=ar} 3/476]:
 
 ::: {lang=ar}
 > من ذلك قول الشاعر:  
 > فكانَ مِجَنّي دونَ مَنْ كنتُ أتقّي = ثَلاثُ شُخوصٍ كاعبانِ ومُعْصِرُ
 >
 > فإنما أنّث الشخوص لقصده النساءَ فحمله على المعنى، ثُمّ أبانَ عن إرادته وكشفَ عن معناه بقوله: كاعبانِ ومُعْصِرُ
-^[_`r trans("al-'uSUl fi l-naHw li -bn sarrAj")`_ 3/476]
 :::
 
 ## Usage of _`r trans("al-maSAdir")`_ as designative nouns and as _`r trans("naet")`_
 
 ### The definite _`r trans("maSdar")`_ as a _`r trans("naet")`_
 
-In the aformentioned conditions _`r trans("maSdar")`_ may only be a _`r trans("naet")`_ if it is indefinite. However, we find, for example the word [ثقة]{lang=ar} meaning "trustworthy", in the books of the sciences of _`r trans("HadIv")`_, that it also appears as a definite _`r trans("naet")`_. This is a technical usage and arguably it not from "_`r trans("kalaam al-earab")`_", nevertheless it is found. Example^[[المسند للإمام أحمد]{lang=ar}, vol. 6, p. 24]:
+In the aformentioned conditions _`r trans("maSdar")`_ may only be a _`r trans("naet")`_ if it is indefinite. However, we find, for example the word [ثقة]{lang=ar} meaning "trustworthy", in the books of the sciences of _`r trans("HadIv")`_, that it also appears as a definite _`r trans("naet")`_. This is a technical usage and arguably it is not from "_`r trans("kalaam al-earab")`_", nevertheless it is found. Example^[[المسند للإمام أحمد]{lang=ar}, 6/24]:
 
 ::: {lang=ar}
  6474 م- قال شُعْبة وذَكر لي رجلٌ ثقةٌ عن سفيان أنه كان يقول: إنما قال: "من كان متَحريَها فلْيَتَحرها في السَّبْع البَواقي"، قال شُعْبة: فلا أدري قال ذا أو ذا؟، شُعْبة شَك.
 [قال عبد الله بن أحمد]: قال أبي: الرجلُ الثقةُ: يحيى بن سعيد القَطَّان.
 :::
 
+### The definite _`r trans("maSdar mImiyy")`_ as a _`r trans("naet")`_
 
-#### Pluralization
+According to the aforementioned conditions, a _`r trans("maSdar mImiyy")`_ may not be _`r trans("naet")`_. However, we are able to find such cases, even in grammar books (albeit used technically, not as examples).
+
+The word [مَعْرِفة]{lang=ar} is used to mean "a definite noun" and it often appears as a _`r trans("tAbie")`_. Example [[شرح المفصل لابن يعيش]{lang=ar}, 1/319]:
+
+::: {lang=ar}
+قال الشارح: وأمّا انتصابه محلاًّ فإذا كان المنادَى مفردًا معرفةً؛
+:::
+
+Note that [معرفة]{lang=ar} here is unlikely to be [مُعَرَّفة]{lang=ar} (which is synonymous but feminine) because of the masculine _`r trans("fAeil")`_ and _`r trans("mafeUl bih maneUt")`_.
+
+#### Pluralization of masdar as na3t
+
+al-nahw al-asaasiyy
+
+only palatable if mastar has taa' zaida
 
 #### Definite
 
