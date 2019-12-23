@@ -71,13 +71,34 @@ trans <- function(strval) {
 
 Can any noun be feminized with _`r trans("tA' al-ta'nIv")`_? Can any noun be used as a _`r trans("naet")`_? Will a _`r trans("naet")`_ always agree in number or gender with the _`r trans("maneUt")`_?
 
-These are some questions that we will attempt to answer. We start with a classification of nouns primarily pieced together from different sections of [النحو الوافي لعباس حسن]{lang=ar}. We follow this with a classification of the _`r trans("naet")`_ and its conditions. In these sections we will only present the information as we find it in the primary sources. Any comments from ourselves are restricted to within square brackets [] or footnotes.
+These are some questions that we will attempt to answer. We start with some quotations from books discussing these issues. We then present a classification of nouns primarily pieced together from different sections of [النحو الوافي لعباس حسن]{lang=ar}. We follow this with a classification of the _`r trans("naet")`_ and its conditions. In these sections we will only present the information as we find it in the primary sources. Any comments from ourselves are restricted to within square brackets [] or footnotes.
 
 Next, we look at case studies. We will use the classifications and conditions to determine the behavior of nouns we are studying.
 
 We use primarily Arabic grammatical terminology by transcribing terms and making little attempt to translate them.
 
 The transcription scheme used in this article is _`r trans("'btvjHxdprzscSDTPegfqklmnhwy aui AUI aw ay")`_.
+
+# Some relevant quotations
+
+::: {lang=ar}
+تفسير الألوسي (روح المعاني): سبإ 16:
+
+> وَبَدَّلْناهُمْ بِجَنَّتَيْهِمْ أي أذهبنا جنتيهم وأتينا بدلها جَنَّتَيْنِ ذَواتَيْ أُكُلٍ أي ثمر خَمْطٍ أي حامض أو مر، .. الخمط .. وهو على الأول صفة لأكل والأمر في ذلك ظاهر، وعلى الأخير عطف بيان على مذهب الكوفيين المجوزين له في النكرات، .. وقيل هو بتقدير أكل ذي خمط، وقيل هو بدل من باب يعجبني القمر فلكه وهو كما ترى. ومنع جعله وصفا من غير ضرب من التأويل لأن الثمر لا يوصف بالشجر لا لأن الوصف بالأسماء الجامدة لا يطرد وإن جاء منه شيء نحو مررت بقاع عرفج فتأمل.
+:::
+::: {lang=ar}
+الأصول في النحو لابن السراج، 2/32:
+
+> قال سيبويه: وإنما وصفت بالأسماء
+^[الكتاب 1/221]
+ لأنها والمبهمة كشيءٍ واحدٍ. والصفات التي فيها الألف واللام هي بمنزلة الأسماء في هذا الموضع وليست بمنزلة الصفاتِ في زيدٍ وعمروٍ، يعني أنك إذا قلت: هذا الطويل، فإنما تريد: الرجل الطويل أو الرمح الطويل أو ما أشبه ذلك، لأن هذا مبهم يصلح أن تشير به إلى كل ما بحضرتك فإذا ألبس على السامع فلم يدر إلى الرجل تشير أم إلى الرمح وجب أن تقول: بهذا الرجلِ أو بهذا الرمحِ فالمبهم يحتاج إلى أن يميز بالأجناسِ عند الإِلباس، فلهذا صار هو وصفتُه بمنزلة شيءٍ واحدٍ، وخالف سائر الموصوفات؛ لأنها لم توصف بالأجناس، وإنما يجوز أن تقول بهذا الطويلِ، إذا لم يكن بحضرتكَ طويلانِ فيقع لبسٌ، فأما إذا كان شيئانِ طويلانِ لم يجز إلا أن تذكر الاسم قبل الصفة وهذا المعنى ذكره النحويون مجملًا وقد ذكرته مفصلًا واعلم أن صفة المعرفة لا تكون إلا معرفةً كما أن صفة النكرةِ لا تكون إلا نكرةً ولا يجوز أن تكون الصفةُ أخص من الموصوفِ ألا ترى أنك إذا قلت: مررتُ بزيدٍ الطويلِ فالطويلُ أعم من زيد وحدُه والأشياء الطوال كثيرة وزيدٌ وحدُه أخص من الطويل وحده فإن قال قائل: فكان ينبغي إذا وصفت الخاص بالعامِ أن تخرجه إلى العموم؟ قيلَ له: هذا كانَ يكونُ واجبًا لو ذكرَ الوصف وحدهُ، فقلت: مررتُ بالطويلِ لكانَ لَعمري أعم من زيدٍ ولكنك إذا قلت: بزيدِ الطويلِ كان مجموع ذلك أحسن من زيدٍ وحده ومن الطويل وحده ولهذا صارت الصفة والموصوف كالشيء الواحد.
+:::
+
+::: {lang=ar}
+التحرير والتنوير لابن عاشور، سورة المدثر: 17:
+
+> وَالصَّعُودُ: الْعَقَبَةُ الشَّدِيدَةُ التَّصَعُّدِ الشَّاقَّةُ عَلَى الْمَاشِي وَهِيَ فَعُولٌ مُبَالَغَةٌ مِنْ صَعِدَ، فَإِنَّ الْعَقَبَةَ صَعْدَةٌ، فَإِذَا كَانَتْ عَقَبَةٌ أَشَدُّ تَصَعُّدًا مِنَ الْعَقَبَاتِ الْمُعْتَادَةِ قِيلَ لَهَا: صَعُودٌ.وَكَأَنَّ أَصْلَ هَذَا الْوَصْفِ أَنَّ الْعَقَبَةَ وُصِفَتْ بِأَنَّهَا صَاعِدَةٌ عَلَى طَرِيقَةِ الْمَجَازِ الْعَقْلِيِّ ثُمَّ جُعِلَ ذَلِكَ الْوَصْفُ اسْمَ جِنْسٍ لَهَا.
+:::
 
 # Classification of nouns
 
