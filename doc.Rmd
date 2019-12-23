@@ -4,9 +4,13 @@ author: "Ahmad Sheikh"
 lang: en
 numbersections: true
 output:
-  pdf_document: default
+  pdf_document:
+    latex_engine: xelatex
+    template: bidi_art_templ.tex
   html_document: default
-data: '2019-12-15'
+date: '2019-12-15'
+twocol: true
+geometry: margin=1in
 ---
 ```{r definition, echo = FALSE}
 trans <- function(strval) {
@@ -82,13 +86,13 @@ Nouns are classified^[[النحو الوافي لعباس حسن 3/181, هامش
    1. _`r trans("ism pAt")`_: Concrete. Examples: [شجرة، قلم، أسد، حجر]{lang=ar}.
    2. _`r trans("ism maenA")`_: Abstract. Examples: [فَهْم، نبوغ، ذكاء، سماحة]{lang=ar}.
 2. _`r trans("muctaqq")`_: That which is taken from another, which is its origin. Sometimes the _`r trans("muctaqq")`_ is referred to as the _`r trans("waSf")`_ or the _`r trans("Sifa")`_ but by this they don't mean [the syntactical category]: the _`r trans("naet")`_. The original _`r trans("muctaqqAt")`_ are seven:
-1. _`r trans("ism al-fAeil")`_:
-1. _`r trans("ism al-mafeUl")`_:
-1. _`r trans("al-Sifa al-mucabbaha")`_:
-1. _`r trans("afeal al-tafDil")`_:
-1. _`r trans("ism al-zamAn")`_:
-1. _`r trans("ism al-makAn")`_:
-1. _`r trans("ism al-'Ala")`_:
+   1. _`r trans("ism al-fAeil")`_:
+   1. _`r trans("ism al-mafeUl")`_:
+   1. _`r trans("al-Sifa al-mucabbaha")`_:
+   1. _`r trans("afeal al-tafDil")`_:
+   1. _`r trans("ism al-zamAn")`_:
+   1. _`r trans("ism al-makAn")`_:
+   1. _`r trans("ism al-'Ala")`_:
 
 There are also some _`r trans("jAmid")`_ nouns which sometimes are admitted to the _`r trans("muctaqq")`_ category. These are known as _`r trans("al-'asmA' al-jAmida al-mulHaqa bil-muctaqq")`_ or _`r trans("al-'asmA' al-muctaqqa ta'wIlan")`_. From these are:
 
