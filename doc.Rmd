@@ -8,7 +8,9 @@ output:
     latex_engine: xelatex
     keep_tex: true
     template: bidi_art_templ.tex
-  html_document: default
+    toc: true
+  html_document:
+    toc: true
 date: '2019-12-15'
 twocol: true
 geometry: margin=1in
@@ -131,7 +133,7 @@ These are only sometimes admitted to the _`r trans("muctaqq")`_ category. They a
 
 The _`r trans("maSdar")`_ can be either _`r trans("al-maSdar al-SarIHa")`_ or _`r trans("al-maSdar al-mu'awwal")`_. 
 
-_`r trans("al-maSdar al-SarIH")`_ is considered the origin of the ten _`r trans("muctaqqAt")`_ (the seven mentioned above, and _`r trans("al-fiel al-maDI")`_, _`r trans("al-fiel al-muDArie")`_, and _`r trans("al-fiel al-'amr")`_. As such, it is from _`r trans("al-'asmA' al-jAmida")`_.
+_`r trans("al-maSdar al-SarIH")`_ is considered the origin of the ten _`r trans("muctaqqAt")`_ (the seven mentioned above, and _`r trans("al-fiel al-maDI")`_, _`r trans("al-fiel al-muDArie")`_, and _`r trans("al-fiel al-'amr")`_). As such, it is from _`r trans("al-'asmA' al-jAmida")`_.
 
 _`r trans("al-maSdar al-SarIH")`_ is of three kinds^[[النحو الوافي لعباس حسن 3/181]{lang=ar}]:
 
@@ -207,6 +209,8 @@ The _`r trans("tA' al-ta'nIv")`_ is not introduced by _`r trans("qiyAs")`_ on _`
 Most nouns denoting male and female living beings, however, have different words for them. Examples are [ثَور وبقرة، حِمار وأتان، تَيس وعنز]{lang=ar}. Sometimes the same word is used for living beings of both gender [although it may be grammatically of one gender]. Examples are [حمامة وفرس]{lang=ar}.^[[عضو أم عضوة؟ ومسائل أخَر لفيصل المنصور]{lang=ar}]
 
 # Classification of the _`r trans("naet")`_
+
+## Basic categories
 
 The _`r trans("naet")`_ is classified^[[النحو الوافي لعباس حسن 3/458]{lang=ar}] with respect to its meaning into _`r trans("mufrad")`_, _`r trans("jumla")`_ and _`r trans("cibh jumla")`_.
 
@@ -381,7 +385,7 @@ Pluralization of the _`r trans("maSdar")`_ as _`r trans("naet")`_, too is prescr
 
 In our opinion, the usage of the singular is preferred. The plural is only palatable if the word ends with _`r trans("tA' zA'ida")`_ pluralized with _`r trans("jame mu'annav sAlim")`_. Or if a broken plural exists, as [عُدول]{lang=ar} for [عَدْل]{lang=ar} in the verse quoted above.
 
-## Feminization and pluralization of descriptive _`r trans("jAmid")`_ nouns when used as designative nouns# and _`r trans("naet")`_
+## Feminization and pluralization of descriptive _`r trans("jAmid")`_ nouns when used as designative nouns
 
 These _`r trans("jawAmid")`_ may be _`r trans("maSadir")`_ like [ثقة]{lang=ar} which we have already considered as a _`r trans("naet")`_. When it is used as a designative noun, it can be dualized and pluralized, but its form with regards to its _`r trans("tA' zA'ida")`_ is not changed. Examples:
 
