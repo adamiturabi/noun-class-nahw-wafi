@@ -5,4 +5,4 @@
 !bidi_art_templ.tex
 *.aux
 *.out
-
+.Rhistory

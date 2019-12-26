@@ -307,7 +307,7 @@ Another such example is the Quranic aayah [هذا عارضٌ مُمْطِرُن�
 
 Some examples of _`r trans("naet")`_ of are found in the corpus which don't fall under the preceding classification. For example:
 
-1. A _`r trans("maSdar")`_ of a non-form I verb, e.g. [الحازم لا يعلج الأمر عِلاجًا ارتجالا]{lang=ar dir=rtl}.
+1. A _`r trans("maSdar")`_ of a non-form I verb, e.g. [الحازم لا يعالج الأمر عِلاجًا ارتجالا]{lang=ar dir=rtl}.
 2. A _`r trans("naet")`_ signifying quantity, e.g. [اشتريت من الفاكهة الخمسَ الأقَقَ]{lang=ar dir=rtl}.
 2. A _`r trans("naet")`_ signifying material of a manufactured object, e.g. [لبست الثوبَ الحريرَ]{lang=ar dir=rtl}.
 4. A _`r trans("naet")`_ signifying _`r trans("al-'aeyAn")`_ of whom _`r trans("ta'wIl")`_ is possible, e.g. [حصدتَ الحقل القمح]{lang=ar dir=rtl} meaning [المزروع قمحًا]{lang=ar dir=rtl}.
@@ -322,7 +322,7 @@ Also, _`r trans("ism al-'icAra")`_ is definite so it can only be a _`r trans("na
 
 ### _`r trans("al-ealam")`_ and _`r trans("al-'ajnAs")`_ as _`r trans("naet")`_^[[النحو الوافي لعباس حسن 3/466]{lang=ar dir=rtl}]
 
-_`r trans("al-ealam")`_ may not be _`r trans("naet")`_, nor _`r trans("al-'ajnAs")`_ which signify their original meaning like [رجل ونمر وفيل]{lang=ar dir=rtl}. However, if they [_`r trans("al-ealam")`_ and _`r trans("al-'ajnAs")`_] leave their original signification, and a well-known description is intended by them, then it is permissible for them to be _`r trans("naet")`_. For example [حاتم]{lang=ar dir=rtl} signifies [الكرم]{lang=ar dir=rtl}, and [الرجل]{lang=ar dir=rtl} signifies [الكامل]{lang=ar dir=rtl}, and  [النمر]{lang=ar dir=rtl} signifies [الغادر]{lang=ar dir=rtl}. In this purpose, they may be interpreted as _`r trans("mactaqq")`_.
+_`r trans("al-ealam")`_ may not be _`r trans("naet")`_, nor _`r trans("al-'ajnAs")`_ which signify their original meaning like [رجل ونمر وفيل]{lang=ar dir=rtl}. However, if they [_`r trans("al-ealam")`_ and _`r trans("al-'ajnAs")`_] leave their original signification, and a well-known description is intended by them, then it is permissible for them to be _`r trans("naet")`_. For example [حاتم]{lang=ar dir=rtl} signifies [الكرم]{lang=ar dir=rtl}, and [الرجل]{lang=ar dir=rtl} signifies [الكامل]{lang=ar dir=rtl}, and  [النمر]{lang=ar dir=rtl} signifies [الغادر]{lang=ar dir=rtl}. In this purpose, they may be interpreted as _`r trans("muctaqq")`_.
 
 # Case studies
 
