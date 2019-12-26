@@ -77,7 +77,7 @@ trans <- function(strval) {
 
 Can any noun be feminized with _`r trans("tA' al-ta'nIv")`_? Can any noun be used as a _`r trans("naet")`_? Will a _`r trans("naet")`_ always agree in number or gender with the _`r trans("maneUt")`_?
 
-These are some questions that we will attempt to answer. We start with some quotations from books discussing these issues. We then present a classification of nouns primarily pieced together from different sections of [النحو الوافي لعباس حسن]{lang=ar dir=rtl}. We follow this with a classification of the _`r trans("naet")`_ and its conditions. In these sections we will only present the information as we find it in the primary sources. Any comments from ourselves are restricted to within square brackets [] or footnotes.
+These are some questions that we will attempt to answer. We start with some quotations from books that touch upon these issues. We then present a classification of nouns primarily pieced together from different sections of [النحو الوافي لعباس حسن]{lang=ar dir=rtl}. We follow this with a classification of the _`r trans("naet")`_ and its conditions. In these sections we will only present the information as we find it in the primary sources. Any comments from ourselves are restricted to within square brackets [] or footnotes.
 
 Next, we look at case studies. We will use the classifications and conditions to determine the behavior of nouns we are studying.
 
