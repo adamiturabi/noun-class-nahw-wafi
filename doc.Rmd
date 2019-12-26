@@ -1,17 +1,17 @@
 ---
 title: "Classification of Arabic nouns and their use as qualitative nouns"
-author: "Ahmad Sheikh"
+author: "arabic [dot] deconstructor [at] gmail [dot] com"
 lang: en
 numbersections: true
 output:
-  html_document:
-    toc: true
-    css: mystyle.css
   pdf_document:
     latex_engine: xelatex
     keep_tex: true
     template: bidi_art_templ.tex
     toc: true
+  html_document:
+    toc: true
+    css: mystyle.css
 date: '2019-12-15'
 twocol: true
 geometry: margin=1in
