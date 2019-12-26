@@ -4,14 +4,14 @@ author: "Ahmad Sheikh"
 lang: en
 numbersections: true
 output:
+  html_document:
+    toc: true
+    css: mystyle.css
   pdf_document:
     latex_engine: xelatex
     keep_tex: true
     template: bidi_art_templ.tex
     toc: true
-  html_document:
-    toc: true
-    css: mystyle.css
 date: '2019-12-15'
 twocol: true
 geometry: margin=1in
@@ -439,7 +439,7 @@ The question is how these nouns should be classified, and then if and how they s
 
 The correct opinion seems to be that nouns are borrowed into the class in which are nouns most similar to the borrowed noun.^[[عضو أم عضوة؟ ومسائل أخَر لفيصل المنصور]{lang=ar dir=rtl}]
 
-Thus [باشا، خاتون، كمبيوتر، فلم]{lang=ar dir=rtl} are borrowed into the _`r trans("jawAmid")`_. Their gender corresponds to the living beings which they refer to, or if they refer to non living beings then the gender will be masculine. They may not feminized with _`r trans("tA' al-ta'nIv")`_. They may have _`r trans("jame taksIr")`_ if the Arabs have formulated them like [خواتين، أفلام]{lang=ar dir=rtl} for [خاتون، فلم]{lang=ar dir=rtl}, or may take _`r trans("jame mu'annav sAlim")`_ if not, e.g. [باشاوات]{lang=ar dir=rtl}. Dualization is regular.
+Thus [باشا، خاتون، كمبيوتر، فلم]{lang=ar dir=rtl} are borrowed into the _`r trans("jawAmid")`_. For the words that refer to living beings, the grammatical gender corresponds to the gender of the living beings. The gender of words referring to non-living items is unclear to us and we defer on discussing it. Either way, these words may not feminized with _`r trans("tA' al-ta'nIv")`_. They may have _`r trans("jame taksIr")`_ if the Arabs have formulated them like [خواتين، أفلام]{lang=ar dir=rtl} for [خاتون، فلم]{lang=ar dir=rtl}, or may take _`r trans("jame mu'annav sAlim")`_ if not, e.g. [باشاوات]{lang=ar dir=rtl}. Dualization is regular.
 
 And nouns like [أستاذ، دكتور، طازج، ساذج]{lang=ar dir=rtl} are borrowed into the _`r trans("muctaqqAt")`_, where they may be feminized with _`r trans("tA' al-ta'nIv")`_. They may take _`r trans("jame taksIr")`_ like [أساتذة]{lang=ar dir=rtl} or _`r trans("jame sAlim")`_, even _`r trans("jame mupakkar sAlim")`_ when referring to male human beings. Furthermore, the feminine singular may be used when a _`r trans("naet")`_ for non-_`r trans("eAqil")`_ objects, e.g. [أَكَلت الأطعمة الطازَجة]{lang=ar dir=rtl}.
 
