@@ -271,7 +271,7 @@ meaning "the possessor of so-and-so". "It is a _`r trans("naet")`_ to indefinite
    6.  retain its original form with respect to its singularity, masculinity (excepting _`r trans("maSAdir")`_ which have an original _`r trans("tA' al-ta'nIv")`_ like [رحمة، شفقة]{lang=ar dir=rtl}).
       If, however, the use of the _`r trans("maSdar")`_ as a _`r trans("naet")`_ becomes common then is permisible to dualize or pluralize it _`r trans("qiyAsiyyan")`_. An example is the poet's verse:  
       [وبايعتُ ليلى في الخلاءِ ولم يكن *** شهودٌ على ليلى، عدولٌ مَقانعُ]{lang=ar dir=rtl}
-      ^[The word [عُدول]{lang=ar dir=rtl} here is regularly the plural of the _`r trans("maSdar")`_ [عَدْل]{lang=ar dir=rtl} not of [عَادِل]{lang=ar dir=rtl} whose plural would regularly be [عَدَلة]{lang=ar dir=rtl}. Although there exist exceptions like [شاهق شُهوق ،راقد رقود، ساجد سجود]{lang=ar dir=rtl}. This clarification and other helpful information was provided by forum member [زهرة متفائلة]{lang=ar dir=rtl} at the alfaseeh.com forum.]
+      ^[The word [عُدول]{lang=ar dir=rtl} here is regularly the plural of the _`r trans("maSdar")`_ [عَدْل]{lang=ar dir=rtl} not of [عَادِل]{lang=ar dir=rtl} whose plural would regularly be [عَدَلة]{lang=ar dir=rtl}. Although there exist exceptions like [شاهق شُهوق ،راقد رقود، ساجد سجود]{lang=ar dir=rtl}. This clarification and other helpful information was provided by a kind forum member at the alfaseeh.com forum.]
 
    Example: [رأيت في المحكمة قاضيًا عدْلا وشهودا صدْقًا ونظامًا رِضًا وجموعًا زَوْرًا بين النتقاضين]{lang=ar dir=rtl} meaning [قاضيًا عادلا وشهودا صادقين ونظامًا مرضيًّا وجموعًا زائرة بين النتقاضين]{lang=ar dir=rtl}
 
