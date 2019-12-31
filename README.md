@@ -17,13 +17,16 @@ These steps are for the Linux environment but you should be able to modify them 
 
 3. Install Xelatex for PDF output.
 4. Install fonts:
+
    a. Brill: https://brill.com/page/BrillFont/brill-typeface
+
    b. KFGQPC Uthman Taha: https://fonts.qurancomplex.gov.sa/wp02/عثمان-طه-نسخ
-4. Run script `buidscript` which builds the HTML and PDF outputs.
+
+5. Run script `buidscript` which builds the HTML and PDF outputs.
 
    ```
    ./buildscript
    ```
 
-5. Open doc.html in browser or doc.pdf in PDF reader.
+6. Open doc.html in browser or doc.pdf in PDF reader.
 
