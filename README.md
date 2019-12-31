@@ -2,7 +2,9 @@
 
 ## Summary
 
-I have jotted down some notes to help students of Arabic with Arabic nouns and their behavior as na3t.
+I have jotted down some notes to help myself and other students of Arabic with Arabic nouns and their behavior as na3t.
+
+You may report any errors by opening an issue.
 
 ## Building the document
 
