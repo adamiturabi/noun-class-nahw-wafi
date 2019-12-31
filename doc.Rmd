@@ -1,6 +1,5 @@
 ---
 title: "Classification of Arabic nouns and their use as qualitative nouns"
-author: "arabic [dot] deconstructor [at] gmail [dot] com"
 lang: en
 numbersections: true
 output:
@@ -15,7 +14,7 @@ output:
     keep_tex: true
     template: bidi_art_templ.tex
     toc: true
-date: '2019-12-15'
+date: '2019-12-30'
 twocol: true
 geometry: margin=1in
 ---
@@ -448,4 +447,11 @@ Thus [باشا، خاتون، كمبيوتر، فلم]{lang=ar dir=rtl} are borr
 
 And nouns like [أستاذ، دكتور، طازج، ساذج]{lang=ar dir=rtl} are borrowed into the _`r trans("muctaqqAt")`_, where they may be feminized with _`r trans("tA' al-ta'nIv")`_. They may take _`r trans("jame taksIr")`_ like [أساتذة]{lang=ar dir=rtl} or _`r trans("jame sAlim")`_, even _`r trans("jame mupakkar sAlim")`_ when referring to male human beings. Furthermore, the feminine singular may be used when a _`r trans("naet")`_ for non-_`r trans("eAqil")`_ objects, e.g. [أَكَلت الأطعمة الطازَجة]{lang=ar dir=rtl}.
 
+## _`r trans("muctaqqAt")`_ that are lexicalized as designative nouns
+
+There are some nouns which are originally _`r trans("muctaqqAt")`_ but that have become designative nouns, for example [نصيحة]{lang=ar dir=rtl} meaning "advice" and [مصيبة]{lang=ar dir=rtl} meaning "calamity". They are unlikely to be used as _`r trans("naet")`_; the original _`r trans("muctaqq")`_ being better suited if needed. But they may be used as a _`r trans("xabar")`_ in which case the _`r trans("tA' zA'idao")`_, if any, is not modified no matter whether the _`r trans("mubtada'")`_ is masculine or feminine. For example,
+
+::: {lang=ar dir=rtl}
+هذا الكلام نصيحةٌ.
+:::
 
