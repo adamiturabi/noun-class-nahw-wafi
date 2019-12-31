@@ -1,5 +1,6 @@
 ---
 title: "Classification of Arabic nouns and their use as qualitative nouns"
+author: "arabic [dot] deconstructor [at] gmail [dot] com"
 lang: en
 numbersections: true
 output:
