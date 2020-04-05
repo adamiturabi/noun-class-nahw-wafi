@@ -34,6 +34,10 @@ output:
         all: ['facebook', 'twitter', 'linkedin', 'weibo', 'instapaper']
       info: yes
 ---
+[بسم الله الرحمن الرحيم]{.ar}
+
+[الحمد لله والصلاة والسلام على نبينا محمد. أما بعد:]{.ar}
+
 # Introduction
 
 Can any noun be feminized with [tAE al-taEnIv]{.trn}? Can any noun be used as a [naet]{.trn}? Will a [naet]{.trn} always agree in number or gender with the [maneUt]{.trn}?
