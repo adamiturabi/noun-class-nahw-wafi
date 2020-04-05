@@ -1,6 +1,12 @@
-body, h1, h2, h3, h4, h5, h6 {
-  font-family: "Brill","palatino","georgia",serif;
+@font-face {
+    font-family: AmiriWeb;
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/Amiri-Regular.woff2') format('woff2'),
+         url('./fonts/Amiri-Regular.woff') format('woff');
 }
 :lang(ar) {
-  font-family: "KFGQPC Uthman Taha Naskh","noto naskh arabic","geeza pro",serif;
+  font-family: AmiriWeb, serif;
+  font-size: 1em;
+  line-height: 150%;
 }
