@@ -46,9 +46,9 @@ These are some questions that we will attempt to answer. We start with some quot
 
 Next, we look at case studies. We will use the classifications and conditions to determine the behavior of nouns we are studying.
 
-We use primarily Arabic grammatical terminology by transcribing terms and making little attempt to translate them.
+We use primarily Arabic grammatical terminology by transcribing terms and make little attempt to translate them.
 
-The romanization scheme used in this article is [Ebtv jHx dprz scSD TP eg fq klmn hwy aui AUI aw ay]{.trn}. The [tAE marbUtao]{.trn} is transcribed as [o]{.trn} and [O]{.trn}, the latter when in construct state. Transcribing of technical terms is generally in pausal form.
+The romanization scheme used in this article is [Ebtv jHx dp rz sc SD TP eg fq klmn hwy aui AUI aw ay]{.trn}. The [tAE marbUtao]{.trn} is transcribed as [o]{.trn} and [O]{.trn}, the latter when in construct state. Transcribing of technical terms is generally in pausal form.
 
 # Some relevant quotations
 
@@ -243,7 +243,7 @@ which is the [naet]{.trn}. That is, originally it is [قاضيًا  صاحبَ �
 
    The grammarians differed with respect to the [maSdar]{.trn} occurring as a [naet]{.trn}, whether it is [qiyAsiyy]{.trn} or restricted to [al-samAe]{.trn}. Most of them restricted it to [al-samAe]{.trn}, although they acknowledged that it does appear frequently in the corpus, and that it is [Eablag]{.trn} than the [muctaqq]{.trn}. This acknowledgement that it appears frequently contradicts their restricting it to [al-samAe]{.trn}. The correct opinion should then be to take it [qiyAsiyyan]{.trn} with its conditions.
 
-   Note: the scholars of [balAgao]{.trn} have proclaimed that [al-naet bi l-maSdar]{.trn} is from the category of [al-mubAlagao]{.trn}, or from [majAz al-Hapf]{.trn}, or [al-majAz al-mursal]{.trn}, and that the [vulAviyyao]{.trn} is [qiyAsiyy]{.trn}. How can the scholars contradict each other, where the the scholars of [balAgao]{.trn} say that [al-naet bi l-maSdar]{.trn} is [Eablag]{.trn} than the [muctaqq]{.trn} at the same time that some of the grammarians say that [al-naet bi l-maSdar]{.trn}, despite its frequency in the corpus, is not [qiyAsiyy]{.trn}? How can they say this when the Quran, the most eloquent of speech, contains it multiple times? This contradiction can only be resolved by saying that [al-naet bi l-maSdar]{.trn} is  [qiyAsiyy]{.trn} with the aforementioned conditions. [ibn jiniyy]{.trn} in his book [al-muHtasab]{.trn} (vol. ii, p. 46) says, "The usage  of [al-maSdar]{.trn} as a [naet]{.trn} directly, without [taqdIr bicayE maHpUf]{.trn}, is [Eablag]{.trn} and [EalTaf]{.trn} than the [naet]{.trn} which is not a [maSdar]{.trn}." He supports this claim with multiple evidences, and presents many quotations.
+   Note: the scholars of [al-balAgao]{.trn} have proclaimed that [al-naet bi l-maSdar]{.trn} is from the category of [al-mubAlagao]{.trn}, or from [majAz al-Hapf]{.trn}, or [al-majAz al-mursal]{.trn}, and that the [vulAviyyao]{.trn} is [qiyAsiyy]{.trn}. How can the scholars contradict each other, where the the scholars of [al-balAgao]{.trn} say that [al-naet bi l-maSdar]{.trn} is [Eablag]{.trn} than the [muctaqq]{.trn} at the same time that some of the grammarians say that [al-naet bi l-maSdar]{.trn}, despite its frequency in the corpus, is not [qiyAsiyy]{.trn}? How can they say this when the Quran, the most eloquent of speech, contains it multiple times? This contradiction can only be resolved by saying that [al-naet bi l-maSdar]{.trn} is  [qiyAsiyy]{.trn} with the aforementioned conditions. [ibn jiniyy]{.trn} in his book [al-muHtasab]{.trn} (vol. ii, p. 46) says, "The usage  of [al-maSdar]{.trn} as a [naet]{.trn} directly, without [taqdIr bicayE maHpUf]{.trn}, is [Eablag]{.trn} and [EalTaf]{.trn} than the [naet]{.trn} which is not a [maSdar]{.trn}." He supports this claim with multiple evidences, and presents many quotations.
 
    With regards to [al-naet bi l-maSdar]{.trn}, [ibn mAlik]{.trn} says: [ونَعتُوا بمَصْدَرِ كَثِيرًا *** فالْتَزَمُوا الإِفْرَاد والتَّذْكِيرَا]{.ar}.
 
@@ -269,7 +269,7 @@ Regarding the condition that the [maSdar]{.trn} be indefinite if it occur as [na
 
 Examples of [muDAf li maerifao]{.trn} are [مررت برجل حسبِك من رجل أو شَرْعِك أو كافيك أو همِّك أو نحوِك]{.ar}. These ought to be definite by [EiDAfao]{.trn} but they don't become definite because they are in the meaning of a [muctaqq]{.trn} and that they are a [naet]{.trn} to an indefinite.^[The definiteness of [الحقّ]{.ar} seems to be unexplained. And we shall find another, albeit later [in history], example of this in the next sections.]
 
-Another such example is the Quranic aayah [هذا عارضٌ مُمْطِرُنا]{.ar}.The word [عارضٌ]{.ar} is described by [مُمْطِرُنا]{.ar} which is [muDAf EilA DamIr]{.trn} therefire it does not become definite.^[[al-DamAEir]{.trn} are definite but it seems, exceptionally, an [EiDAfao]{.trn} to them does not make the [EmuDAf]{.trn} definite, when occurring as a [naet]{.trn} to an indefinite.]
+Another such example is the Quranic aayah [هذا عارضٌ مُمْطِرُنا]{.ar}.The word [عارضٌ]{.ar} is described by [مُمْطِرُنا]{.ar} which is [muDAf EilA DamIr]{.trn} therefore it does not become definite.^[[al-DamAEir]{.trn} are definite but it seems, exceptionally, an [EiDAfao]{.trn} to them does not make the [EmuDAf]{.trn} definite, when occurring as a [naet]{.trn} to an indefinite.]
 
 ### Examples of [naet]{.trn} not falling under the preceding classification.^[[النحو الوافي لعباس حسن 3/465]{.ar}]
 
