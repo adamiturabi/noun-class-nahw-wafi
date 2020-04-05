@@ -6,7 +6,7 @@ output:
     split_by: "none"
     self_contained: yes
     pandoc_args: ["--lua-filter=trn.lua"]
-    keep_md: yes
+    keep_md: no
     css: mystyle.css
     config:
       toc:
@@ -21,7 +21,7 @@ output:
       search: yes
       fontsettings:
         theme: white
-        family: serif
+        family: sans
         size: 2
       sharing:
         facebook: yes
