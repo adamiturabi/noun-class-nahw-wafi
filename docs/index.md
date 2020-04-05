@@ -21,7 +21,7 @@ output:
       search: yes
       fontsettings:
         theme: white
-        family: sans
+        family: serif
         size: 2
       sharing:
         facebook: yes
@@ -411,11 +411,18 @@ And nouns like [أستاذ، دكتور، طازج، ساذج]{.ar} are borrowed
 
 There are some nouns which are originally [muctaqqAt]{.trn} but that have become designative nouns, for example:
 
-+ [نَصِيحَة]{.ar}
++ [نَصِيحَة]{.ar} "an advice"
++ [مُعَلِّم]{.ar} "a male teacher"
++ [مُعَلِّمة]{.ar} "a female teacher"
++ [كَبِيرَة]{.ar} "a major sin"
++ [حَسَنَة]{.ar} "a good deed"
++ [جَرِيح]{.ar} "a wounded person"
++ [رَهينة]{.ar} "a pledge"
 
-for example [نصيحة]{.ar} meaning "advice" and [مصيبة]{.ar} meaning "calamity". They are unlikely to be used as [naet]{.trn}; the original [muctaqq]{.trn} being better suited if needed. But they may be used as a [xabar]{.trn} in which case the [tAE zAEidao]{.trn}, if any, is not modified no matter whether the [mubtadaE]{.trn} is masculine or feminine. For example,
+When used with this designative meaning, then their [tAE zAEidao]{.trn}, if any, is not modified. Also, the plural is used for non-rational plural subjects/[maneUt]{.trn}. For example:
 
-::: {lang=ar dir=rtl}
-هذا الكلام نصيحةٌ.
-:::
++ [امرأة جريح]{.ar}
++ [هذه الأفعال حسنات وتلك الأفعال كَبيرَات]{.ar} "These acts are good deeds and those acts are major sins." But [هذه الأفعال حسنة]{.ar} "These acts are good."
++ [كلّ غلام رهينة بعقيقته]{.ar}. (Note that [رَهين]{.ar} may be used as an epithet (with descriptive/participal meaning) and feminized with [tAE zAEidao]{.trn} if needed.)
++ [كَلامٌ نصيحةٌ. هذا الكلامُ نصيحةٌ]{.ar}
 
