@@ -34,6 +34,10 @@ output:
         all: ['facebook', 'twitter', 'linkedin', 'weibo', 'instapaper']
       info: yes
 ---
+[بسم الله الرحمن الرحيم]{.ar}
+
+[الحمد لله والصلاة والسلام على نبينا محمد. أما بعد:]{.ar}
+
 # Introduction
 
 Can any noun be feminized with [tAE al-taEnIv]{.trn}? Can any noun be used as a [naet]{.trn}? Will a [naet]{.trn} always agree in number or gender with the [maneUt]{.trn}?
@@ -354,11 +358,9 @@ In our opinion, the usage of the singular is preferred. The plural is only palat
 
 These [jawAmid]{.trn} may be [maSadir]{.trn} like [ثقة]{.ar} which we have already considered as a [naet]{.trn}. When it is used as a designative noun, it can be dualized and pluralized, but its form with regards to its [tAE zAEidao]{.trn} is not changed. Examples:
 
-::: {lang=ar dir=rtl}
-رواه الثقةُ  
-رواه الثقتان  
-رواه الثقاتُ
-:::
++ [رواه الثقةُ]{.ar}
++ [رواه الثقتان]{.ar}
++ [رواه الثقاتُ]{.ar}
 
 There are other [jAmid]{.trn} nouns for which we know no broken plurals nor do they generally satisfy the criteria for [jame muEannav sAlim]{.trn}, but which are nevertheless descriptive. Examples are
 
@@ -409,7 +411,7 @@ And nouns like [أستاذ، دكتور، طازج، ساذج]{.ar} are borrowed
 
 ## [muctaqqAt]{.trn} that are lexicalized as designative nouns
 
-There are some nouns which are originally [muctaqqAt]{.trn} but that have become designative nouns, for example:
+There are nouns which are originally [muctaqqAt]{.trn} but that have become designative nouns. For example:
 
 + [نَصِيحَة]{.ar} "an advice"
 + [مُعَلِّم]{.ar} "a male teacher"
@@ -422,7 +424,7 @@ There are some nouns which are originally [muctaqqAt]{.trn} but that have become
 When used with this designative meaning, then their [tAE zAEidao]{.trn}, if any, is not modified. Also, the plural is used for non-rational plural subjects/[maneUt]{.trn}. For example:
 
 + [امرأة جريح]{.ar}
-+ [هذه الأفعال حسنات وتلك الأفعال كَبيرَات]{.ar} "These acts are good deeds and those acts are major sins." But [هذه الأفعال حسنة]{.ar} "These acts are good."
++ [هذه الأفعال حسنات وتلك الأفعال كبائر]{.ar} "These acts are good deeds and those acts are major sins." But [هذه الأفعال حسنة وكبيرة]{.ar} "These acts are good and big."
 + [كلّ غلام رهينة بعقيقته]{.ar}. (Note that [رَهين]{.ar} may be used as an epithet (with descriptive/participal meaning) and feminized with [tAE zAEidao]{.trn} if needed.)
 + [كَلامٌ نصيحةٌ. هذا الكلامُ نصيحةٌ]{.ar}
 
