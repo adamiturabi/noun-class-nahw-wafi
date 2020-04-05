@@ -424,7 +424,7 @@ There are nouns which are originally [muctaqqAt]{.trn} but that have become desi
 When used with this designative meaning, then their [tAE zAEidao]{.trn}, if any, is not modified. Also, the plural is used for non-rational plural subjects/[maneUt]{.trn}. For example:
 
 + [امرأة جريح]{.ar}
-+ [هذه الأفعال حسنات وتلك الأفعال كبائر]{.ar} "These acts are good deeds and those acts are major sins." But [هذه الأفعال حسنة وكبيرة]{.ar} "These acts are good and big."
-+ [كلّ غلام رهينة بعقيقته]{.ar}. (Note that [رَهين]{.ar} may be used as an epithet (with descriptive/participal meaning) and feminized with [tAE zAEidao]{.trn} if needed.)
++ [هذه الأفعال حسنات وتلك الأفعال كبائر]{.ar} "These acts are good deeds and those acts are major sins." But [هذه الأفعال حسنة وتاك الأفعال كبيرة]{.ar} "These acts are good and and those acts are big."
++ [كلّ غلام رهينة بعقيقته]{.ar}^[https://sunnah.com/abudawud/16/51]. (Note that [رَهين]{.ar} may be used as an epithet (with descriptive/participal meaning) and feminized with [tAE zAEidao]{.trn} if needed.)
 + [كَلامٌ نصيحةٌ. هذا الكلامُ نصيحةٌ]{.ar}
 
