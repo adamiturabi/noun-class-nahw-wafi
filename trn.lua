@@ -1,30 +1,100 @@
+function MyTransliterate(text2)
+  mylcase = {}
+  mylcase["E"] = "ʾ"
+  mylcase["A"] = "ā"
+  mylcase["v"] = "ṯ"
+  mylcase["j"] = "ǧ"
+  mylcase["H"] = "ḥ"
+  mylcase["x"] = "x"
+  mylcase["p"] = "ḏ"
+  mylcase["c"] = "š"
+  mylcase["S"] = "ṣ"
+  mylcase["D"] = "ḍ"
+  mylcase["T"] = "ṭ"
+  mylcase["P"] = "ḏ̣"
+  mylcase["e"] = "ɛ"
+  mylcase["g"] = "ġ"
+  mylcase["o"] = "ḧ"
+  mylcase["O"] = "ẗ"
+  mylcase["I"] = "ī"
+  mylcase["U"] = "ū"
+  myucase = {}
+  myucase["E"] = "ʾ"
+  myucase["A"] = "Ā"
+  myucase["v"] = "Ṯ"
+  myucase["j"] = "Ǧ"
+  myucase["H"] = "Ḥ"
+  myucase["x"] = "X"
+  myucase["p"] = "Ḏ"
+  myucase["c"] = "Š"
+  myucase["S"] = "Ṣ"
+  myucase["D"] = "Ḍ"
+  myucase["T"] = "Ṭ"
+  myucase["P"] = "Ḏ̣"
+  myucase["e"] = "Ɛ"
+  myucase["g"] = "Ġ"
+  myucase["I"] = "Ī"
+  myucase["U"] = "Ū"
+  myucase["b"] = "B"
+  myucase["t"] = "T"
+  myucase["d"] = "D"
+  myucase["r"] = "R"
+  myucase["z"] = "Z"
+  myucase["s"] = "S"
+  myucase["f"] = "F"
+  myucase["q"] = "Q"
+  myucase["k"] = "K"
+  myucase["l"] = "L"
+  myucase["m"] = "M"
+  myucase["n"] = "N"
+  myucase["h"] = "H"
+  myucase["w"] = "W"
+  myucase["y"] = "Y"
+
+  text3 = ''
+  local caps = false
+  for index3 = 1, #text2 do
+    local charv = text2:sub(index3, index3)
+    if charv == "!" then
+      caps = true
+    else
+      if caps then
+        if myucase[charv] == nil then
+          text3 = text3 .. charv
+        else
+          text3 = text3 .. myucase[charv]
+        end
+        caps = false
+      else
+        if mylcase[charv] == nil then
+          text3 = text3 .. charv
+        else
+          text3 = text3 .. mylcase[charv]
+        end
+      end
+    end
+  end
+  return text3
+end
 function Span (elem)
   if elem.classes[1] == 'trn' then
     for index,text in pairs(elem.content) do
       for index2,text2 in pairs(text) do
-        text2 = string.gsub(text2, "E", "ʾ")
-        text2 = string.gsub(text2, "A", "ā")
-        text2 = string.gsub(text2, "v", "ṯ")
-        text2 = string.gsub(text2, "j", "ǧ")
-        text2 = string.gsub(text2, "H", "ḥ")
-        text2 = string.gsub(text2, "p", "ḏ")
-        text2 = string.gsub(text2, "c", "š")
-        text2 = string.gsub(text2, "S", "ṣ")
-        text2 = string.gsub(text2, "D", "ḍ")
-        text2 = string.gsub(text2, "T", "ṭ")
-        text2 = string.gsub(text2, "P", "ḏ̣ ")
-        text2 = string.gsub(text2, "e", "ɛ")
-        text2 = string.gsub(text2, "g", "ġ")
-        text2 = string.gsub(text2, "o", "ḧ")
-        text2 = string.gsub(text2, "O", "ẗ")
-        text2 = string.gsub(text2, "I", "ī")
-        text2 = string.gsub(text2, "U", "ū")
-
-	      text[index2] = text2
+        text3 = MyTransliterate(text2)
+	      text[index2] = text3
       end
       elem.content[index] = text
     end
     return pandoc.Emph (elem.content)
+  elseif elem.classes[1] == 'trn2' then
+    for index,text in pairs(elem.content) do
+      for index2,text2 in pairs(text) do
+        text3 = MyTransliterate(text2)
+	      text[index2] = text3
+      end
+      elem.content[index] = text
+    end
+    return (elem.content)
   elseif elem.classes[1] == 'ar' then
     attrs = pandoc.Attr("", {}, {{"lang", "ar"},{"dir","rtl"}})
     return pandoc.Span(elem.content, attrs)
@@ -32,3 +102,4 @@ function Span (elem)
     return elem
   end
 end
+
