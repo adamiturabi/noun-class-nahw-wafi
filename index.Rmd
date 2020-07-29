@@ -21,7 +21,7 @@ output:
       search: yes
       fontsettings:
         theme: white
-        family: sans
+        family: serif
         size: 2
       sharing:
         facebook: yes
@@ -48,7 +48,7 @@ Next, we look at case studies. We will use the classifications and conditions to
 
 We use primarily Arabic grammatical terminology by transcribing terms and make little attempt to translate them.
 
-The romanization scheme used in this article is [Ebtv jHx dp rz sc SD TP eg fq klmn hwy aui AUI aw ay]{.trn}. The [tAE marbUtao]{.trn} is transcribed as [o]{.trn} and [O]{.trn}, the latter when in construct state. Transcribing of technical terms is generally in pausal form.
+The romanization scheme used in this article is [Ebtv jHx dp rz sc SD TP eg fq klmn hwy aui AUI aw ay]{.trn}. The [tAE marbUTao]{.trn} is transcribed as [o]{.trn} and [O]{.trn}, the latter when in construct state. Transcribing of technical terms is generally in pausal form.
 
 # Some relevant quotations
 
@@ -130,7 +130,7 @@ The difference between the two in meaning is that the [maSdar]{.trn} directly si
 
 ### Dualization and pluralization of the [maSdar]{.trn}^[[النحو الوافي لعباس حسن 2/211]{.ar}]
 
-The [maSdar]{.trn} is not permitted to be dualized or pluralized as long as what is intended by it is just the meaning [of the verb], i.e. as long as it is [mubham]{.trn}. So we cannot say [صفحت عن المخطئ صفْحين]{.ar}, nor [وعدتُك وعودًا]{.ar}. Except if the [maSdar]{.trn} ends with [tAE]{.trn} [marbUtao]{.trn} in which it may be dualized and pluralized, e.g. [التلاوتان والتلاوات]{.ar}.
+The [maSdar]{.trn} is not permitted to be dualized or pluralized as long as what is intended by it is just the meaning [of the verb], i.e. as long as it is [mubham]{.trn}. So we cannot say [صفحت عن المخطئ صفْحين]{.ar}, nor [وعدتُك وعودًا]{.ar}. Except if the [maSdar]{.trn} ends with [tAE]{.trn} [marbUTao]{.trn} in which it may be dualized and pluralized, e.g. [التلاوتان والتلاوات]{.ar}.
 
 If however it is [al-maSdar al-mubayyin li l-nawe]{.trn}, when its [anwAe]{.trn} are different, or [al-maSdar al-mubayyin li l-eadad]{.trn}, then it is permitted to dualize and pluralize it if it satisfies the conditions of one of the three kinds of plurals [jame mupakkar, jame muEannav sAlim, jame taksIr]{.trn}.
 
