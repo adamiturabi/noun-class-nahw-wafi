@@ -409,7 +409,7 @@ Thus [باشا، خاتون، كمبيوتر، فلم]{.ar} are borrowed into th
 
 And nouns like [أستاذ، دكتور، طازج، ساذج]{.ar} are borrowed into the [muctaqqAt]{.trn}, where they may be feminized with [tAE al-taEnIv]{.trn}. They may take [jame taksIr]{.trn} like [أساتذة]{.ar} or [jame sAlim]{.trn}, even [jame mupakkar sAlim]{.trn} when referring to male human beings. Furthermore, the feminine singular may be used when a [naet]{.trn} for non-[eAqil]{.trn} objects, e.g. [أَكَلت الأطعمة الطازَجة]{.ar}.
 
-## [muctaqqAt]{.trn} that are lexicalized as designative nouns
+## [#muctaqqAt]{.trn} that are lexicalized as designative nouns
 
 There are nouns which are originally [muctaqqAt]{.trn} but that have become designative nouns. For example:
 
@@ -424,7 +424,7 @@ There are nouns which are originally [muctaqqAt]{.trn} but that have become desi
 When used with this designative meaning, then their [tAE zAEidao]{.trn}, if any, is not modified. Also, the plural is used for non-rational plural subjects/[maneUt]{.trn}. For example:
 
 + [امرأة جريح]{.ar}
-+ [هذه الأفعال حسنات وتلك الأفعال كبائر]{.ar} "These acts are good deeds and those acts are major sins." But [هذه الأفعال حسنة وتاك الأفعال كبيرة]{.ar} "These acts are good and and those acts are big."
++ [هذه الأفعال حسنات وتلك الأفعال كبائر]{.ar} "These acts are good deeds and those acts are major sins." But [هذه الأفعال حسنة وتلك الأفعال كبيرة]{.ar} "These acts are good and and those acts are big."
 + [كلّ غلام رهينة بعقيقته]{.ar}^[https://sunnah.com/abudawud/16/51]. (Note that [رَهين]{.ar} may be used as an epithet (with descriptive/participal meaning) and feminized with [tAE zAEidao]{.trn} if needed.)
 + [كَلامٌ نصيحةٌ. هذا الكلامُ نصيحةٌ]{.ar}
 
