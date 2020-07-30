@@ -33,6 +33,34 @@ $for(classoption)$
   $classoption$$sep$,
 $endfor$
 ]{$documentclass$}
+% For infobox
+\usepackage{tcolorbox}
+\usepackage{xcolor}
+\definecolor{whitesmoke}{rgb}{0.96, 0.96, 0.96}
+\newtcolorbox{blackbox}{
+  colback=whitesmoke,
+  colframe=orange,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+\newenvironment{infobox}[1]
+  {
+  \begin{itemize}
+  \renewcommand{\labelitemi}{
+    \raisebox{-.7\height}[0pt][0pt]{
+      %{\setkeys{Gin}{width=3em,keepaspectratio}
+      %  \includegraphics{images/#1}}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{blackbox}
+  \item
+  }
+  {
+  \end{blackbox}
+  \end{itemize}
+  }
+
 $if(twocol)$
 \usepackage{multicol}
 $endif$
@@ -332,7 +360,7 @@ $if(lang)$
 $for(polyglossia-otherlangs)$
   \setotherlanguage[$polyglossia-otherlangs.options$]{$polyglossia-otherlangs.name$}
   \setmainfont{Brill}
-  \newfontfamily\arabicfont[Script=Arabic,Scale=0.85]{KFGQPC Uthman Taha Naskh}
+  \newfontfamily\arabicfont[Script=Arabic,Scale=1.0]{KFGQPC Uthman Taha Naskh}
 $endfor$
 
 $endif$
@@ -396,7 +424,6 @@ $if(logo)$
 \logo{\includegraphics{$logo$}}
 $endif$
 $endif$
-
 \begin{document}
 $if(has-frontmatter)$
 \frontmatter

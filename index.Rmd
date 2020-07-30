@@ -33,6 +33,11 @@ output:
         vk: no
         all: ['facebook', 'twitter', 'linkedin', 'weibo', 'instapaper']
       info: yes
+  pdf_document:
+    pandoc_args: ["--lua-filter=trn.lua"]
+    latex_engine: xelatex
+    keep_tex: true
+    template: bidi_art_templ.tex
 ---
 [بسم الله الرحمن الرحيم]{.ar}
 
@@ -40,15 +45,15 @@ output:
 
 # Introduction
 
-Can any noun be feminized with [tAE al-taEnIv]{.trn}? Can any noun be used as a [naet]{.trn}? Will a [naet]{.trn} always agree in number or gender with the [maneUt]{.trn}?
+Can any noun be feminized with [tAE al-taEnIv]{.trn2}? Can any noun be used as a [naet]{.trn2}? Will a [naet]{.trn2} always agree in number or gender with the [maneUt]{.trn2}?
 
-These are some questions that we will attempt to answer. We start with some quotations from books that touch upon these issues. We then present a classification of nouns primarily pieced together from different sections of [النحو الوافي لعباس حسن]{.ar}. We follow this with a classification of the [naet]{.trn} and its conditions. In these sections we will only present the information as we find it in the primary sources. Any comments from ourselves are restricted to within square brackets [] or footnotes.
+These are some questions that we will attempt to answer. We start with some quotations from books that touch upon these issues. We then present a classification of nouns primarily pieced together from different sections of [النحو الوافي لعباس حسن]{.ar}. We follow this with a classification of the [naet]{.trn2} and its conditions. In these sections we will only present the information as we find it in the primary sources. Any comments from ourselves are restricted to within square brackets [] or footnotes.
 
 Next, we look at case studies. We will use the classifications and conditions to determine the behavior of nouns we are studying.
 
 We use primarily Arabic grammatical terminology by transcribing terms and make little attempt to translate them.
 
-The romanization scheme used in this article is [Ebtv jHx dp rz sc SD TP eg fq klmn hwy aui AUI aw ay]{.trn}. The [tAE marbUTao]{.trn} is transcribed as [o]{.trn} and [O]{.trn}, the latter when in construct state. Transcribing of technical terms is generally in pausal form.
+The romanization scheme used in this article is [Ebtv jHx dp rz sc SD TP eg fq klmn hwy aui AUI aw ay]{.trn2}. The [tAE marbUTao]{.trn2} is transcribed as [o]{.trn2} and [O]{.trn2}, the latter when in construct state. Transcribing of technical terms is generally in pausal form.
 
 # Some relevant quotations
 
@@ -77,227 +82,227 @@ The romanization scheme used in this article is [Ebtv jHx dp rz sc SD TP eg fq k
 
 Nouns are classified^[[النحو الوافي لعباس حسن 3/181, هامش 1]{.ar}] as follows:
 
-1. [jAmid]{.trn}: That which is not taken from another.
-   1. [ism pAt]{.trn}: Concrete. Examples: [شجرة، قلم، أسد، حجر]{.ar}.
-   2. [ism maenA]{.trn}: Abstract. Examples: [فَهْم، نبوغ، ذكاء، سماحة]{.ar}.
-2. [muctaqq]{.trn}: That which is taken from another, which is its origin. Sometimes the [muctaqq]{.trn} is referred to as the [waSf]{.trn} or the [Sifao]{.trn} but by this they don't mean [the syntactical category]: the [naet]{.trn}. The original [muctaqqAt]{.trn} are seven:
-   1. [ism al-fAeil]{.trn}:
-   1. [ism al-mafeUl]{.trn}:
-   1. [al-Sifao al-mucabbahao]{.trn}:
-   1. [afeal al-tafDIl]{.trn}:
-   1. [ism al-zamAn]{.trn}:
-   1. [ism al-makAn]{.trn}:
-   1. [ism al-EAlao]{.trn}:
+1. [jAmid]{.trn2}: That which is not taken from another.
+   1. [ism pAt]{.trn2}: Concrete. Examples: [شجرة، قلم، أسد، حجر]{.ar}.
+   2. [ism maenA]{.trn2}: Abstract. Examples: [فَهْم، نبوغ، ذكاء، سماحة]{.ar}.
+2. [muctaqq]{.trn2}: That which is taken from another, which is its origin. Sometimes the [muctaqq]{.trn2} is referred to as the [waSf]{.trn2} or the [Sifao]{.trn2} but by this they don't mean [the syntactical category]: the [naet]{.trn2}. The original [muctaqqAt]{.trn2} are seven:
+   1. [ism al-fAeil]{.trn2}:
+   1. [ism al-mafeUl]{.trn2}:
+   1. [al-Sifao al-mucabbahao]{.trn2}:
+   1. [afeal al-tafDIl]{.trn2}:
+   1. [ism al-zamAn]{.trn2}:
+   1. [ism al-makAn]{.trn2}:
+   1. [ism al-EAlao]{.trn2}:
 
-There are also some [jAmid]{.trn} nouns which sometimes are admitted to the [muctaqq]{.trn} category. These are known as [al-EasmAE al-jAmidao al-mulHaqao bil-muctaqq]{.trn} or [al-EasmAE al-muctaqqao taEwIlan]{.trn}. Among these are:
+There are also some [jAmid]{.trn2} nouns which sometimes are admitted to the [muctaqq]{.trn2} category. These are known as [al-EasmAE al-jAmidao al-mulHaqao bil-muctaqq]{.trn2} or [al-EasmAE al-muctaqqao taEwIlan]{.trn2}. Among these are:
 
-1. [ism al-EicArao]{.trn}:
-1. [ism al-jAmid al-mansUb]{.trn}:
-1. [ism al-jAmid al-muSaggar]{.trn}:
-1. Most of the [mawSUlAt]{.trn}:
+1. [ism al-EicArao]{.trn2}:
+1. [ism al-jAmid al-mansUb]{.trn2}:
+1. [ism al-jAmid al-muSaggar]{.trn2}:
+1. Most of the [mawSUlAt]{.trn2}:
 
-These are only sometimes admitted to the [muctaqq]{.trn} category. They are only admitted as such in places where only a [muctaqq]{.trn} can be used, for example as [naet]{.trn}, because the [naet]{.trn} basically has to be [muctaqq]{.trn}.
+These are only sometimes admitted to the [muctaqq]{.trn2} category. They are only admitted as such in places where only a [muctaqq]{.trn2} can be used, for example as [naet]{.trn2}, because the [naet]{.trn2} basically has to be [muctaqq]{.trn2}.
 
-## The [maSdar]{.trn}
+## The [maSdar]{.trn2}
 
-The [maSdar]{.trn} can be either [al-maSdar al-SarIH]{.trn} or [al-maSdar al-muEawwal]{.trn}. 
+The [maSdar]{.trn2} can be either [al-maSdar al-SarIH]{.trn2} or [al-maSdar al-muEawwal]{.trn2}. 
 
-[al-maSdar al-SarIH]{.trn} is considered the origin of the ten [muctaqqAt]{.trn} (the seven mentioned above, and [al-fiel al-maDI]{.trn}, [al-fiel al-muDArie]{.trn}, and [al-fiel al-Eamr]{.trn}). As such, it is from [al-EasmAE al-jAmidao]{.trn}.
+[al-maSdar al-SarIH]{.trn2} is considered the origin of the ten [muctaqqAt]{.trn2} (the seven mentioned above, and [al-fiel al-maDI]{.trn2}, [al-fiel al-muDArie]{.trn2}, and [al-fiel al-Eamr]{.trn2}). As such, it is from [al-EasmAE al-jAmidao]{.trn2}.
 
-[al-maSdar al-SarIH]{.trn} is of three kinds^[[النحو الوافي لعباس حسن 3/181]{.ar}]:
+[al-maSdar al-SarIH]{.trn2} is of three kinds^[[النحو الوافي لعباس حسن 3/181]{.ar}]:
 
-1. [al-maSdar al-aSliyy]{.trn}. It does not start with a supplemental [mIm]{.trn} nor does it end with [iyyao]{.trn}. Examples: [عِلْم، فَهْم، تقدُّم، استضاءة، إبانة، بلاء، نضال، فَضْل، صَلاح]{.ar}. It also includes the [maSdar]{.trn} of [al-marrao wal-hayEao]{.trn}.
-2. [al-maSdar al-mImiyy]{.trn}. It starts with a supplemental [mIm]{.trn} and it does not end with [iyyao]{.trn}.The correct opinion is that it is not from the [muctaqqAt]{.trn}, rather it is [jAmid]{.trn}. Examples are [مَطْلَب، مَضْيَعة، مَجْلَبة، مَعْدَل]{.ar}. It must needs be singular.
-2. [al-maSdar al-SinAeiyy]{.trn}. It is [qiyAsiyy]{.trn}, formed from any word ([jAmid]{.trn} or [muctaqq]{.trn}, noun or non-noun) to which is appended [iyyao]{.trn}. This appendage gives it a new meaning like [إنسانية]{.ar} "humanity" from [إنسان]{.ar} "human". It is a [jAmid mulHaq bil-muctaqq]{.trn}.
+1. [al-maSdar al-aSliyy]{.trn2}. It does not start with a supplemental [mIm]{.trn2} nor does it end with [iyyao]{.trn2}. Examples: [عِلْم، فَهْم، تقدُّم، استضاءة، إبانة، بلاء، نضال، فَضْل، صَلاح]{.ar}. It also includes the [maSdar]{.trn2} of [al-marrao wal-hayEao]{.trn2}.
+2. [al-maSdar al-mImiyy]{.trn2}. It starts with a supplemental [mIm]{.trn2} and it does not end with [iyyao]{.trn2}.The correct opinion is that it is not from the [muctaqqAt]{.trn2}, rather it is [jAmid]{.trn2}. Examples are [مَطْلَب، مَضْيَعة، مَجْلَبة، مَعْدَل]{.ar}. It must needs be singular.
+2. [al-maSdar al-SinAeiyy]{.trn2}. It is [qiyAsiyy]{.trn2}, formed from any word ([jAmid]{.trn2} or [muctaqq]{.trn2}, noun or non-noun) to which is appended [iyyao]{.trn2}. This appendage gives it a new meaning like [إنسانية]{.ar} "humanity" from [إنسان]{.ar} "human". It is a [jAmid mulHaq bil-muctaqq]{.trn2}.
 
-When the word [maSdar]{.trn} is used by itself, by it is intended [al-maSdar al-SarIH al-EaSliyy]{.trn}.
+When the word [maSdar]{.trn2} is used by itself, by it is intended [al-maSdar al-SarIH al-EaSliyy]{.trn2}.
 
-### Patterns of [al-maSdar al-aSliyy]{.trn}^[[النحو الوافي لعباس حسن 3/193]{.ar}]
+### Patterns of [al-maSdar al-aSliyy]{.trn2}^[[النحو الوافي لعباس حسن 3/193]{.ar}]
 
-[al-maSdar al-aSliyy]{.trn} of form I verbs can be of the [qiyAsiyy]{.trn} patterns: [fael]{.trn}, [fieAlao]{.trn}, [faeal]{.trn}, [fuelao]{.trn}, [fueUl]{.trn}, [fueUlao]{.trn}, [fieAl]{.trn}, [faealAn]{.trn}, [fueAl]{.trn}, [faeIl]{.trn}, [faeAlao]{.trn}. There are numerous other [samAeiyy]{.trn} ones like  [fuel]{.trn}, [faeAl]{.trn}, [faealao]{.trn}. 
+[al-maSdar al-aSliyy]{.trn2} of form I verbs can be of the [qiyAsiyy]{.trn2} patterns: [fael]{.trn2}, [fieAlao]{.trn2}, [faeal]{.trn2}, [fuelao]{.trn2}, [fueUl]{.trn2}, [fueUlao]{.trn2}, [fieAl]{.trn2}, [faealAn]{.trn2}, [fueAl]{.trn2}, [faeIl]{.trn2}, [faeAlao]{.trn2}. There are numerous other [samAeiyy]{.trn2} ones like  [fuel]{.trn2}, [faeAl]{.trn2}, [faealao]{.trn2}. 
 
-[[al-maSdar al-aSliyy]{.trn} of forms II and higher are found easily in grammar references.]
+[[al-maSdar al-aSliyy]{.trn2} of forms II and higher are found easily in grammar references.]
 
-### The [maSdar]{.trn} and the [ism al-maSdar]{.trn}.
+### The [maSdar]{.trn2} and the [ism al-maSdar]{.trn2}.
 
-The [maSdar]{.trn}^[[النحو الوافي لعباس حسن 3/207، هامش]{.ar}] (i.e., [al-maSdar al-SarIH al-EaSliyy]{.trn}) is a noun that indicates --by and large-- only an event. And it contains all the original and supplemental letters which comprise [al-fiel al-maDI]{.trn} which is derived from it (excepting standard substitutions to form the regular forms (like [سَلَّمَ تَسْليمًا]{.ar}: [taslIm]{.trn} has a [tAE]{.trn} to substitute for one of the [lAm]{.trn}), substitutions for weak letters (like [عِدة]{.ar} for verb [وَعَدَ]{.ar}), and deletions due to frequency of usage). It may also contain additional letters, excepting those which form [al-maSdar al-mImiyy]{.trn} and [al-maSdar al-SinAeiyy]{.trn}.
+The [maSdar]{.trn2}^[[النحو الوافي لعباس حسن 3/207، هامش]{.ar}] (i.e., [al-maSdar al-SarIH al-EaSliyy]{.trn2}) is a noun that indicates --by and large-- only an event. And it contains all the original and supplemental letters which comprise [al-fiel al-maDI]{.trn2} which is derived from it (excepting standard substitutions to form the regular forms (like [سَلَّمَ تَسْليمًا]{.ar}: [taslIm]{.trn2} has a [tAE]{.trn2} to substitute for one of the [lAm]{.trn2}), substitutions for weak letters (like [عِدة]{.ar} for verb [وَعَدَ]{.ar}), and deletions due to frequency of usage). It may also contain additional letters, excepting those which form [al-maSdar al-mImiyy]{.trn2} and [al-maSdar al-SinAeiyy]{.trn2}.
 
-The definition includes two aspects: meaning and form. The aspect of meaning denotes only an event, no time, place, [pAt]{.trn}, proper noun, gender, or number (excepting that which is indicated by [al-marrao wal-hayEao]{.trn}). The aspect of form defines what letters a [maSdar]{.trn} must comprise.
+The definition includes two aspects: meaning and form. The aspect of meaning denotes only an event, no time, place, [pAt]{.trn2}, proper noun, gender, or number (excepting that which is indicated by [al-marrao wal-hayEao]{.trn2}). The aspect of form defines what letters a [maSdar]{.trn2} must comprise.
 
-The [ism al-maSdar]{.trn}^[[النحو الوافي لعباس حسن 3/209، هامش]{.ar}] (which is limited to [al-samAe]{.trn}) is equivalent to the [maSdar]{.trn} from the aspect of meaning but it differs in the aspect of form. It may not have all the letters of its [al-fiel al-maDI]{.trn}. Examples are [عَطاء]{.ar} for [إعطاء]{.ar}. 
+The [ism al-maSdar]{.trn2}^[[النحو الوافي لعباس حسن 3/209، هامش]{.ar}] (which is limited to [al-samAe]{.trn2}) is equivalent to the [maSdar]{.trn2} from the aspect of meaning but it differs in the aspect of form. It may not have all the letters of its [al-fiel al-maDI]{.trn2}. Examples are [عَطاء]{.ar} for [إعطاء]{.ar}. 
 
-The difference between the two in meaning is that the [maSdar]{.trn} directly signifies the verb event, while the [ism al-maSdar]{.trn} directly signifies the [maSdar]{.trn}, thus indirectly signifying the verb event.
+The difference between the two in meaning is that the [maSdar]{.trn2} directly signifies the verb event, while the [ism al-maSdar]{.trn2} directly signifies the [maSdar]{.trn2}, thus indirectly signifying the verb event.
 
-### Dualization and pluralization of the [maSdar]{.trn}^[[النحو الوافي لعباس حسن 2/211]{.ar}]
+### Dualization and pluralization of the [maSdar]{.trn2}^[[النحو الوافي لعباس حسن 2/211]{.ar}]
 
-The [maSdar]{.trn} is not permitted to be dualized or pluralized as long as what is intended by it is just the meaning [of the verb], i.e. as long as it is [mubham]{.trn}. So we cannot say [صفحت عن المخطئ صفْحين]{.ar}, nor [وعدتُك وعودًا]{.ar}. Except if the [maSdar]{.trn} ends with [tAE]{.trn} [marbUTao]{.trn} in which it may be dualized and pluralized, e.g. [التلاوتان والتلاوات]{.ar}.
+The [maSdar]{.trn2} is not permitted to be dualized or pluralized as long as what is intended by it is just the meaning [of the verb], i.e. as long as it is [mubham]{.trn2}. So we cannot say [صفحت عن المخطئ صفْحين]{.ar}, nor [وعدتُك وعودًا]{.ar}. Except if the [maSdar]{.trn2} ends with [tAE]{.trn2} [marbUTao]{.trn2} in which it may be dualized and pluralized, e.g. [التلاوتان والتلاوات]{.ar}.
 
-If however it is [al-maSdar al-mubayyin li l-nawe]{.trn}, when its [anwAe]{.trn} are different, or [al-maSdar al-mubayyin li l-eadad]{.trn}, then it is permitted to dualize and pluralize it if it satisfies the conditions of one of the three kinds of plurals [jame mupakkar, jame muEannav sAlim, jame taksIr]{.trn}.
+If however it is [al-maSdar al-mubayyin li l-nawe]{.trn2}, when its [anwAe]{.trn2} are different, or [al-maSdar al-mubayyin li l-eadad]{.trn2}, then it is permitted to dualize and pluralize it if it satisfies the conditions of one of the three kinds of plurals [jame mupakkar, jame muEannav sAlim, jame taksIr]{.trn2}.
 
-Example for [al-maSdar al-mubayyin li l-nawe]{.trn}: [سلكت مع الناس سُلُوكَيِ العاقل: الشدةَ حينًا والملاينةَ حينًا آخر. سرت سِيَرَ الخلفاء الراشدين]{.ar} meaning [سلكت مع الناس نوعين من السلوك العاقل: الشدة حينًا والملاينةَ حينًا آخر. وسرت معهم آنواعًا من السِيَر]{.ar}. What is intended here is not stating the number of times of [السلوك]{.ar}, that it was twice, nor stating the numer of times of [السيْر]{.ar}, that it was many times. Rather, what is intended is stating the different kinds.
+Example for [al-maSdar al-mubayyin li l-nawe]{.trn2}: [سلكت مع الناس سُلُوكَيِ العاقل: الشدةَ حينًا والملاينةَ حينًا آخر. سرت سِيَرَ الخلفاء الراشدين]{.ar} meaning [سلكت مع الناس نوعين من السلوك العاقل: الشدة حينًا والملاينةَ حينًا آخر. وسرت معهم آنواعًا من السِيَر]{.ar}. What is intended here is not stating the number of times of [السلوك]{.ar}, that it was twice, nor stating the numer of times of [السيْر]{.ar}, that it was many times. Rather, what is intended is stating the different kinds.
 
-Example for the [al-maSdar al-mubayyin li l-eadad]{.trn}: [خطوت في الحديقة عشر خطوات، ودُرتُ في جوانبها أربع دوْرات]{.ar}
+Example for the [al-maSdar al-mubayyin li l-eadad]{.trn2}: [خطوت في الحديقة عشر خطوات، ودُرتُ في جوانبها أربع دوْرات]{.ar}
 
-## Conditions of the [jame muEannav sAlim]{.trn}
+## Conditions of the [jame muEannav sAlim]{.trn2}
 
-This plural may be applied with [qiyAs]{.trn} on six categories of nouns^[[النحو الوافي لعباس حسن 1/168]{.ar}]:
+This plural may be applied with [qiyAs]{.trn2} on six categories of nouns^[[النحو الوافي لعباس حسن 1/168]{.ar}]:
 
-1. All nouns that end in a [tAE zAEidao]{.trn}. This is absolute, whether it is 
+1. All nouns that end in a [tAE zAEidao]{.trn2}. This is absolute, whether it is 
 
-   + an [ealam]{.trn}, like [فاطمة]{.ar}, 
-   + or not an [ealam]{.trn}, like [زراعة، تجارة]{.ar}.
+   + an [ealam]{.trn2}, like [فاطمة]{.ar}, 
+   + or not an [ealam]{.trn2}, like [زراعة، تجارة]{.ar}.
    + Feminine in form and meaning, like [حليمة، رقية]{.ar} from female names,
    + or feminine in form only, like [عطية، حمزة، معاوية]{.ar} from male names.
-   + The [tAE]{.trn} is from feminization as in the precding examples,
+   + The [tAE]{.trn2} is from feminization as in the precding examples,
    + or for substituting an original [weak] letter, like [عِدة، ثُبة]{.ar}, which are pluralized as [عِدات، ثُبات]{.ar},
    + or even for emphasis, like [علّامة، علّامات]{.ar}.
 
    There are some exceptions like [امرأة، أَمَة، شاة، شَفَة، قُلّة، أُمّة، مِلّة]{.ar}.
 
-2. All nouns that end in [alif al-taEnIv al-maqSUrao Eaw al-mamdUdao]{.trn}. This applies for [ealam]{.trn} or non-[ealam]{.trn}, male or female [names], Examples are [سُعدى]{.ar} for a female [ealam]{.trn}, [فُضْلى]{.ar} for a feminine [Sifao]{.trn}, [دُنيا]{.ar} when it is a male [ealam]{.trn}, [زَهراء]{.ar} for a female [ealam]{.trn}, [حسناء]{.ar} for a female [Sifao]{.trn}, and [زكرياء]{.ar} for a male [ealam]{.trn}.
-   Excepted from this, according to the non-Kufans, are two forms [فَعْلى]{.ar} the feminine of [فَعْلان]{.ar} like [سَكْرى]{.ar} the feminine of [سكران]{.ar}, and [فَعْلاء]{.ar} the feminine of [أفْعَل]{.ar} like [خضراء وسوداء]{.ar} both of which are [Sifao]{.trn} for feminine nouns, and not [ealam]{.trn}.
+2. All nouns that end in [alif al-taEnIv al-maqSUrao Eaw al-mamdUdao]{.trn2}. This applies for [ealam]{.trn2} or non-[ealam]{.trn2}, male or female [names], Examples are [سُعدى]{.ar} for a female [ealam]{.trn2}, [فُضْلى]{.ar} for a feminine [Sifao]{.trn2}, [دُنيا]{.ar} when it is a male [ealam]{.trn2}, [زَهراء]{.ar} for a female [ealam]{.trn2}, [حسناء]{.ar} for a female [Sifao]{.trn2}, and [زكرياء]{.ar} for a male [ealam]{.trn2}.
+   Excepted from this, according to the non-Kufans, are two forms [فَعْلى]{.ar} the feminine of [فَعْلان]{.ar} like [سَكْرى]{.ar} the feminine of [سكران]{.ar}, and [فَعْلاء]{.ar} the feminine of [أفْعَل]{.ar} like [خضراء وسوداء]{.ar} both of which are [Sifao]{.trn2} for feminine nouns, and not [ealam]{.trn2}.
 
-3. All [ealam]{.trn} for female living beings which don't have an [ealAmaO taEnIv]{.trn}, like [زينب، نوال، إحسان]{.ar}.
+3. All [ealam]{.trn2} for female living beings which don't have an [ealAmaO taEnIv]{.trn2}, like [زينب، نوال، إحسان]{.ar}.
 
-4. [muSaggar]{.trn} for masculine nouns which are not [eAqil]{.trn}, like [نُهيرات]{.ar} the [taSgIr]{.trn} of [نهر]{.ar}, and [جُبَيْلات]{.ar} the [taSgIr]{.trn} of [جبل]{.ar}, and [مُعَيْدنات]{.ar} the [taSgIr]{.trn} of [مَعْدن]{.ar}.
+4. [muSaggar]{.trn2} for masculine nouns which are not [eAqil]{.trn2}, like [نُهيرات]{.ar} the [taSgIr]{.trn2} of [نهر]{.ar}, and [جُبَيْلات]{.ar} the [taSgIr]{.trn2} of [جبل]{.ar}, and [مُعَيْدنات]{.ar} the [taSgIr]{.trn2} of [مَعْدن]{.ar}.
 
-5. [waSf]{.trn} for non-[eAqil]{.trn} masculine nouns, like [هذه بساتين جميلات]{.ar}, (where for the singular we would have [بستان جميل]{.ar}) and [زرتها أيامًا معدودات]{.ar}.^[The primary source [النحو الوافي لعباس حسن]{.ar} does not mention this is only if the [waSf]{.trn} is [muctaqq]{.trn}. We will try to explore this in the case studies.]
+5. [waSf]{.trn2} for non-[eAqil]{.trn2} masculine nouns, like [هذه بساتين جميلات]{.ar}, (where for the singular we would have [بستان جميل]{.ar}) and [زرتها أيامًا معدودات]{.ar}.^[The primary source [النحو الوافي لعباس حسن]{.ar} does not mention this is only if the [waSf]{.trn2} is [muctaqq]{.trn2}. We will try to explore this in the case studies.]
 
-6. Every [xumAsiyy]{.trn} for which a [jame taksIr]{.trn} has not been heard from the Arabs, like [سُرادِقات، قَيصومات، حَمّامات، كتّانات، اصطبلات، قِطْميرات]{.ar} for [سُرادِق، قَيصوم، حَمّام، كتّان، اصطبل، قِطْمير]{.ar}.
+6. Every [xumAsiyy]{.trn2} for which a [jame taksIr]{.trn2} has not been heard from the Arabs, like [سُرادِقات، قَيصومات، حَمّامات، كتّانات، اصطبلات، قِطْميرات]{.ar} for [سُرادِق، قَيصوم، حَمّام، كتّان، اصطبل، قِطْمير]{.ar}.
 
-Nouns which don't fall under these six categories are restricted to [samAe]{.trn} like [شَمَالات]{.ar} for [شَمَال]{.ar}, "the north wind".
+Nouns which don't fall under these six categories are restricted to [samAe]{.trn2} like [شَمَالات]{.ar} for [شَمَال]{.ar}, "the north wind".
 
 ## Feminization of nouns^[[النحو الوافي لعباس حسن 4/590]{.ar}]
 
-The [tAE al-taEnIv]{.trn} is introduced by [qiyAs]{.trn} on the [muctaqqAt]{.trn} to distinguish between the masculine and feminine. Examples are [عابِد وعابدة، عرّاف وعَرّافة، فَرِح وفَرِحة، مأمون ومأمونة]{.ar}. Even in the [muctaqqAt]{.trn}, the [tAE al-taEnIv]{.trn} is introduced on most nouns but not all. Some of the [muctaqqAt]{.trn} do not admit it at all, according to the opinion of the majoity of the grammarians, while some admit it only sometimes.^[Examples are [حامل، صَبور]{.ar}, etc. These nouns, and the circumstances in which they accept or reject the [tAE al-taEnIv]{.trn}, are well categorized and discussed in the reference grammars so I will not get into it here.]
+The [tAE al-taEnIv]{.trn2} is introduced by [qiyAs]{.trn2} on the [muctaqqAt]{.trn2} to distinguish between the masculine and feminine. Examples are [عابِد وعابدة، عرّاف وعَرّافة، فَرِح وفَرِحة، مأمون ومأمونة]{.ar}. Even in the [muctaqqAt]{.trn2}, the [tAE al-taEnIv]{.trn2} is introduced on most nouns but not all. Some of the [muctaqqAt]{.trn2} do not admit it at all, according to the opinion of the majoity of the grammarians, while some admit it only sometimes.^[Examples are [حامل، صَبور]{.ar}, etc. These nouns, and the circumstances in which they accept or reject the [tAE al-taEnIv]{.trn2}, are well categorized and discussed in the reference grammars so I will not get into it here.]
 
-There are other ways of feminizing nouns, like [alif al-taEnIv al-maqSUrao]{.trn}^[[النحو الوافي لعباس حسن 4/600]{.ar}] and [alif al-taEnIv al-mamdUdao]{.trn}^[[النحو الوافي لعباس حسن 4/603]{.ar}], both of which are [samAean]{.trn}. [These are always extraneous to the original radicals.]^[Also well discussed in the reference grammars].
+There are other ways of feminizing nouns, like [alif al-taEnIv al-maqSUrao]{.trn2}^[[النحو الوافي لعباس حسن 4/600]{.ar}] and [alif al-taEnIv al-mamdUdao]{.trn2}^[[النحو الوافي لعباس حسن 4/603]{.ar}], both of which are [samAean]{.trn2}. [These are always extraneous to the original radicals.]^[Also well discussed in the reference grammars].
 
-The [tAE al-taEnIv]{.trn} is not introduced by [qiyAs]{.trn} on [EasmAE al-EajnAs al-jAmidao]{.trn}, but it is sometimes found by [samAe]{.trn} [for nouns denoting male and female living beings]. Examples are [رَجُل ورَجُلة، أَسَد وأسدة، فَتًى ،فتاة، غُلام وغلامة، امرؤ وامرأة، إنسان وإنسانة]{.ar}.
+The [tAE al-taEnIv]{.trn2} is not introduced by [qiyAs]{.trn2} on [EasmAE al-EajnAs al-jAmidao]{.trn2}, but it is sometimes found by [samAe]{.trn2} [for nouns denoting male and female living beings]. Examples are [رَجُل ورَجُلة، أَسَد وأسدة، فَتًى ،فتاة، غُلام وغلامة، امرؤ وامرأة، إنسان وإنسانة]{.ar}.
 
 Most nouns denoting male and female living beings, however, have different words for them. Examples are [ثَور وبقرة، حِمار وأتان، تَيس وعنز]{.ar}. Sometimes the same word is used for living beings of both gender [although it may be grammatically of one gender]. Examples are [حمامة وفرس]{.ar}.^[[عضو أم عضوة؟ ومسائل أخَر لفيصل المنصور]{.ar}]
 
-# Classification of the [naet]{.trn}
+# Classification of the [naet]{.trn2}
 
 ## Basic categories
 
-The [naet]{.trn} is classified^[[النحو الوافي لعباس حسن 3/458]{.ar}] with respect to its meaning into [mufrad]{.trn}, [jumlao]{.trn} and [cibh jumlao]{.trn}.
+The [naet]{.trn2} is classified^[[النحو الوافي لعباس حسن 3/458]{.ar}] with respect to its meaning into [mufrad]{.trn2}, [jumlao]{.trn2} and [cibh jumlao]{.trn2}.
 
-Categories of [qiyAsiyy]{.trn} words which are correct as [naet mufrad]{.trn} are:
+Categories of [qiyAsiyy]{.trn2} words which are correct as [naet mufrad]{.trn2} are:
 
-1. [al-EasmAE al-muctaqqao al-eAmilao]{.trn}
+1. [al-EasmAE al-muctaqqao al-eAmilao]{.trn2}
 2. Or what is in [accordance with] their meaning.
 
-By [al-eAmilao]{.trn} is meant
+By [al-eAmilao]{.trn2} is meant
 
-1. [ism al-fAeil]{.trn}:
-1. [Siyag al-mubAlagao]{.trn}:
-1. [al-Sifao al-mucabbahao]{.trn}:
-1. [ism al-mafeUl]{.trn}:
-1. [afeal al-tafDIl]{.trn}:
+1. [ism al-fAeil]{.trn2}:
+1. [Siyag al-mubAlagao]{.trn2}:
+1. [al-Sifao al-mucabbahao]{.trn2}:
+1. [ism al-mafeUl]{.trn2}:
+1. [afeal al-tafDIl]{.trn2}:
 
-Those [[al-EasmAE al-muctaqqao]{.trn}] which are not [al-eAmilao]{.trn}, and which do not occur as [naet]{.trn} are:
+Those [[al-EasmAE al-muctaqqao]{.trn2}] which are not [al-eAmilao]{.trn2}, and which do not occur as [naet]{.trn2} are:
 
-1. [ism al-zamAn]{.trn}:
-1. [ism al-makAn]{.trn}:
-1. [ism al-EAlao]{.trn}:
+1. [ism al-zamAn]{.trn2}:
+1. [ism al-makAn]{.trn2}:
+1. [ism al-EAlao]{.trn2}:
 
-And what is meant by "what is in [accordance with] their meaning" is all [al-EasmAE al-jAmidao]{.trn} that are similar to [al-EasmAE al-muctaqqao]{.trn} in what they signify in meaning. These are called [al-EasmAE al-muctaqqao taEwIlan]{.trn}. The most common of these are:
+And what is meant by "what is in [accordance with] their meaning" is all [al-EasmAE al-jAmidao]{.trn2} that are similar to [al-EasmAE al-muctaqqao]{.trn2} in what they signify in meaning. These are called [al-EasmAE al-muctaqqao taEwIlan]{.trn2}. The most common of these are:
 
-1. [EasmAE al-EicArao gayr al-makAniyyao]{.trn}, like [هذا]{.ar}. These are only [al-naet]{.trn} to definite nouns. Example: [استمعت إلى الناصح هذا]{.ar}.
+1. [EasmAE al-EicArao gayr al-makAniyyao]{.trn2}, like [هذا]{.ar}. These are only [al-naet]{.trn2} to definite nouns. Example: [استمعت إلى الناصح هذا]{.ar}.
 
-   The [EasmAE al-EicArao al-makAniyyao]{.trn} like [هُنا، ثَمّ]{.ar} are [PurUf makAn]{.trn}. They don't occur by themselves as [naet]{.trn}. But they may be attached to a [maHpUf]{.trn} which will be the [naet]{.trn}. Example: [أسرع العِطاش إلى ماء هنا]{.ar}, i.e., [موجود هنا]{.ar}.
+   The [EasmAE al-EicArao al-makAniyyao]{.trn2} like [هُنا، ثَمّ]{.ar} are [PurUf makAn]{.trn2}. They don't occur by themselves as [naet]{.trn2}. But they may be attached to a [maHpUf]{.trn2} which will be the [naet]{.trn2}. Example: [أسرع العِطاش إلى ماء هنا]{.ar}, i.e., [موجود هنا]{.ar}.
 
 2. [ذو، المضافة]{.ar} 
-meaning "the possessor of so-and-so". "It is a [naet]{.trn} to indefinite nouns". (But some references say it may be a [naet]{.trn} to definite nouns as well.) Example: [أنِست بصحبة عالم ذي خلق كريم]{.ar}.
+meaning "the possessor of so-and-so". "It is a [naet]{.trn2} to indefinite nouns". (But some references say it may be a [naet]{.trn2} to definite nouns as well.) Example: [أنِست بصحبة عالم ذي خلق كريم]{.ar}.
 
-3. [al-mawSUlAt al-ismiyyao]{.trn} which begin with a [hamzaO waSl]{.trn}. Examples: [الذي، التي، اللائي]{.ar}. As opposed to the [mawSUlao]{.trn} [أي]{.ar}.
+3. [al-mawSUlAt al-ismiyyao]{.trn2} which begin with a [hamzaO waSl]{.trn2}. Examples: [الذي، التي، اللائي]{.ar}. As opposed to the [mawSUlao]{.trn2} [أي]{.ar}.
 
-   There is some dispute regarding [مَنْ]{.ar} and [ما]{.ar} being [naet]{.trn}. The correct opinion is that it is permissible for them to be [naet]{.trn}. 
+   There is some dispute regarding [مَنْ]{.ar} and [ما]{.ar} being [naet]{.trn2}. The correct opinion is that it is permissible for them to be [naet]{.trn2}. 
 
-   Examples: [الضعيف الذي يحترس من عدوه، أقرب إلى السلامة من القوي الذي ينخدع، أو يستهين]{.ar}. The meaning is [الضعيف المحترس من عدوه، أقرب إلى السلامة من القوي المنخدع، ...]{.ar}. Thus its meaning is that of the [muctaqq]{.trn}.
+   Examples: [الضعيف الذي يحترس من عدوه، أقرب إلى السلامة من القوي الذي ينخدع، أو يستهين]{.ar}. The meaning is [الضعيف المحترس من عدوه، أقرب إلى السلامة من القوي المنخدع، ...]{.ar}. Thus its meaning is that of the [muctaqq]{.trn2}.
 
-4. [al-ism al-jAmid]{.trn} which signifies [al-nasab]{.trn} in purpose. The most common forms are those which end in [iyy]{.trn}; or those on the measure [faeeAl]{.trn}, other measures which signify [al-intisAb]{.trn} in purpose. Examples: [ألْمحُ في وجه الرجل العربيّ كثيرًا من أمارات الصراحة، والشجاعة، والكفاح، اشتهر الرجل اليوناني بالنشاط ،الهجرة إلى حيث يتسع الرزق أمامه، وفي بلادنا جماعة منهم تمارس الحِرَف والصناعات المختلفة. فتجد بينهم التاجر والبقال واللبان والحداد ... و ...]{.ar}^[The nouns denoting professions don't seem to be [naet]{.trn} in this sentence, so perhaps they are listed to give examples of the nouns, not their use as [naet]{.trn}.]
+4. [al-ism al-jAmid]{.trn2} which signifies [al-nasab]{.trn2} in purpose. The most common forms are those which end in [iyy]{.trn2}; or those on the measure [faeeAl]{.trn2}, other measures which signify [al-intisAb]{.trn2} in purpose. Examples: [ألْمحُ في وجه الرجل العربيّ كثيرًا من أمارات الصراحة، والشجاعة، والكفاح، اشتهر الرجل اليوناني بالنشاط ،الهجرة إلى حيث يتسع الرزق أمامه، وفي بلادنا جماعة منهم تمارس الحِرَف والصناعات المختلفة. فتجد بينهم التاجر والبقال واللبان والحداد ... و ...]{.ar}^[The nouns denoting professions don't seem to be [naet]{.trn2} in this sentence, so perhaps they are listed to give examples of the nouns, not their use as [naet]{.trn2}.]
 
-   These kinds of nouns can correctly be [naet]{.trn} for both definite and indefinite nouns.
+   These kinds of nouns can correctly be [naet]{.trn2} for both definite and indefinite nouns.
 
-5. [al-muSaggar]{.trn}: because it includes a description in its meaning. In this respect it is similar to the [nasab]{.trn}. And therefore they are admitted to [al-muctaqq]{.trn}.
+5. [al-muSaggar]{.trn2}: because it includes a description in its meaning. In this respect it is similar to the [nasab]{.trn2}. And therefore they are admitted to [al-muctaqq]{.trn2}.
 
-6. [al-ism al-jAmid al-maneUt bi l-muctaqq]{.trn}. Example [اقتديت برجلٍ رجلٍ شريفٍ]{.ar}. This kind of [naet]{.trn} is also called [al-naet al-muwaTTiE]{.trn}.
+6. [al-ism al-jAmid al-maneUt bi l-muctaqq]{.trn2}. Example [اقتديت برجلٍ رجلٍ شريفٍ]{.ar}. This kind of [naet]{.trn2} is also called [al-naet al-muwaTTiE]{.trn2}.
 
-7. [al-maSdar]{.trn}: with the conditions that it:
+7. [al-maSdar]{.trn2}: with the conditions that it:
    1. be indefinite,
-   2. be [al-maSdar al-SarIH]{.trn},
-   3. not be [al-maSdar al-mImiyy]{.trn},
-   4. not be used as a [Talab]{.trn} (like[قيامًا للضيف]{.ar} meaning [قم للضيف]{.ar}),
-   5. be the [maSdar]{.trn} of a form I verb, and
-   6.  retain its original form with respect to its singularity, masculinity (excepting [maSAdir]{.trn} which have an original [tAE al-taEnIv]{.trn} like [رحمة، شفقة]{.ar}).
-      If, however, the use of the [maSdar]{.trn} as a [naet]{.trn} becomes common then is permisible to dualize or pluralize it [qiyAsiyyan]{.trn}. An example is the poet's verse:  
+   2. be [al-maSdar al-SarIH]{.trn2},
+   3. not be [al-maSdar al-mImiyy]{.trn2},
+   4. not be used as a [Talab]{.trn2} (like[قيامًا للضيف]{.ar} meaning [قم للضيف]{.ar}),
+   5. be the [maSdar]{.trn2} of a form I verb, and
+   6.  retain its original form with respect to its singularity, masculinity (excepting [maSAdir]{.trn2} which have an original [tAE al-taEnIv]{.trn2} like [رحمة، شفقة]{.ar}).
+      If, however, the use of the [maSdar]{.trn2} as a [naet]{.trn2} becomes common then is permisible to dualize or pluralize it [qiyAsiyyan]{.trn2}. An example is the poet's verse:  
       [وبايعتُ ليلى في الخلاءِ ولم يكن *** شهودٌ على ليلى، عدولٌ مَقانعُ]{.ar}
-      ^[The word [عُدول]{.ar} here is regularly the plural of the [maSdar]{.trn} [عَدْل]{.ar} not of [عَادِل]{.ar} whose plural would regularly be [عَدَلة]{.ar}. Although there exist exceptions like [شاهق شُهوق ،راقد رقود، ساجد سجود]{.ar}. This clarification and other helpful information was provided by a kind forum member at the alfaseeh.com forum.]
+      ^[The word [عُدول]{.ar} here is regularly the plural of the [maSdar]{.trn2} [عَدْل]{.ar} not of [عَادِل]{.ar} whose plural would regularly be [عَدَلة]{.ar}. Although there exist exceptions like [شاهق شُهوق ،راقد رقود، ساجد سجود]{.ar}. This clarification and other helpful information was provided by a kind forum member at the alfaseeh.com forum.]
 
    Example: [رأيت في المحكمة قاضيًا عدْلا وشهودا صدْقًا ونظامًا رِضًا وجموعًا زَوْرًا بين النتقاضين]{.ar} meaning [قاضيًا عادلا وشهودا صادقين ونظامًا مرضيًّا وجموعًا زائرة بين النتقاضين]{.ar}
 
-   The [maSdar]{.trn} can be a [taqdIr muDAf maHpUf]{.trn} 
-which is the [naet]{.trn}. That is, originally it is [قاضيًا  صاحبَ عدل...]{.ar}
+   The [maSdar]{.trn2} can be a [taqdIr muDAf maHpUf]{.trn2} 
+which is the [naet]{.trn2}. That is, originally it is [قاضيًا  صاحبَ عدل...]{.ar}
 
-   The grammarians differed with respect to the [maSdar]{.trn} occurring as a [naet]{.trn}, whether it is [qiyAsiyy]{.trn} or restricted to [al-samAe]{.trn}. Most of them restricted it to [al-samAe]{.trn}, although they acknowledged that it does appear frequently in the corpus, and that it is [Eablag]{.trn} than the [muctaqq]{.trn}. This acknowledgement that it appears frequently contradicts their restricting it to [al-samAe]{.trn}. The correct opinion should then be to take it [qiyAsiyyan]{.trn} with its conditions.
+   The grammarians differed with respect to the [maSdar]{.trn2} occurring as a [naet]{.trn2}, whether it is [qiyAsiyy]{.trn2} or restricted to [al-samAe]{.trn2}. Most of them restricted it to [al-samAe]{.trn2}, although they acknowledged that it does appear frequently in the corpus, and that it is [Eablag]{.trn2} than the [muctaqq]{.trn2}. This acknowledgement that it appears frequently contradicts their restricting it to [al-samAe]{.trn2}. The correct opinion should then be to take it [qiyAsiyyan]{.trn2} with its conditions.
 
-   Note: the scholars of [al-balAgao]{.trn} have proclaimed that [al-naet bi l-maSdar]{.trn} is from the category of [al-mubAlagao]{.trn}, or from [majAz al-Hapf]{.trn}, or [al-majAz al-mursal]{.trn}, and that the [vulAviyyao]{.trn} is [qiyAsiyy]{.trn}. How can the scholars contradict each other, where the the scholars of [al-balAgao]{.trn} say that [al-naet bi l-maSdar]{.trn} is [Eablag]{.trn} than the [muctaqq]{.trn} at the same time that some of the grammarians say that [al-naet bi l-maSdar]{.trn}, despite its frequency in the corpus, is not [qiyAsiyy]{.trn}? How can they say this when the Quran, the most eloquent of speech, contains it multiple times? This contradiction can only be resolved by saying that [al-naet bi l-maSdar]{.trn} is  [qiyAsiyy]{.trn} with the aforementioned conditions. [ibn jiniyy]{.trn} in his book [al-muHtasab]{.trn} (vol. ii, p. 46) says, "The usage  of [al-maSdar]{.trn} as a [naet]{.trn} directly, without [taqdIr bicayE maHpUf]{.trn}, is [Eablag]{.trn} and [EalTaf]{.trn} than the [naet]{.trn} which is not a [maSdar]{.trn}." He supports this claim with multiple evidences, and presents many quotations.
+   Note: the scholars of [al-balAgao]{.trn2} have proclaimed that [al-naet bi l-maSdar]{.trn2} is from the category of [al-mubAlagao]{.trn2}, or from [majAz al-Hapf]{.trn2}, or [al-majAz al-mursal]{.trn2}, and that the [vulAviyyao]{.trn2} is [qiyAsiyy]{.trn2}. How can the scholars contradict each other, where the the scholars of [al-balAgao]{.trn2} say that [al-naet bi l-maSdar]{.trn2} is [Eablag]{.trn2} than the [muctaqq]{.trn2} at the same time that some of the grammarians say that [al-naet bi l-maSdar]{.trn2}, despite its frequency in the corpus, is not [qiyAsiyy]{.trn2}? How can they say this when the Quran, the most eloquent of speech, contains it multiple times? This contradiction can only be resolved by saying that [al-naet bi l-maSdar]{.trn2} is  [qiyAsiyy]{.trn2} with the aforementioned conditions. [ibn jiniyy]{.trn2} in his book [al-muHtasab]{.trn2} (vol. ii, p. 46) says, "The usage  of [al-maSdar]{.trn2} as a [naet]{.trn2} directly, without [taqdIr bicayE maHpUf]{.trn2}, is [Eablag]{.trn2} and [EalTaf]{.trn2} than the [naet]{.trn2} which is not a [maSdar]{.trn2}." He supports this claim with multiple evidences, and presents many quotations.
 
-   With regards to [al-naet bi l-maSdar]{.trn}, [ibn mAlik]{.trn} says: [ونَعتُوا بمَصْدَرِ كَثِيرًا *** فالْتَزَمُوا الإِفْرَاد والتَّذْكِيرَا]{.ar}.
+   With regards to [al-naet bi l-maSdar]{.trn2}, [ibn mAlik]{.trn2} says: [ونَعتُوا بمَصْدَرِ كَثِيرًا *** فالْتَزَمُوا الإِفْرَاد والتَّذْكِيرَا]{.ar}.
 
-   That is, the Arabs used [al-naet bi l-maSdar]{.trn} frequently and did not modify the [maSdar]{.trn} from its form retaining singularity and gender. Thus these two aspects will always be retained even if the [maneUt]{.trn} is not singular and not masculine. For example [هذا أمر رِضًا، هذان أمران رِضًا، هذه أمور رِضًا، هذه حالة رِضًا، هاتان حالتان رضا، أولئك حالات رضا]{.ar}.
+   That is, the Arabs used [al-naet bi l-maSdar]{.trn2} frequently and did not modify the [maSdar]{.trn2} from its form retaining singularity and gender. Thus these two aspects will always be retained even if the [maneUt]{.trn2} is not singular and not masculine. For example [هذا أمر رِضًا، هذان أمران رِضًا، هذه أمور رِضًا، هذه حالة رِضًا، هاتان حالتان رضا، أولئك حالات رضا]{.ar}.
 
-8. [ism al-maSdar]{.trn} if it is of a [vulAviyy]{.trn} measure. Examples [فِطْر]{.ar} [ism al-maSdar]{.trn} of the verb [أفطر]{.ar} meaning [مُفْطِر أو صاحب إفطار]{.ar}. You can say [هذا رجلٌ فًطْر، ورجلان فِطْر، ورجال فِطْرٌ]{.ar}.
+8. [ism al-maSdar]{.trn2} if it is of a [vulAviyy]{.trn2} measure. Examples [فِطْر]{.ar} [ism al-maSdar]{.trn2} of the verb [أفطر]{.ar} meaning [مُفْطِر أو صاحب إفطار]{.ar}. You can say [هذا رجلٌ فًطْر، ورجلان فِطْر، ورجال فِطْرٌ]{.ar}.
 
-9. [al-eadad]{.trn}: like [قرأت كتبًا سبعةً، وكتبت صحفًا خمسةً]{.ar}.
+9. [al-eadad]{.trn2}: like [قرأت كتبًا سبعةً، وكتبت صحفًا خمسةً]{.ar}.
 
-10. Some other words that are [jAmid muEawwal bi l-muctaqq]{.trn}, connoting perfection or deficiency, like the word [كُلّ]{.ar}, e.g. [عرفت العالِمَ كُلَّ العالمِ]{.ar}
+10. Some other words that are [jAmid muEawwal bi l-muctaqq]{.trn2}, connoting perfection or deficiency, like the word [كُلّ]{.ar}, e.g. [عرفت العالِمَ كُلَّ العالمِ]{.ar}
 
-11. The [jAmid]{.trn} that signifies [al-Sifao al-mucabbahao]{.trn} together with its acceptability as [al-taEwIl bi l-muctaqq]{.trn}. Examples [فلانٌ رجلٌ فَراشةُ الحِلمِ، فِرعونُ العذابِ، غِربالُ الإهابِ]{.ar}. The words [فَراشة، فِرعون، غِربال]{.ar} are analyzed as [naet bi l-muctaqq]{.trn}, because they mean [أحمق، قاسٍ، حقير]{.ar} respectively.
+11. The [jAmid]{.trn2} that signifies [al-Sifao al-mucabbahao]{.trn2} together with its acceptability as [al-taEwIl bi l-muctaqq]{.trn2}. Examples [فلانٌ رجلٌ فَراشةُ الحِلمِ، فِرعونُ العذابِ، غِربالُ الإهابِ]{.ar}. The words [فَراشة، فِرعون، غِربال]{.ar} are analyzed as [naet bi l-muctaqq]{.trn2}, because they mean [أحمق، قاسٍ، حقير]{.ar} respectively.
 
-    These^[[النحو الوافي لعباس حسن 2/284]{.ar}] are [qiyAsiyy]{.trn} but it is better to employ them as such as little as possible. They may have a supplemental geminated [yAE li l-nasab]{.trn} that brings them closer to the [muctaqqAt]{.trn}. Example [تناولنا شرابًا عسلًا طعْمُه]{.ar} or [تناولنا شرابًا عسليًّا طعْمُه]{.ar}.
+    These^[[النحو الوافي لعباس حسن 2/284]{.ar}] are [qiyAsiyy]{.trn2} but it is better to employ them as such as little as possible. They may have a supplemental geminated [yAE li l-nasab]{.trn2} that brings them closer to the [muctaqqAt]{.trn2}. Example [تناولنا شرابًا عسلًا طعْمُه]{.ar} or [تناولنا شرابًا عسليًّا طعْمُه]{.ar}.
 
-## Some additional information with respect to the [naet]{.trn}
+## Some additional information with respect to the [naet]{.trn2}
 
-### Definite [maSdar]{.trn} as [naet]{.trn}^[[النحو الوافي لعباس حسن 3/464]{.ar}]
+### Definite [maSdar]{.trn2} as [naet]{.trn2}^[[النحو الوافي لعباس حسن 3/464]{.ar}]
 
-Regarding the condition that the [maSdar]{.trn} be indefinite if it occur as [naet]{.trn}: It is sometimes found in the corpus as definite: either with [al]{.trn} or as [muDAf li maerifao]{.trn}. An example with [al]{.trn} is the word [الحقّ]{.ar} in the poet's verse:
+Regarding the condition that the [maSdar]{.trn2} be indefinite if it occur as [naet]{.trn2}: It is sometimes found in the corpus as definite: either with [al]{.trn2} or as [muDAf li maerifao]{.trn2}. An example with [al]{.trn2} is the word [الحقّ]{.ar} in the poet's verse:
 
 [إن أخاك الحقَّ من يسعى معكْ *** ومن يضرّ نفسه لينفعكْ]{.ar}
 
-Examples of [muDAf li maerifao]{.trn} are [مررت برجل حسبِك من رجل أو شَرْعِك أو كافيك أو همِّك أو نحوِك]{.ar}. These ought to be definite by [EiDAfao]{.trn} but they don't become definite because they are in the meaning of a [muctaqq]{.trn} and that they are a [naet]{.trn} to an indefinite.^[The definiteness of [الحقّ]{.ar} seems to be unexplained. And we shall find another, albeit later [in history], example of this in the next sections.]
+Examples of [muDAf li maerifao]{.trn2} are [مررت برجل حسبِك من رجل أو شَرْعِك أو كافيك أو همِّك أو نحوِك]{.ar}. These ought to be definite by [EiDAfao]{.trn2} but they don't become definite because they are in the meaning of a [muctaqq]{.trn2} and that they are a [naet]{.trn2} to an indefinite.^[The definiteness of [الحقّ]{.ar} seems to be unexplained. And we shall find another, albeit later [in history], example of this in the next sections.]
 
-Another such example is the Quranic aayah [هذا عارضٌ مُمْطِرُنا]{.ar}.The word [عارضٌ]{.ar} is described by [مُمْطِرُنا]{.ar} which is [muDAf EilA DamIr]{.trn} therefore it does not become definite.^[[al-DamAEir]{.trn} are definite but it seems, exceptionally, an [EiDAfao]{.trn} to them does not make the [EmuDAf]{.trn} definite, when occurring as a [naet]{.trn} to an indefinite.]
+Another such example is the Quranic aayah [هذا عارضٌ مُمْطِرُنا]{.ar}.The word [عارضٌ]{.ar} is described by [مُمْطِرُنا]{.ar} which is [muDAf EilA DamIr]{.trn2} therefore it does not become definite.^[[al-DamAEir]{.trn2} are definite but it seems, exceptionally, an [EiDAfao]{.trn2} to them does not make the [EmuDAf]{.trn2} definite, when occurring as a [naet]{.trn2} to an indefinite.]
 
-### Examples of [naet]{.trn} not falling under the preceding classification.^[[النحو الوافي لعباس حسن 3/465]{.ar}]
+### Examples of [naet]{.trn2} not falling under the preceding classification.^[[النحو الوافي لعباس حسن 3/465]{.ar}]
 
-Some examples of [naet]{.trn} of are found in the corpus which don't fall under the preceding classification. For example:
+Some examples of [naet]{.trn2} of are found in the corpus which don't fall under the preceding classification. For example:
 
-1. A [maSdar]{.trn} of a non-form I verb, e.g. [الحازم لا يعالج الأمر عِلاجًا ارتجالا]{.ar}.
-2. A [naet]{.trn} signifying quantity, e.g. [اشتريت من الفاكهة الخمسَ الأقَقَ]{.ar}.
-2. A [naet]{.trn} signifying material of a manufactured object, e.g. [لبست الثوبَ الحريرَ]{.ar}.
-4. A [naet]{.trn} signifying [al-EaeyAn]{.trn} of whom [taEwIl]{.trn} is possible, e.g. [حصدتَ الحقل القمح]{.ar} meaning [المزروع قمحًا]{.ar}.
+1. A [maSdar]{.trn2} of a non-form I verb, e.g. [الحازم لا يعالج الأمر عِلاجًا ارتجالا]{.ar}.
+2. A [naet]{.trn2} signifying quantity, e.g. [اشتريت من الفاكهة الخمسَ الأقَقَ]{.ar}.
+2. A [naet]{.trn2} signifying material of a manufactured object, e.g. [لبست الثوبَ الحريرَ]{.ar}.
+4. A [naet]{.trn2} signifying [al-EaeyAn]{.trn2} of whom [taEwIl]{.trn2} is possible, e.g. [حصدتَ الحقل القمح]{.ar} meaning [المزروع قمحًا]{.ar}.
 
-It is best that [qiyAs]{.trn} not be done on these examples.
+It is best that [qiyAs]{.trn2} not be done on these examples.
 
-### [ism al-EicArao]{.trn} as [naet]{.trn} or [maneUt]{.trn}^[[النحو الوافي لعباس حسن 3/465]{.ar}]
+### [ism al-EicArao]{.trn2} as [naet]{.trn2} or [maneUt]{.trn2}^[[النحو الوافي لعباس حسن 3/465]{.ar}]
 
-There are some nouns that are correct as [naet]{.trn} when they satisfy the conditions of [naet]{.trn}; and other times as [maneUt]{.trn} when they satisfy the conditions of [maneUt]{.trn}. Like [ism al-EicArao]{.trn}. For example, [احتفيت بالمصلح هذا]{.ar} or [بهذا المصلح]{.ar}.
+There are some nouns that are correct as [naet]{.trn2} when they satisfy the conditions of [naet]{.trn2}; and other times as [maneUt]{.trn2} when they satisfy the conditions of [maneUt]{.trn2}. Like [ism al-EicArao]{.trn2}. For example, [احتفيت بالمصلح هذا]{.ar} or [بهذا المصلح]{.ar}.
 
-Also, [ism al-EicArao]{.trn} is definite so it can only be a [naet]{.trn} for a definite noun. And when it is a [maneUt]{.trn}, its [naet]{.trn} must have the [al]{.trn} of definiteness. (And it is better that it be [muctaqq]{.trn}. If however, it is [jAmid]{.trn}, then it is better that it is considered a [badal]{.trn} or [eaTf bayAn]{.trn} rather than a [naet]{.trn}.) It is also required that it match its [maneUt]{.trn} in number and gender, and without separating the [naet]{.trn}. It should also not be separated from its [maneUt]{.trn}, and that it match it in case.
+Also, [ism al-EicArao]{.trn2} is definite so it can only be a [naet]{.trn2} for a definite noun. And when it is a [maneUt]{.trn2}, its [naet]{.trn2} must have the [al]{.trn2} of definiteness. (And it is better that it be [muctaqq]{.trn2}. If however, it is [jAmid]{.trn2}, then it is better that it is considered a [badal]{.trn2} or [eaTf bayAn]{.trn2} rather than a [naet]{.trn2}.) It is also required that it match its [maneUt]{.trn2} in number and gender, and without separating the [naet]{.trn2}. It should also not be separated from its [maneUt]{.trn2}, and that it match it in case.
 
-### [al-ealam]{.trn} and [al-EajnAs]{.trn} as [naet]{.trn}^[[النحو الوافي لعباس حسن 3/466]{.ar}]
+### [al-ealam]{.trn2} and [al-EajnAs]{.trn2} as [naet]{.trn2}^[[النحو الوافي لعباس حسن 3/466]{.ar}]
 
-[al-ealam]{.trn} may not be [naet]{.trn}, nor [al-EajnAs]{.trn} which signify their original meaning like [رجل ونمر وفيل]{.ar}. However, if they [[al-ealam]{.trn} and [al-EajnAs]{.trn}] leave their original signification, and a well-known description is intended by them, then it is permissible for them to be [naet]{.trn}. For example [حاتم]{.ar} signifies [الكرم]{.ar}, and [الرجل]{.ar} signifies [الكامل]{.ar}, and  [النمر]{.ar} signifies [الغادر]{.ar}. In this purpose, they may be interpreted as [muctaqq]{.trn}.
+[al-ealam]{.trn2} may not be [naet]{.trn2}, nor [al-EajnAs]{.trn2} which signify their original meaning like [رجل ونمر وفيل]{.ar}. However, if they [[al-ealam]{.trn2} and [al-EajnAs]{.trn2}] leave their original signification, and a well-known description is intended by them, then it is permissible for them to be [naet]{.trn2}. For example [حاتم]{.ar} signifies [الكرم]{.ar}, and [الرجل]{.ar} signifies [الكامل]{.ar}, and  [النمر]{.ar} signifies [الغادر]{.ar}. In this purpose, they may be interpreted as [muctaqq]{.trn2}.
 
 # Case studies
 
-In this section we will consider how to use the above classifications and rules for specific examples. Regarding the usage of nouns as [naet]{.trn}, we will only consider whether they may be "apparent [naet]{.trn}". This is because some grammarians, for example, will not allow a definite [maSdar]{.trn} to be a [naet]{.trn}. And when they find apparent examples of this in the corpus, they will analyze it using tools like [maHpUf]{.trn} and [taqdIr]{.trn}. They are justified in this analysis because they are building a cohesive minimal framework for grammar. As for us, we will only consider the suitability of a noun as an "apparent [naet]{.trn}" without worrying about its technical grammatical function.
+In this section we will consider how to use the above classifications and rules for specific examples. Regarding the usage of nouns as [naet]{.trn2}, we will only consider whether they may be "apparent [naet]{.trn2}". This is because some grammarians, for example, will not allow a definite [maSdar]{.trn2} to be a [naet]{.trn2}. And when they find apparent examples of this in the corpus, they will analyze it using tools like [maHpUf]{.trn2} and [taqdIr]{.trn2}. They are justified in this analysis because they are building a cohesive minimal framework for grammar. As for us, we will only consider the suitability of a noun as an "apparent [naet]{.trn2}" without worrying about its technical grammatical function.
 
-## Can masculine [EasmAE jAmidao]{.trn} be used for females
-There are some masculine [EasmAE jAmidao]{.trn} like [شَخْص]{.ar} "person" and [عُضْو]{.ar} "member", which can be applied to female persons. Since they are [EasmAE jAmidao]{.trn}, they can not be feminized with [tAE al-taEnIv]{.trn} except [samAean]{.trn}. Therefore, they will be used in their original masculine form but other nouns around them should be feminized whereever applicable. Examples:
+## Can masculine [EasmAE jAmidao]{.trn2} be used for females
+There are some masculine [EasmAE jAmidao]{.trn2} like [شَخْص]{.ar} "person" and [عُضْو]{.ar} "member", which can be applied to female persons. Since they are [EasmAE jAmidao]{.trn2}, they can not be feminized with [tAE al-taEnIv]{.trn2} except [samAean]{.trn2}. Therefore, they will be used in their original masculine form but other nouns around them should be feminized whereever applicable. Examples:
 
 [هي عضوٌ داىمةٌ للجنة ]{.ar}  
 She is a permanent member of the committee.
@@ -313,18 +318,18 @@ We also find the following in [الأصول في النحو لابن السّر�
 > فإنما أنّث الشخوص لقصده النساءَ فحمله على المعنى، ثُمّ أبانَ عن إرادته وكشفَ عن معناه بقوله: كاعبانِ ومُعْصِرُ
 :::
 
-## Usage of [al-maSAdir]{.trn} as designative nouns and as [naet]{.trn}
+## Usage of [al-maSAdir]{.trn2} as designative nouns and as [naet]{.trn2}
 
-### The definite [maSdar]{.trn} as a [naet]{.trn}
+### The definite [maSdar]{.trn2} as a [naet]{.trn2}
 
-In the aformentioned conditions [maSdar]{.trn} may only be a [naet]{.trn} if it is indefinite. However, we find, for example the word [ثقة]{.ar} meaning "trustworthy", in the books of the sciences of [HadIv]{.trn}, that it also appears as a definite [naet]{.trn}. This is a technical usage and arguably it is not from "[kalAm al-earab]{.trn}", nevertheless it is found. Example^[[المسند للإمام أحمد]{.ar}, 6/24]:
+In the aformentioned conditions [maSdar]{.trn2} may only be a [naet]{.trn2} if it is indefinite. However, we find, for example the word [ثقة]{.ar} meaning "trustworthy", in the books of the sciences of [HadIv]{.trn2}, that it also appears as a definite [naet]{.trn2}. This is a technical usage and arguably it is not from "[kalAm al-earab]{.trn2}", nevertheless it is found. Example^[[المسند للإمام أحمد]{.ar}, 6/24]:
 
 ::: {lang=ar dir=rtl}
 > 6474 م- قال شُعْبة وذَكر لي رجلٌ ثقةٌ عن سفيان أنه كان يقول: إنما قال: "من كان متَحريَها فلْيَتَحرها في السَّبْع البَواقي"، قال شُعْبة: فلا أدري قال ذا أو ذا؟، شُعْبة شَك.
 > [قال عبد الله بن أحمد]: قال أبي: الرجلُ الثقةُ: يحيى بن سعيد القَطَّان.
 :::
 
-We have also found one grammar reference that explicitly calls for the [maSdar]{.trn} matching the [maneUt]{.trn} when it is used as a [naet]{.trn}^[[النحو الشافي لمحمود حسني مغالسة، ص 376]{.ar}]:
+We have also found one grammar reference that explicitly calls for the [maSdar]{.trn2} matching the [maneUt]{.trn2} when it is used as a [naet]{.trn2}^[[النحو الشافي لمحمود حسني مغالسة، ص 376]{.ar}]:
 
 ::: {lang=ar dir=rtl}
 > ويشترط في المصدر النعت أن يكون فعله ثلاثيًا كالمصدر ثقة عدل وألا يكون مصدرًا ميميًا وفي هذه الحالة يلتزم الإفراد والتذكير ولا يطابق المنعوت إلا في الإعراب والتنكير فتقول:
@@ -332,61 +337,61 @@ We have also found one grammar reference that explicitly calls for the [maSdar]{
 > هذا رجلٌ ثقةٌ، هذا الرجلُ الثقة، هؤلاء رجال ثقة
 :::
 
-### The [maSdar mImiyy]{.trn} as a [naet]{.trn}
+### The [maSdar mImiyy]{.trn2} as a [naet]{.trn2}
 
-According to the aforementioned conditions, a [maSdar mImiyy]{.trn} may not be [naet]{.trn}. However, we are able to find such cases, even in grammar books (albeit used technically, not as examples from the corpus).
+According to the aforementioned conditions, a [maSdar mImiyy]{.trn2} may not be [naet]{.trn2}. However, we are able to find such cases, even in grammar books (albeit used technically, not as examples from the corpus).
 
-The word [مَعْرِفة]{.ar} is used to mean "a definite noun" and it often appears as a [tAbie]{.trn}. Example:^[[شرح المفصل لابن يعيش]{.ar}, 1/319]:
+The word [مَعْرِفة]{.ar} is used to mean "a definite noun" and it often appears as a [tAbie]{.trn2}. Example:^[[شرح المفصل لابن يعيش]{.ar}, 1/319]:
 
 ::: {lang=ar dir=rtl}
 > قال الشارح: وأمّا انتصابه محلاًّ فإذا كان المنادَى مفردًا معرفةً؛
 :::
 
-Note that [معرفة]{.ar} here is unlikely to be [مُعَرَّفة]{.ar} (which is synonymous but feminine) because of the masculine [fAeil]{.trn} and [mafeUl bih maneUt]{.trn}.
+Note that [معرفة]{.ar} here is unlikely to be [مُعَرَّفة]{.ar} (which is synonymous but feminine) because of the masculine [fAeil]{.trn2} and [mafeUl bih maneUt]{.trn2}.
 
-### Pluralization of the [maSdar]{.trn} as [naet]{.trn}
+### Pluralization of the [maSdar]{.trn2} as [naet]{.trn2}
 
-Pluralization of the [maSdar]{.trn} as [naet]{.trn}, too is prescriptively disallowed. However we find this used as well, for example in the title of the book [تاريخ ومعرفة الرجال الثقات للعجلي]{.ar}.^[Note as well the separation of the [muDAf]{.trn} from the [muDAf Eilayh]{.trn} which is sometimes disliked in grammar books but seems to be allowed by [ibn mAlik]{.trn}:  
+Pluralization of the [maSdar]{.trn2} as [naet]{.trn2}, too is prescriptively disallowed. However we find this used as well, for example in the title of the book [تاريخ ومعرفة الرجال الثقات للعجلي]{.ar}.^[Note as well the separation of the [muDAf]{.trn2} from the [muDAf Eilayh]{.trn2} which is sometimes disliked in grammar books but seems to be allowed by [ibn mAlik]{.trn2}:  
 [[ويُحْذَفُ الثَّانِيْ فََيَبْقَى الأَوَّلُ *** كَحَالِهِ إِذَا بِهِ يَتَّصِلُّ  
 بِشَرْطِ عَطْفٍ وإضَافَةٍ إِلَى *** مِثْلِ الَّذِي لَهُ أَضَفْتَ الأَوَّلا
 ]{.ar}]{dir=rtl}]
 
 
-In our opinion, the usage of the singular is preferred. The plural is only palatable if the word ends with [tAE zAEidao]{.trn} pluralized with [jame muEannav sAlim]{.trn}. Or if a broken plural exists, as [عُدول]{.ar} for [عَدْل]{.ar} in the verse quoted above.
+In our opinion, the usage of the singular is preferred. The plural is only palatable if the word ends with [tAE zAEidao]{.trn2} pluralized with [jame muEannav sAlim]{.trn2}. Or if a broken plural exists, as [عُدول]{.ar} for [عَدْل]{.ar} in the verse quoted above.
 
-## Feminization and pluralization of descriptive [jAmid]{.trn} nouns when used as designative nouns
+## Feminization and pluralization of descriptive [jAmid]{.trn2} nouns when used as designative nouns
 
-These [jawAmid]{.trn} may be [maSadir]{.trn} like [ثقة]{.ar} which we have already considered as a [naet]{.trn}. When it is used as a designative noun, it can be dualized and pluralized, but its form with regards to its [tAE zAEidao]{.trn} is not changed. Examples:
+These [jawAmid]{.trn2} may be [maSadir]{.trn2} like [ثقة]{.ar} which we have already considered as a [naet]{.trn2}. When it is used as a designative noun, it can be dualized and pluralized, but its form with regards to its [tAE zAEidao]{.trn2} is not changed. Examples:
 
 + [رواه الثقةُ]{.ar}
 + [رواه الثقتان]{.ar}
 + [رواه الثقاتُ]{.ar}
 
-There are other [jAmid]{.trn} nouns for which we know no broken plurals nor do they generally satisfy the criteria for [jame muEannav sAlim]{.trn}, but which are nevertheless descriptive. Examples are
+There are other [jAmid]{.trn2} nouns for which we know no broken plurals nor do they generally satisfy the criteria for [jame muEannav sAlim]{.trn2}, but which are nevertheless descriptive. Examples are
 
-+ The [maSdar]{.trn} [حَلال]{.ar}, but which can also be used qualitatively, meaning "a lawful thing".^[Note that [حَرام]{.ar} the conterpart to [حلال]{.ar} does have a broken plural [حُرُم]{.ar}.]
++ The [maSdar]{.trn2} [حَلال]{.ar}, but which can also be used qualitatively, meaning "a lawful thing".^[Note that [حَرام]{.ar} the conterpart to [حلال]{.ar} does have a broken plural [حُرُم]{.ar}.]
 + The word [فُضُول]{.ar}, which was originally a plural of [فَضْل]{.ar}, but which now means "an extra unused item (or items)"
 
-These nouns may be used to designate items (masculine or feminine), and also as [naet]{.trn}. How are these nouns feminized, dualized, and pluralized?
+These nouns may be used to designate items (masculine or feminine), and also as [naet]{.trn2}. How are these nouns feminized, dualized, and pluralized?
 
-As for their feminization, then this again is not permitted due their being [jAmid]{.trn}.
+As for their feminization, then this again is not permitted due their being [jAmid]{.trn2}.
 
 And as for dualizing them, we find an example in [لسان العرب]{.ar} quoting [أبو زيد]{.ar}^[[لسان العرب «صوم»]{.ar}]:
 
 ::: {lang=ar dir=rtl}
 > قال أَبو زيد: أَقمتُ بالبصرة صَوْمَينِ أي رَمضانينِ.
 :::
-The word [صَوْم]{.ar} is a [maSdar]{.trn} which here is used to designate the fasting month [ramaDAn]{.trn}.
+The word [صَوْم]{.ar} is a [maSdar]{.trn2} which here is used to designate the fasting month [ramaDAn]{.trn2}.
 
 Similarly we extrapolate that we may dualize [حلال]{.ar} to [حلالان]{.ar}.
 
-As for pluralizing it, we have found it taking [jame muEannav sAlim]{.trn} despite not meeting its conditions. However, we have only found this in a later book [تفسير الجلالين]{.ar}.^[[تفسير الجلالين، المؤمنون: 51]{.ar}] 
+As for pluralizing it, we have found it taking [jame muEannav sAlim]{.trn2} despite not meeting its conditions. However, we have only found this in a later book [تفسير الجلالين]{.ar}.^[[تفسير الجلالين، المؤمنون: 51]{.ar}] 
 
 ::: {lang=ar dir=rtl}
 "يَأَيُّهَا الرُّسُل كُلُوا مِنْ الطَّيِّبَات" الْحَلَالَاتِ
 :::
 
-As for the word [فضول]{.ar}, since it was originally a plural, we theorize that it should not be pluralized further, except as a [jame al-jame]{.trn}.
+As for the word [فضول]{.ar}, since it was originally a plural, we theorize that it should not be pluralized further, except as a [jame al-jame]{.trn2}.
 
 ## Rules for foreign borrowings
 
@@ -405,13 +410,13 @@ The question is how these nouns should be classified, and then if and how they s
 
 The correct opinion seems to be that nouns are borrowed into the class in which are nouns most similar to the borrowed noun.^[[عضو أم عضوة؟ ومسائل أخَر لفيصل المنصور]{.ar}]
 
-Thus [باشا، خاتون، كمبيوتر، فلم]{.ar} are borrowed into the [jawAmid]{.trn}. For the words that refer to living beings, the grammatical gender corresponds to the gender of the living beings. The gender of words referring to non-living items is unclear to us and we defer on discussing it. Either way, these words may not feminized with [tAE al-taEnIv]{.trn}. They may have [jame taksIr]{.trn} if the Arabs have formulated them like [خواتين، أفلام]{.ar} for [خاتون، فلم]{.ar}, or may take [jame muEannav sAlim]{.trn} if not, e.g. [باشاوات]{.ar}. Dualization is regular.
+Thus [باشا، خاتون، كمبيوتر، فلم]{.ar} are borrowed into the [jawAmid]{.trn2}. For the words that refer to living beings, the grammatical gender corresponds to the gender of the living beings. The gender of words referring to non-living items is unclear to us and we defer on discussing it. Either way, these words may not feminized with [tAE al-taEnIv]{.trn2}. They may have [jame taksIr]{.trn2} if the Arabs have formulated them like [خواتين، أفلام]{.ar} for [خاتون، فلم]{.ar}, or may take [jame muEannav sAlim]{.trn2} if not, e.g. [باشاوات]{.ar}. Dualization is regular.
 
-And nouns like [أستاذ، دكتور، طازج، ساذج]{.ar} are borrowed into the [muctaqqAt]{.trn}, where they may be feminized with [tAE al-taEnIv]{.trn}. They may take [jame taksIr]{.trn} like [أساتذة]{.ar} or [jame sAlim]{.trn}, even [jame mupakkar sAlim]{.trn} when referring to male human beings. Furthermore, the feminine singular may be used when a [naet]{.trn} for non-[eAqil]{.trn} objects, e.g. [أَكَلت الأطعمة الطازَجة]{.ar}.
+And nouns like [أستاذ، دكتور، طازج، ساذج]{.ar} are borrowed into the [muctaqqAt]{.trn2}, where they may be feminized with [tAE al-taEnIv]{.trn2}. They may take [jame taksIr]{.trn2} like [أساتذة]{.ar} or [jame sAlim]{.trn2}, even [jame mupakkar sAlim]{.trn2} when referring to male human beings. Furthermore, the feminine singular may be used when a [naet]{.trn2} for non-[eAqil]{.trn2} objects, e.g. [أَكَلت الأطعمة الطازَجة]{.ar}.
 
-## [#muctaqqAt]{.trn} that are lexicalized as designative nouns
+## [#muctaqqAt]{.trn2} that are lexicalized as designative nouns
 
-There are nouns which are originally [muctaqqAt]{.trn} but that have become designative nouns. For example:
+There are nouns which are originally [muctaqqAt]{.trn2} but that have become designative nouns. For example:
 
 + [نَصِيحَة]{.ar} "an advice"
 + [مُعَلِّم]{.ar} "a male teacher"
@@ -421,10 +426,10 @@ There are nouns which are originally [muctaqqAt]{.trn} but that have become desi
 + [جَرِيح]{.ar} "a wounded person"
 + [رَهينة]{.ar} "a pledge"
 
-When used with this designative meaning, then their [tAE zAEidao]{.trn}, if any, is not modified. Also, the plural is used for non-rational plural subjects/[maneUt]{.trn}. For example:
+When used with this designative meaning, then their [tAE zAEidao]{.trn2}, if any, is not modified. Also, the plural is used for non-rational plural subjects/[maneUt]{.trn2}. For example:
 
 + [امرأة جريح]{.ar}
 + [هذه الأفعال حسنات وتلك الأفعال كبائر]{.ar} "These acts are good deeds and those acts are major sins." But [هذه الأفعال حسنة وتلك الأفعال كبيرة]{.ar} "These acts are good and and those acts are big."
-+ [كلّ غلام رهينة بعقيقته]{.ar}^[https://sunnah.com/abudawud/16/51]. (Note that [رَهين]{.ar} may be used as an epithet (with descriptive/participal meaning) and feminized with [tAE zAEidao]{.trn} if needed.)
++ [كلّ غلام رهينة بعقيقته]{.ar}^[https://sunnah.com/abudawud/16/51]. (Note that [رَهين]{.ar} may be used as an epithet (with descriptive/participal meaning) and feminized with [tAE zAEidao]{.trn2} if needed.)
 + [كَلامٌ نصيحةٌ. هذا الكلامُ نصيحةٌ]{.ar}
 
