@@ -1,4 +1,9 @@
-function RomanizeMapping(text2)
+-- Reformat all heading text 
+-- 0331 macron below
+-- 0323 dot below
+function RomanizeMapping(text2, is_italic)
+  dhal_lc = "ð"
+  dhal_uc = "Ð"
   -- use digraphs sh, th, etc for some characters
   digraph_en = true
 
@@ -10,12 +15,12 @@ function RomanizeMapping(text2)
   mylcase["j"] = "j" -- "ǧ" -- jeem
   mylcase["H"] = "ḥ"
   mylcase["x"] = "ḵ" -- Khaa
-  mylcase["p"] = "ḏ" -- dhal
+  mylcase["p"] = dhal_lc -- "d" .. utf8.char(0x0331)  -- "ḏ" -- dhal
   mylcase["c"] = "š" -- sheen
   mylcase["S"] = "ṣ"
   mylcase["D"] = "ḍ"
   mylcase["T"] = "ṭ"
-  mylcase["P"] = "ḏ̣" -- DHaa
+  mylcase["P"] = dhal_lc .. utf8.char(0x0323)  --"ḏ̣" -- DHaa
   mylcase["e"] = "ɛ" -- 3ayn
   mylcase["g"] = "ġ" -- ghayn
   mylcase["o"] = "ḧ" -- for taa marbuta in pausa non-construct
@@ -32,12 +37,12 @@ function RomanizeMapping(text2)
   myucase["j"] = "J" -- "Ǧ"
   myucase["H"] = "Ḥ"
   myucase["x"] = "Ḵ"
-  myucase["p"] = "Ḏ"
+  myucase["p"] = dhal_uc --  "Ḏ"
   myucase["c"] = "Š"
   myucase["S"] = "Ṣ"
   myucase["D"] = "Ḍ"
   myucase["T"] = "Ṭ"
-  myucase["P"] = "Ḏ̣"
+  myucase["P"] = dhal_uc .. utf8.char(0x0323) --Ḏ̣"
   myucase["e"] = "Ɛ"
   myucase["g"] = "Ġ"
   myucase["I"] = "Ī"
@@ -62,18 +67,19 @@ function RomanizeMapping(text2)
   myucase["y"] = "Y"
 
   if digraph_en then
-    mylcase["v"] = "t͟h"
-    myucase["v"] = "T͟h"
-    mylcase["c"] = "s͟h"
-    myucase["c"] = "S͟h"
-    mylcase["x"] = "k͟h"
-    myucase["x"] = "K͟h"
-    mylcase["g"] = "g͟h"
-    myucase["g"] = "G͟h"
-    mylcase["p"] = "d͟h"
-    myucase["p"] = "D͟h"
-    mylcase["P"] = "d".. utf8.char(0x035f) .. utf8.char(0x034f) .. utf8.char(0x0323) .. "h"
-    myucase["P"] = "D".. utf8.char(0x035f) .. utf8.char(0x034f) .. utf8.char(0x0323) .. "h"
+    mylcase["v"] = "t" .. utf8.char(0x0361) .. "h"
+    myucase["v"] = "T" .. utf8.char(0x0361) .. "h"
+    mylcase["c"] = "s" .. utf8.char(0x0361) .. "h"
+    myucase["c"] = "S" .. utf8.char(0x0361) .. "h"
+    mylcase["x"] = "k" .. utf8.char(0x0361) .. "h"
+    myucase["x"] = "K" .. utf8.char(0x0361) .. "h"
+    mylcase["g"] = "g" .. utf8.char(0x0361) .. "h"
+    myucase["g"] = "G" .. utf8.char(0x0361) .. "h"
+    mylcase["p"] = "d" .. utf8.char(0x0361) .. "h"
+    myucase["p"] = "D" .. utf8.char(0x0361) .. "h"
+    mylcase["P"] = "d" .. utf8.char(0x0323) .. utf8.char(0x0361) .. "h"
+    myucase["P"] = "D" .. utf8.char(0x0323) .. utf8.char(0x0361) .. "h"
+
     --mylcase["P"] = "d͟͏̣h"
     --myucase["P"] = "D͟͏̣h"
 
@@ -91,7 +97,12 @@ function RomanizeMapping(text2)
     --myucase["P"] = "Ḏ̣͡h"
   end
 
-  text3 = ''
+  -- if not is_italic then
+  --   mylcase["e"] = "ʿ" -- 3ayn
+  --   myucase["e"] = "ʿ"
+  -- end
+
+  local text3 = ''
   local caps = false
   local prev_charv = ''
   for index3 = 1, #text2 do
@@ -107,7 +118,7 @@ function RomanizeMapping(text2)
         end
         caps = false
       else
-        if digraph_en and charv == 'h' and prev_charv ~= '=' and (prev_charv == 't' or prev_charv == 's' or prev_charv == 'k' or prev_charv == 'd' or prev_charv == 'p' or prev_charv == 'P' or prev_charv == 'D' or prev_charv == 'c' or prev_charv == 'v' or prev_charv == 'x' or prev_charv == 'g') then
+        if digraph_en and (charv == 'h' or charv == 'H') and prev_charv ~= '=' and (prev_charv == 't' or prev_charv == 's' or prev_charv == 'k' or prev_charv == 'd' or prev_charv == 'p' or prev_charv == 'P' or prev_charv == 'D' or prev_charv == 'c' or prev_charv == 'v' or prev_charv == 'x' or prev_charv == 'g') then
           text3 = text3 .. "·"
         end
         if mylcase[charv] == nil then
@@ -121,26 +132,24 @@ function RomanizeMapping(text2)
   end
   return text3
 end
-function Romanize (elem)
-  for index,text in pairs(elem.content) do
-    for index2,text2 in pairs(text) do
-      text3 = RomanizeMapping(text2)
-      text[index2] = text3
+--function Span (el)
+--  if el.classes:includes 'trn' then
+--    input_text = pandoc.utils.stringify(el)
+--    output_text = RomanizeMapping(input_text, true)
+--    contents = {pandoc.Str(output_text)}
+--    return pandoc.Span(contents, {class='trnital'})
+--  end
+--end
+function Span (el)
+  if el.classes:includes 'trn' 
+  or el.classes:includes 'trn2' then
+    input_text = pandoc.utils.stringify(el)
+    output_text = RomanizeMapping(input_text, true)
+    contents = {pandoc.Str(output_text)}
+    if el.classes:includes 'trn' then
+      contents = pandoc.Span(pandoc.Emph(contents), {class='trn'})
     end
-    elem.content[index] = text
-  end
-  return (elem.content)
-end
-function Span (elem)
-  if elem.classes[1] == 'trn' then
-    return pandoc.Emph (Romanize(elem))
-  elseif elem.classes[1] == 'trn2' then
-    return (Romanize(elem))
-  elseif elem.classes[1] == 'ar' then
-    attrs = pandoc.Attr("", {}, {{"lang", "ar"},{"dir","rtl"}})
-    return pandoc.Span(elem.content, attrs)
-  else
-    return elem
+    return pandoc.Span(contents, {class='trn2'})
   end
 end
 
