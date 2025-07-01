@@ -26,7 +26,7 @@ format:
     #include-before-body: srchtml/watermark.html
     linkcolor: "hsl(210,10.3448275862%,47.7450980392%)" # obtained by inspecting webpage
   pdf:
-    #keep-tex: true
+    keep-tex: true
     documentclass: scrreprt # no roman numeral pagination but chapter page can be left or right
     #documentclass: scrbook # new chapter page only on right but adds \frontmatter command for roman numeral pagination
     toc: true
@@ -384,9 +384,11 @@ Note that [معرفة]{.ar} here is unlikely to be [مُعَرَّفة]{.ar} (wh
 ### Pluralization of the [maSdar]{.trn} as [naet]{.trn}
 
 Pluralization of the [maSdar]{.trn} as [naet]{.trn}, too is prescriptively disallowed. However we find this used as well, for example in the title of the book [تاريخ ومعرفة الرجال الثقات للعجلي]{.ar}.^[Note as well the separation of the [muDAf]{.trn} from the [muDAf Eilayh]{.trn} which is sometimes disliked in grammar books but seems to be allowed by [ibn mAlik]{.trn}:  
-[[ويُحْذَفُ الثَّانِيْ فََيَبْقَى الأَوَّلُ *** كَحَالِهِ إِذَا بِهِ يَتَّصِلُّ  
+
+::: {.ar}
+ويُحْذَفُ الثَّانِيْ فََيَبْقَى الأَوَّلُ *** كَحَالِهِ إِذَا بِهِ يَتَّصِلُّ  
 بِشَرْطِ عَطْفٍ وإضَافَةٍ إِلَى *** مِثْلِ الَّذِي لَهُ أَضَفْتَ الأَوَّلا
-]{.ar}]{dir=rtl}]
+:::
 
 
 In our opinion, the usage of the singular is preferred. The plural is only palatable if the word ends with [tAE zAEidao]{.trn} pluralized with [jame muEannav sAlim]{.trn}. Or if a broken plural exists, as [عُدول]{.ar} for [عَدْل]{.ar} in the verse quoted above.
